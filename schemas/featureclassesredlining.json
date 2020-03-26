@@ -1,0 +1,42 @@
+[
+    {
+      "name": "RedlineChangeArea",
+      "geometry": "POLYGON",
+      "spatialref": "AlbersEqualAreaConic",
+      "fields": "redlinechangearea.json",
+      "globalids": true,
+      "editortracking": true,
+      "archiving": true,
+      "attachments": false
+    },
+    {
+      "name": "RedlinePointMarker",
+      "geometry": "POINT",
+      "spatialref": "AlbersEqualAreaConic",
+      "fields": "redlinepointmarker.json",
+      "globalids": true,
+      "editortracking": true,
+      "archiving": true,
+      "attachments": true
+    },
+    {
+      "name": "RedlineLineMarker",
+      "geometry": "POLYLINE",
+      "spatialref": "AlbersEqualAreaConic",
+      "fields": "redlinelinemarker.json",
+      "globalids": true,
+      "editortracking": true,
+      "archiving": true,
+      "attachments": false
+    },
+    {
+      "name": "RedlineComment",
+      "geometry": "",
+      "spatialref": "",
+      "fields": "redlinecomment.json",
+      "globalids": true,
+      "editortracking": true,
+      "archiving": true,
+      "attachments": false
+    }
+  ]

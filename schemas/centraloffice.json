@@ -1,0 +1,37 @@
+﻿{
+    "fields": [
+        {
+            "name": "OBJECTID",
+            "type": "Object ID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Object ID",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "CentralOfficeId",
+            "type": "GUID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Central Office Id",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "Type",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Type",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        }
+    ]
+}

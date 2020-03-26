@@ -1,0 +1,48 @@
+{
+    "fields": [
+        {
+            "name": "Label",
+            "alias": "Label:",
+            "domain": "",
+            "nullable": "NULLABLE",
+            "length": 255,
+            "precision": 0,
+            "required": "NON_REQUIRED",
+            "scale": 0,
+            "type": "TEXT"
+        },
+        {
+            "name": "Comments",
+            "alias": "Comment:",
+            "domain": "",
+            "nullable": "NULLABLE",
+            "length": 255,
+            "precision": 0,
+            "required": "NON_REQUIRED",
+            "scale": 0,
+            "type": "TEXT"
+        },
+        {
+            "name": "OBJECTID",
+            "alias": "Object Id",
+            "domain": "",
+            "nullable": "NON_NULLABLE",
+            "length": 4,
+            "precision": 10,
+            "required": "REQUIRED",
+            "scale": 0,
+            "type": "Object ID"
+        },
+        {
+            "name": "RedlineFeatureId",
+            "type": "GUID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Redline Feature Id",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        }
+    ]
+}

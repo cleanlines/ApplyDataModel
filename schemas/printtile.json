@@ -1,0 +1,37 @@
+﻿{
+    "fields": [
+        {
+            "name": "OBJECTID",
+            "type": "Object ID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Object ID",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "Name",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "50",
+            "alias": "Name",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "PageNumber",
+            "type": "SHORT",
+            "precision": "",
+            "scale": "5",
+            "length": "0",
+            "alias": "Page Number",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        }
+    ]
+}

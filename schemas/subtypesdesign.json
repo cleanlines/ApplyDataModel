@@ -1,0 +1,183 @@
+{
+    "Cable": {
+        "field": {
+            "Type": {
+                "201": "Feeder",
+                "203": "Distribution",
+                "207": "Drop",
+                "205": "Terminal Tail"
+            }
+        },
+        "domains": {
+            "201": {
+                "Size": "FeederCableSize",
+                "CableType": "FeederCableType"
+            },
+            "203": {
+                "Size": "DistributionCableSize",
+                "CableType": "DistributionCableType"
+            },
+            "207": {
+                "Size": "DropCableSize",
+                "CableType": "DropCableType"
+            },
+            "205": {
+                "Size": "TerminalCableSize",
+                "CableType": "TerminalCableType"
+            }
+        }
+    },
+    "Route": {
+        "field": {
+            "Type": {
+                "0": "Trench",
+                "1": "Aerial Run"
+            }
+        }
+    },
+    "SupportingStructure": {
+        "field": {
+            "Type": {
+                "0": "Conduit",
+                "1": "Strand"
+            }
+        },
+        "domains": {
+            "0": {
+                "InstallationType": "ConduitInstallationType",
+                "Size": "ConduitSize"
+            },
+            "1": {
+                "InstallationType": "StrandInstallationType",
+                "Size": "StrandSize"
+            }
+        }
+    },
+    "Equipment": {
+        "field": {
+            "Type": {
+                "5": "Splitter",
+                "6": "Fiber Terminal"
+            }
+        },
+        "domains": {
+            "5": {
+                "EquipmentType": "SplitterType"
+            },
+            "6": {
+                "EquipmentType": "FiberTerminalType",
+                "Length": "FiberTerminalTail"
+            }
+        }
+    },
+    "CableFeature": {
+        "field": {
+            "Type": {
+                "0": "Dip",
+                "1": "Stored Slack"
+            }
+        },
+        "domains": {
+            "0": {
+                "FeatureType": "DipType"
+            },
+            "1": {
+                "FeatureType": "StoredSlackLength"
+            }
+        }
+    },
+    "ServingArea": {
+        "field": {
+            "Type": {
+                "0": "Splitter Area",
+                "1": "Terminal Area"
+            }
+        },
+        "domains": {
+            "0": {
+                "AreaType": "SplitterAreaType"
+            },
+            "1": {
+                "AreaType": "TerminalAreaType"
+            }
+        }
+    },
+    "CentralOffice": {
+        "field": {
+            "Type": {
+                "0": "Substation",
+                "1": "Office",
+                "2": "Cabinet"
+            }
+        }
+    },
+    "WorkArea": {
+        "field": {
+            "Type": {
+                "0": "Distrbution Area",
+                "1": "Work Packet"
+            },
+            "domains": {
+                "1": {
+                    "AreaArchitecture": "WorkAreaArchitecture",
+                    "AreaCableType": "WorkAreaCableType"
+                }
+            }
+        }
+    },
+    "MarkupPolygon": {
+        "field": {
+            "Type": {
+                "0": "Default",
+                "1": "Optic Area"
+            }
+        }
+    },
+    "MarkupLine": {
+        "field": {
+            "Type": {
+                "0": "Default",
+                "1": "Splitter Extent"
+            }
+        }
+    },
+    "MarkupPoint": {
+        "field": {
+            "Type": {
+                "0": "Default"
+            }
+        }
+    },
+    "Structure": {
+        "field": {
+            "Type": {
+                "1": "Pedestal",
+                "3": "Handhole",
+                "11": "Spice Enclosure",
+                "12": "Cabinet",
+                "20": "Chamber",
+                "21": "Pole"
+            }
+        },
+        "domains": {
+            "1": {
+                "StructureType": "PedestalType"
+            },
+            "3": {
+                "StructureType": "HandholeType"
+            },
+            "11": {
+                "StructureType": "SpliceEnclosureType"
+            },
+            "12": {
+                "StructureType": "CabinetType"
+            },
+            "20": {
+                "StructureType": "ChamberType"
+            },
+            "21": {
+                "StructureType": "PoleType"
+            }
+        }
+    }
+}

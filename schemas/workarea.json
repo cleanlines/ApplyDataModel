@@ -1,0 +1,114 @@
+﻿{
+    "fields": [
+        {
+            "name": "OBJECTID",
+            "type": "Object ID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Object ID",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "Type",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Type",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "AreaCableType",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "5",
+            "alias": "Area Cable Type",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "AreaArchitecture",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "5",
+            "alias": "Area Architecture",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "CentralOfficeId",
+            "type": "GUID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Central Office Id",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "Name",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "50",
+            "alias": "Name",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "Colour",
+            "type": "SHORT",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Colour",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "Colour"
+        },
+        {
+            "name": "IsActive",
+            "type": "SHORT",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Is Active",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "TrueFalse"
+        },
+        {
+            "name": "Status",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "5",
+            "alias": "Name",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "WorkAreaStatus"
+        },
+        {
+            "name": "",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Name",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        }
+    ]
+}

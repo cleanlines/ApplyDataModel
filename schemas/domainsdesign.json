@@ -1,0 +1,373 @@
+{
+    "AssociatedStructType": {
+        "description": "Associated Structures to Cables",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Pole",
+            "1": "Chamber"
+        }
+    },
+    "TrueFalse": {
+        "description": "True or False",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "False",
+            "1": "True"
+        }
+    },
+    "FeederCableSize": {
+        "description": "Default Cable Sizes",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "24F": "24F",
+            "48F": "48F",
+            "96F": "96F",
+            "144F": "144F",
+            "288F": "288F"
+        }
+    },
+    "DistributionCableSize": {
+        "description": "Default Cable Sizes",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "24F": "24F",
+            "48F": "48F",
+            "96F": "96F",
+            "144F": "144F",
+            "288F": "288F"
+        }
+    },
+    "DropCableSize": {
+        "description": "Default Cable Sizes",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "drop_2F": "Drop 2F"
+        }
+    },
+    "TerminalCableSize": {
+        "description": "Default Cable Sizes",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "mst_4F": "MST 4F",
+            "mst_6F": "MST 6F",
+            "mst_8F": "MST 8F",
+            "mst_12F": "MST 12F"
+        }
+    },
+    "TerminalCableType": {
+        "description": "Default Cable Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "terminaltail": "Terminal Tail"
+        }
+    },
+    "FeederCableType": {
+        "description": "Default Cable Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "backhaul": "Backhaul"
+        }
+    },
+    "DistributionCableType": {
+        "description": "Default Cable Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "distribution": "Distribution"
+        }
+    },
+    "DropCableType": {
+        "description": "Default Cable Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "drop": "Drop"
+        }
+    },
+    "DipType": {
+        "description": "Default Dip Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "2x8": "2x8"
+        }
+    },
+    "StoredSlackLength": {
+        "description": "Default Stored Slack Length",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "100ft": "100ft",
+            "150ft": "150ft",
+            "200ft": "200ft",
+            "350ft": "350ft",
+            "500ft": "500ft"
+        }
+    },
+    "SplitterType": {
+        "description": "Default Splitter Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "1:2_se": "1:2 Splice Enclosure",
+            "1:4_se": "1:4 Splice Enclosure",
+            "1:8_se": "1:8 Splice Enclosure",
+            "1:16_se": "1:16 Splice Enclosure",
+            "1:32_se": "1:32 Splice Enclosure",
+            "1:16_cab": "1:16 Cabinet",
+            "1:32_cab": "1:32 Cabinet"
+        }
+    },
+    "FiberTerminalType": {
+        "description": "Default Fiber Terminal Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "12F_MST": "12F Multiport Service Terminal",
+            "4F_MST": "4F Multiport Service Terminal",
+            "6F_MST": "6F Multiport Service Terminal",
+            "8F_MST": "8F Multiport Service Terminal",
+            "corning_optisheath": "Corning Optisheath",
+            "hubbell_570": "Hubbell 570",
+            "hubbell_790": "Hubbell 790"
+        }
+    },
+    "FiberTerminalTail": {
+        "description": "Default Fiber Terminal Tail Length",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "100": "100ft",
+            "500": "500ft",
+            "1000": "1000ft",
+            "1500": "1500ft",
+            "2000": "2000ft",
+            "2500": "2500ft"
+        }
+    },
+    "Colour": {
+        "description": "Default Colours",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "RED",
+            "1": "BLUE",
+            "2": "GREEN",
+            "3": "YELLOW"
+        }
+    },
+    "SplitterAreaType": {
+        "description": "Default Splitter Area Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "ssa": "Splitter Serving Area",
+            "ref": "Reference"
+        }
+    },
+    "TerminalAreaType": {
+        "description": "Default Terminal Area Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "Dflt": "Default"
+        }
+    },
+    "ConduitInstallationType": {
+        "description": "Default Conduit Installation Type",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Bore",
+            "1": "Plow",
+            "2": "Trench"
+        }
+    },
+    "StrandInstallationType": {
+        "description": "Default Strand Installation Type",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Strand"
+        }
+    },
+    "ConduitSize": {
+        "description": "Default Conduit Size",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "10",
+            "1": "15",
+            "2": "20"
+        }
+    },
+    "StrandSize": {
+        "description": "Default Strand Size",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Default"
+        }
+    },
+    "PedestalType": {
+        "description": "Default Pedestal Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "standard": "Standard Pedestal",
+            "oversized": "Oversized Pedestal"
+        }
+    },
+    "HandholeType": {
+        "description": "Default Handhole Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "12x12": "12 x 12 (Hand Hole)",
+            "24x36": "24 x 36 (Pull Box)",
+            "30x48x36": "30 x 48 x 36 (Vault)",
+            "30x48x36_FWA": "30 x 48 x 36 (FWA)"
+        }
+    },
+    "SpliceEnclosureType": {
+        "description": "Default Splice Enclosure Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "hubbell_570": "Hubbell 570",
+            "hubbell_790": "Hubbell 790"
+        }
+    },
+    "CabinetType": {
+        "description": "Default Cabinet Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "pole_288F": "Pole 288F Cabinet",
+            "pole_432F": "Pole 432F Cabinet",
+            "pole_864F": "Pole 864F Cabinet",
+            "pad_288F": "Pad 288F Cabinet",
+            "pad_432F": "Pad 432F Cabinet",
+            "pad_864F": "Pad 864F Cabinet",
+            "hh_288F": "Handhole 288F cabinet",
+            "hh_432F": "Handhole 432F cabinet",
+            "hh_864F": "Handhole 864F cabinet"
+        }
+    },
+    "ChamberType": {
+        "description": "Default Chamber Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "Default": "Default"
+        }
+    },
+    "PoleType": {
+        "description": "Default Pole Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "Default": "Default"
+        }
+    },
+    "WorkAreaArchitecture": {
+        "description": "Default Work Area Architecture",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "DS": "Distributed Split",
+            "CS": "Centralised Split"
+        }
+    },
+    "WorkAreaCableType": {
+        "description": "Default Work Area Cable Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "ADSS": "All Dielectric Self Supporting",
+            "SL": "Strand and Lash"
+        }
+    },
+    "WorkAreaStatus": {
+        "description": "Default Work Area Cable Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "A": "active",
+            "ID": "In Design",
+            "IC": "In Construction",
+            "AV": "Awaiting Validation",
+            "C": "Completed"
+        }
+    }
+}

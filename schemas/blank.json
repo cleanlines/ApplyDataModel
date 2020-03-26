@@ -1,0 +1,107 @@
+﻿{
+    "fields": [
+        {
+            "name": "OBJECTID",
+            "type": "Object ID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Object ID",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Name",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },{
+            "name": "",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Name",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },{
+            "name": "",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Name",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },{
+            "name": "",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Name",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Name",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },{
+            "name": "",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Name",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },{
+            "name": "",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Name",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },{
+            "name": "",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Name",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },{
+            "name": "",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Name",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        }
+    ]
+}

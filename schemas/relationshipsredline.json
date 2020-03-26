@@ -1,0 +1,43 @@
+{
+    "relationships": [
+        {
+            "origin": "RedlineChangeArea",
+            "destination": "RedlineComment",
+            "outclass": "ChangeArea_Comment",
+            "type": "SIMPLE",
+            "forwardlabel": "Redline Comment",
+            "backlabel": "Redline Change Area",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "RedlineFeatureId",
+            "originfk": "RedlineFeatureId"
+        },
+        {
+            "origin": "RedlinePointMarker",
+            "destination": "RedlineComment",
+            "outclass": "PointMarker_Comment",
+            "type": "SIMPLE",
+            "forwardlabel": "Redline Comment",
+            "backlabel": "Redline Point Marker",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "RedlineFeatureId",
+            "originfk": "RedlineFeatureId"
+        },
+        {
+            "origin": "RedlineLineMarker",
+            "destination": "RedlineComment",
+            "outclass": "LineMarker_Comment",
+            "type": "SIMPLE",
+            "forwardlabel": "Redline Comment",
+            "backlabel": "Redline Line Marker",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "RedlineFeatureId",
+            "originfk": "RedlineFeatureId"
+        }
+    ]
+}

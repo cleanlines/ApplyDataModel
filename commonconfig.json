@@ -1,0 +1,40 @@
+{
+    "workspaces": [
+        {
+            "workspace": "C:/Cloud/Dropbox/Work/Axin/rdt.design.datamodel.gdb",
+            "schema": "",
+            "featureclasses": "featureclassesdesign.json",
+            "subtypes":"subtypesdesign.json",
+            "domains":"domainsdesign.json",
+            "realtionships":"relationshipsdesign.json",
+            "overwrite":"true",
+            "exclude":"false"
+        },
+        {
+            "workspace": "C:/Cloud/Dropbox/Work/Axin/Python/CreateFeatureClass/RDT.sde",
+            "schema": "RDT.GISADMIN.",
+            "featureclasses": "featureclassesdesign.json",
+            "subtypes":"subtypesdesign.json",
+            "domains":"domainsdesign.json",
+            "realtionships":"relationshipsdesign.json",
+            "overwrite":"true",
+            "exclude":"true"
+        },
+        {
+            "workspace": "C:/Cloud/Dropbox/Work/Axin/rdt.markup.datamodel.gdb",
+            "schema": "",
+            "featureclasses": "featureclassesredlining.json",
+            "domains":"domainsredline.json",
+            "relationships":"relationshipsredline.json",
+            "overwrite":"true"
+        },
+        {
+            "workspace": "C:/Cloud/Dropbox/Work/Axin/rdt.fielding.datamodel.gdb",
+            "schema": "",
+            "featureclasses": "featureclassesfielding.json",
+            "subtypes":"subtypesfielding.json",
+            "overwrite":"true",
+            "exclude":"false"
+        }
+    ]
+}

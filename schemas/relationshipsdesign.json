@@ -1,0 +1,82 @@
+{
+    "relationships": [
+        {
+            "origin": "Route",
+            "destination": "Cable",
+            "outclass": "Route_Cable",
+            "type": "SIMPLE",
+            "forwardlabel": "Cable",
+            "backlabel": "Route",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "RouteId",
+            "originfk": "RouteId"
+        },
+        {
+            "origin": "Route",
+            "destination": "SupportingStructure",
+            "outclass": "Route_SupportingStructure",
+            "type": "SIMPLE",
+            "forwardlabel": "Supporting Structure",
+            "backlabel": "Route",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "RouteId",
+            "originfk": "RouteId"
+        },
+        {
+            "origin": "Cable",
+            "destination": "AssociatedStructure",
+            "outclass": "Cable_AssociatedStructure",
+            "type": "SIMPLE",
+            "forwardlabel": "Associated Structure",
+            "backlabel": "Cable",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "CableId",
+            "originfk": "CableId"
+        },
+        {
+            "origin": "CentralOffice",
+            "destination": "CentralOfficeArea",
+            "outclass": "CentralOffice_CentralOfficeArea",
+            "type": "SIMPLE",
+            "forwardlabel": "Central Office Area",
+            "backlabel": "Central Office",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "CentralOfficeId",
+            "originfk": "CentralOfficeId"
+        },
+        {
+            "origin": "CentralOffice",
+            "destination": "CentralOfficeDetail",
+            "outclass": "CentralOffice_CentralOfficeDetail",
+            "type": "SIMPLE",
+            "forwardlabel": "Central Office Detail",
+            "backlabel": "Central Office",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "CentralOfficeId",
+            "originfk": "CentralOfficeId"
+        },
+        {
+            "origin": "Structure",
+            "destination": "CentralOfficeDetail",
+            "outclass": "CentralOffice_CentralOfficeDetail",
+            "type": "SIMPLE",
+            "forwardlabel": "Central Office Detail",
+            "backlabel": "Central Office",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "CentralOfficeId",
+            "originfk": "CentralOfficeId"
+        }
+    ]
+}
