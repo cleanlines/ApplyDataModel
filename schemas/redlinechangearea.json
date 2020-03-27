@@ -2,7 +2,7 @@
     "fields": [
         {
             "name": "Description",
-            "alias": "Description:",
+            "alias": "Description",
             "domain": "",
             "nullable": "NULLABLE",
             "length": 50,
@@ -12,8 +12,8 @@
             "type": "TEXT"
         },
         {
-            "name": "Comments",
-            "alias": "Comment:",
+            "name": "Comment",
+            "alias": "Comment",
             "domain": "",
             "nullable": "NULLABLE",
             "length": 255,
@@ -24,7 +24,7 @@
         },
         {
             "name": "ApprovalStatus",
-            "alias": "Approval Status:",
+            "alias": "Approval Status",
             "domain": "ApprovalStatus",
             "nullable": "NULLABLE",
             "length": 50,
@@ -35,7 +35,7 @@
         },
         {
             "name": "ChangeId",
-            "alias": "Change Id:",
+            "alias": "Change Id",
             "domain": "ApprovalStatus",
             "nullable": "NULLABLE",
             "length": 4,
@@ -43,17 +43,6 @@
             "required": "NON_REQUIRED",
             "scale": 0,
             "type": "LONG"
-        },
-        {
-            "name": "OBJECTID",
-            "alias": "Object Id",
-            "domain": "",
-            "nullable": "NON_NULLABLE",
-            "length": 4,
-            "precision": 10,
-            "required": "REQUIRED",
-            "scale": 0,
-            "type": "Object ID"
         },
         {
             "name": "RedlineFeatureId",

@@ -1,37 +1,37 @@
 ﻿{
     "fields": [
         {
-            "name": "Type",
-            "type": "SHORT",
-            "precision": "5",
-            "scale": "0",
+            "name": "StructureId",
+            "type": "GUID",
+            "precision": "",
+            "scale": "",
             "length": "",
-            "alias": "Type",
+            "alias": "Structure Id",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
         },
         {
-            "name": "Comment",
+            "name": "EquipmentType",
             "type": "TEXT",
             "precision": "",
             "scale": "",
-            "length": "50",
-            "alias": "Comment",
+            "length": "100",
+            "alias": "Equipment Type",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
         },
         {
-            "name": "Colour",
+            "name": "EquipmentCount",
             "type": "SHORT",
             "precision": "5",
             "scale": "0",
             "length": "",
-            "alias": "Name",
+            "alias": "Equipment Count",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
-            "domain": "Colour"
+            "domain": ""
         }
     ]
 }

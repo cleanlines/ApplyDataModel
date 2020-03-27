@@ -1,17 +1,6 @@
 ﻿{
     "fields": [
         {
-            "name": "OBJECTID",
-            "type": "Object ID",
-            "precision": "",
-            "scale": "",
-            "length": "",
-            "alias": "Object ID",
-            "nullable": "NULLABLE",
-            "required": "NON_REQUIRED",
-            "domain": ""
-        },
-        {
             "name": "Type",
             "type": "SHORT",
             "precision": "5",
@@ -34,12 +23,12 @@
             "domain": ""
         },
         {
-            "name": "SubstationDetailId",
+            "name": "CentralOfficeDetailId",
             "type": "GUID",
             "precision": "",
             "scale": "",
             "length": "",
-            "alias": "Substation Detail Id",
+            "alias": "Central Office Detail Id",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
@@ -87,6 +76,28 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
+        },
+        {
+            "name": "CustomerStructureId",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "50",
+            "alias": "Customer Structure Id",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "StructureAudit",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "50",
+            "alias": "StructureStatus",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "StructureAudit"
         }
     ]
 }

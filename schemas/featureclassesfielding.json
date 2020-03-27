@@ -2,7 +2,7 @@
     {
       "name": "FieldingAreaMarker",
       "geometry": "POLYGON",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "fieldingareamarker.json",
       "globalids": true,
       "editortracking": true,
@@ -12,7 +12,7 @@
     {
       "name": "FieldingPointMarker",
       "geometry": "POINT",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "fieldingpointmarker.json",
       "globalids": true,
       "editortracking": true,
@@ -22,7 +22,7 @@
     {
       "name": "FieldingLineMarker",
       "geometry": "POLYLINE",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "fieldinglinemarker.json",
       "globalids": true,
       "editortracking": true,

@@ -1,17 +1,6 @@
 ﻿{
     "fields": [
         {
-            "name": "OBJECTID",
-            "type": "Object ID",
-            "precision": "",
-            "scale": "",
-            "length": "",
-            "alias": "Object ID",
-            "nullable": "NULLABLE",
-            "required": "NON_REQUIRED",
-            "domain": ""
-        },
-        {
             "name": "Type",
             "type": "SHORT",
             "precision": "5",
@@ -21,7 +10,8 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
-        },{
+        },
+        {
             "name": "WorkId",
             "type": "TEXT",
             "precision": "",
@@ -31,7 +21,8 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
-        },{
+        },
+        {
             "name": "Comment",
             "type": "TEXT",
             "precision": "",
@@ -41,7 +32,8 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
-        },{
+        },
+        {
             "name": "FeatureType",
             "type": "TEXT",
             "precision": "",
@@ -62,7 +54,8 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
-        },{
+        },
+        {
             "name": "ToCableId",
             "type": "GUID",
             "precision": "",

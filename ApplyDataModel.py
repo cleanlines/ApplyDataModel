@@ -167,7 +167,8 @@ class ApplyDataModel(BaseObject):
         try:
             sr = None
             if 'spatialref' in config_dic and config_dic['spatialref']:
-                sr = arcpy.Describe(f"{self._srs}/{config_dic['spatialref']}").spatialReference
+                sr = arcpy.SpatialReference(config_dic['spatialref'])
+                # sr = arcpy.Describe(f"{self._srs}/{config_dic['spatialref']}").spatialReference
             #are we creating a fc or a table? Assumption is no sr or geom create a table
             if config_dic['geometry'] and sr:
                 self.log(f"Creating feature class {config_dic['name']}")

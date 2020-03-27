@@ -1,12 +1,12 @@
 {
     "workspaces": [
         {
-            "workspace": "C:/Cloud/Dropbox/Work/Axin/rdt.design.datamodel.gdb",
+            "workspace": "C:/Cloud/Dropbox/Work/Axin/rdtdesign.gdb",
             "schema": "",
             "featureclasses": "featureclassesdesign.json",
             "subtypes":"subtypesdesign.json",
             "domains":"domainsdesign.json",
-            "realtionships":"relationshipsdesign.json",
+            "relationships":"relationshipsdesign.json",
             "overwrite":"true",
             "exclude":"false"
         },
@@ -16,20 +16,20 @@
             "featureclasses": "featureclassesdesign.json",
             "subtypes":"subtypesdesign.json",
             "domains":"domainsdesign.json",
-            "realtionships":"relationshipsdesign.json",
+            "relationships":"relationshipsdesign.json",
             "overwrite":"true",
             "exclude":"true"
         },
         {
-            "workspace": "C:/Cloud/Dropbox/Work/Axin/rdt.markup.datamodel.gdb",
+            "workspace": "C:/Cloud/Dropbox/Work/Axin/rdtmarkup.gdb",
             "schema": "",
             "featureclasses": "featureclassesredlining.json",
             "domains":"domainsredline.json",
             "relationships":"relationshipsredline.json",
-            "overwrite":"true"
+            "overwrite":"false"
         },
         {
-            "workspace": "C:/Cloud/Dropbox/Work/Axin/rdt.fielding.datamodel.gdb",
+            "workspace": "C:/Cloud/Dropbox/Work/Axin/rdtfielding.gdb",
             "schema": "",
             "featureclasses": "featureclassesfielding.json",
             "subtypes":"subtypesfielding.json",

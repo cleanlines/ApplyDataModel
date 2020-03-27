@@ -11,7 +11,7 @@ class LoggingConfig(object,metaclass=Singleton):
 
     def __init__(self):
         self._config = JSONConfig(class_name=self.__class__.__name__)
-        self._some_filename = f'_ags_create_feature_class_log.json'#{datetime.datetime.now().strftime("%Y%m%d_%H%M%S%f")}.json'
+        self._some_filename = f'_ags_apply_dm_log_{datetime.datetime.now().strftime("%Y%m%d_%H%M%S%f")}.json'#{datetime.datetime.now().strftime("%Y%m%d_%H%M%S%f")}.json'
         self._logging_dic = {
             'version': 1,
             'disable_existing_loggers': False,
@@ -30,13 +30,13 @@ class LoggingConfig(object,metaclass=Singleton):
                     'stream': 'ext://sys.stdout'
                 },
                 'filehandler': {
-                    'class': 'logging.handlers.RotatingFileHandler',
+                    'class': 'logging.FileHandler',#'logging.handlers.RotatingFileHandler',
                     'level': 'DEBUG',
                     'formatter': 'json',
-                    'filename': f"logs/{self._some_filename}",
-                    'maxBytes': 102400, #10485760,
-                    'backupCount':5,
-                    'mode':'a'
+                    'filename': f"logs/{self._some_filename}"#,
+                    #'maxBytes': 102400, #10485760,
+                    #'backupCount':5,
+                    #'mode':'a'
                 }
             },
 

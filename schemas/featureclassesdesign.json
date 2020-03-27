@@ -22,7 +22,7 @@
     {
       "name": "Cable",
       "geometry": "POLYLINE",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "cable.json",
       "globalids": true,
       "editortracking": true,
@@ -32,7 +32,7 @@
     {
       "name": "CableFeature",
       "geometry": "POINT",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "cablefeature.json",
       "globalids": true,
       "editortracking": true,
@@ -42,7 +42,7 @@
     {
       "name": "CentralOffice",
       "geometry": "POINT",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "centraloffice.json",
       "globalids": true,
       "editortracking": true,
@@ -62,7 +62,7 @@
     {
       "name": "CentralOfficeArea",
       "geometry": "POLYGON",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "centralofficearea.json",
       "globalids": true,
       "editortracking": true,
@@ -72,7 +72,7 @@
     {
       "name": "Equipment",
       "geometry": "POINT",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "equipment.json",
       "globalids": true,
       "editortracking": true,
@@ -82,7 +82,7 @@
     {
       "name": "MarkupLine",
       "geometry": "POLYLINE",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "markupline.json",
       "globalids": true,
       "editortracking": true,
@@ -92,7 +92,7 @@
     {
       "name": "MarkupPoint",
       "geometry": "POINT",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "markuppoint.json",
       "globalids": true,
       "editortracking": true,
@@ -102,7 +102,7 @@
     {
       "name": "MarkupPolygon",
       "geometry": "POLYGON",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "markuppolygon.json",
       "globalids": true,
       "editortracking": true,
@@ -122,7 +122,7 @@
     {
       "name": "PrintTile",
       "geometry": "POLYGON",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "printtile.json",
       "globalids": true,
       "editortracking": true,
@@ -132,7 +132,7 @@
     {
       "name": "Route",
       "geometry": "POLYLINE",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "route.json",
       "globalids": true,
       "editortracking": true,
@@ -142,7 +142,7 @@
     {
       "name": "ServicePoint",
       "geometry": "POINT",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "servicepoint.json",
       "globalids": true,
       "editortracking": true,
@@ -152,7 +152,7 @@
     {
       "name": "ServingArea",
       "geometry": "POLYGON",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "servingarea.json",
       "globalids": true,
       "editortracking": true,
@@ -162,7 +162,7 @@
     {
       "name": "Structure",
       "geometry": "POINT",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "structure.json",
       "globalids": true,
       "editortracking": true,
@@ -172,7 +172,7 @@
     {
       "name": "SupportingStructure",
       "geometry": "POLYLINE",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "supportingstructure.json",
       "globalids": true,
       "editortracking": true,
@@ -182,8 +182,18 @@
     {
       "name": "WorkArea",
       "geometry": "POLYGON",
-      "spatialref": "AlbersEqualAreaConic",
+      "spatialref": 2277,
       "fields": "workarea.json",
+      "globalids": true,
+      "editortracking": true,
+      "archiving": true,
+      "attachments": false
+    },
+    {
+      "name": "PowerEquipment",
+      "geometry": "",
+      "spatialref": "",
+      "fields": "powerequipment.json",
       "globalids": true,
       "editortracking": true,
       "archiving": true,

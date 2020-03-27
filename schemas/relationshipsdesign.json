@@ -68,15 +68,28 @@
         {
             "origin": "Structure",
             "destination": "CentralOfficeDetail",
-            "outclass": "CentralOffice_CentralOfficeDetail",
+            "outclass": "Structure_CentralOfficeDetail",
             "type": "SIMPLE",
             "forwardlabel": "Central Office Detail",
-            "backlabel": "Central Office",
+            "backlabel": "Structure",
+            "message": "NONE",
+            "cardinality": "ONE_TO_ONE",
+            "attributed": "NONE",
+            "originpk": "StructureId",
+            "originfk": "DetailId"
+        },
+        {
+            "origin": "Structure",
+            "destination": "Assembly",
+            "outclass": "Structure_Assembly",
+            "type": "SIMPLE",
+            "forwardlabel": "Assembly",
+            "backlabel": "Structure",
             "message": "NONE",
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
-            "originpk": "CentralOfficeId",
-            "originfk": "CentralOfficeId"
+            "originpk": "StructureId",
+            "originfk": "StructureId"
         }
     ]
 }

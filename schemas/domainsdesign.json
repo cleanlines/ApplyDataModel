@@ -369,5 +369,19 @@
             "AV": "Awaiting Validation",
             "C": "Completed"
         }
+    },
+    "StructureAudit": {
+        "description": "Default Structure Audit",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "M":"Yes-moved",
+            "Y":"Yes",
+            "D":"Yes-discovered",
+            "N":"No",
+            "DNE":"Does not exist"
+        }
     }
 }

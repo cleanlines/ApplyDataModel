@@ -2,7 +2,7 @@
     "fields": [
         {
             "name": "Label",
-            "alias": "Label:",
+            "alias": "Label",
             "domain": "",
             "nullable": "NULLABLE",
             "length": 255,
@@ -12,8 +12,8 @@
             "type": "TEXT"
         },
         {
-            "name": "Comments",
-            "alias": "Comment:",
+            "name": "Comment",
+            "alias": "Comment",
             "domain": "",
             "nullable": "NULLABLE",
             "length": 255,
@@ -21,17 +21,6 @@
             "required": "NON_REQUIRED",
             "scale": 0,
             "type": "TEXT"
-        },
-        {
-            "name": "OBJECTID",
-            "alias": "Object Id",
-            "domain": "",
-            "nullable": "NON_NULLABLE",
-            "length": 4,
-            "precision": 10,
-            "required": "REQUIRED",
-            "scale": 0,
-            "type": "Object ID"
         },
         {
             "name": "RedlineFeatureId",

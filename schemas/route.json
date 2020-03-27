@@ -1,17 +1,6 @@
 ﻿{
     "fields": [
         {
-            "name": "OBJECTID",
-            "type": "Object ID",
-            "precision": "",
-            "scale": "",
-            "length": "",
-            "alias": "Object ID",
-            "nullable": "NULLABLE",
-            "required": "NON_REQUIRED",
-            "domain": ""
-        },
-        {
             "name": "Type",
             "type": "SHORT",
             "precision": "5",
@@ -21,7 +10,8 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
-        },{
+        },
+        {
             "name": "RouteId",
             "type": "GUID",
             "precision": "",
@@ -31,7 +21,8 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
-        },{
+        },
+        {
             "name": "FromStructureId",
             "type": "GUID",
             "precision": "",
@@ -52,7 +43,8 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
-        },{
+        },
+        {
             "name": "Name",
             "type": "TEXT",
             "precision": "",
@@ -62,7 +54,8 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
-        },{
+        },
+        {
             "name": "Colour",
             "type": "SHORT",
             "precision": "5",

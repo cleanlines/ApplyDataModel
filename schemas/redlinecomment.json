@@ -2,7 +2,7 @@
     "fields": [
         {
             "name": "ApprovalStatus",
-            "alias": "Approval Status:",
+            "alias": "Approval Status",
             "domain": "ApprovalStatus",
             "nullable": "NULLABLE",
             "length": "50",
@@ -21,17 +21,6 @@
             "required": "NON_REQUIRED",
             "scale": "0",
             "type": "TEXT"
-        },
-        {
-            "name": "OBJECTID",
-            "alias": "Object Id",
-            "domain": "",
-            "nullable": "NON_NULLABLE",
-            "length": "4",
-            "precision": "10",
-            "required": "REQUIRED",
-            "scale": "0",
-            "type": "Object ID"
         },
         {
             "name": "RedlineFeatureId",
