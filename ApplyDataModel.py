@@ -85,7 +85,10 @@ class ApplyDataModel(BaseObject):
                 relationships = json.load(read_file, strict=False)['relationships']
                 for a_relationship in relationships:
                     try:
-                        arcpy.CreateRelationshipClass_management(f"{self._connection}/{a_relationship['origin']}",f"{self._connection}/{a_relationship['destination']}", a_relationship['outclass'], a_relationship['type'], a_relationship['forwardlabel'], a_relationship['backlabel'], a_relationship['message'], a_relationship['cardinality'], a_relationship['attributed'], a_relationship['originpk'], a_relationship['originfk'])
+                        if "destinationpk" in a_relationship:
+                            arcpy.CreateRelationshipClass_management(f"{self._connection}/{a_relationship['origin']}",f"{self._connection}/{a_relationship['destination']}", a_relationship['outclass'], a_relationship['type'], a_relationship['forwardlabel'], a_relationship['backlabel'], a_relationship['message'], a_relationship['cardinality'], a_relationship['attributed'], a_relationship['originpk'], a_relationship['originfk'], a_relationship['destinationpk'], a_relationship['destinationfk'])
+                        else:
+                            arcpy.CreateRelationshipClass_management(f"{self._connection}/{a_relationship['origin']}",f"{self._connection}/{a_relationship['destination']}", a_relationship['outclass'], a_relationship['type'], a_relationship['forwardlabel'], a_relationship['backlabel'], a_relationship['message'], a_relationship['cardinality'], a_relationship['attributed'], a_relationship['originpk'], a_relationship['originfk'])
                     except Exception as e:
                         self.log(f"Can't add relationship for to {a_relationship['outclass']}")
                         self.errorlog(e)
@@ -94,6 +97,26 @@ class ApplyDataModel(BaseObject):
             self.errorlog(e)
 
     def _process_domains(self,file_name):
+        #note Jose will be changing the json from the PIA
+        # "AssociatedStructType": {
+        #                 "description": "Associated Structures to Cables",
+        #                 "type": "SHORT",
+        #                 "domaintype": "CODED",
+        #                 "split": "DEFAULT",
+        #                 "merge": "DEFAULT",
+        #                 "codes": {
+        #                     "0": {
+        #                         "value": "Pole",
+        #                         "selected": true,
+        #                         "required": true
+        #                     },
+        #                     "1": {
+        #                         "value": "Chamber",
+        #                         "selected": true,
+        #                         "required": true
+        #                     }
+        #                 }
+        #             },
         try:
             with open(f"{self._schema_folder}/{file_name}", "r", encoding='utf-8-sig',newline="\r\n") as read_file:
                 domains = json.load(read_file, strict=False)
@@ -143,6 +166,10 @@ class ApplyDataModel(BaseObject):
                             except Exception as e:
                                 self.log(f"Setting subtype code {full_fc},{fd},{code},{st_vals[code]} failed")
                                 self.errorlog(e)
+                    if "domains" in v:
+                        for sk,dms in v['domains'].items():
+                            for dmfd,appdm in dms.items():
+                                arcpy.AssignDomainToField_management(full_fc,dmfd,appdm,sk)
 
         except Exception as e:
             self.log(f"Can't open subtypes.json.")

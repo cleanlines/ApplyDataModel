@@ -1,0 +1,14 @@
+{
+    "RouteBuildType": {
+        "description": "Build Method Update",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Bore",
+            "1": "Plow",
+            "3": "Trench"
+        }
+    }
+}

@@ -40,6 +40,21 @@
             "originfk": "CableId"
         },
         {
+            "origin": "Cable",
+            "destination": "Equipment",
+            "outclass": "Cable_Equipment",
+            "type": "SIMPLE",
+            "forwardlabel": "Equipment",
+            "backlabel": "Cable",
+            "message": "NONE",
+            "cardinality": "MANY_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "CableId",
+            "originfk": "CableId",
+            "destinationpk":"EquipmentId",
+            "destinationfk":"EquipmentId"
+        },
+        {
             "origin": "CentralOffice",
             "destination": "CentralOfficeArea",
             "outclass": "CentralOffice_CentralOfficeArea",
@@ -47,7 +62,7 @@
             "forwardlabel": "Central Office Area",
             "backlabel": "Central Office",
             "message": "NONE",
-            "cardinality": "ONE_TO_MANY",
+            "cardinality": "ONE_TO_ONE",
             "attributed": "NONE",
             "originpk": "CentralOfficeId",
             "originfk": "CentralOfficeId"
@@ -60,7 +75,7 @@
             "forwardlabel": "Central Office Detail",
             "backlabel": "Central Office",
             "message": "NONE",
-            "cardinality": "ONE_TO_MANY",
+            "cardinality": "ONE_TO_ONE",
             "attributed": "NONE",
             "originpk": "CentralOfficeId",
             "originfk": "CentralOfficeId"
@@ -90,6 +105,45 @@
             "attributed": "NONE",
             "originpk": "StructureId",
             "originfk": "StructureId"
+        },
+        {
+            "origin": "Structure",
+            "destination": "PowerEquipment",
+            "outclass": "Structure_PowerEquipment",
+            "type": "SIMPLE",
+            "forwardlabel": "Power Equipment",
+            "backlabel": "Structure",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "StructureId",
+            "originfk": "StructureId"
+        },
+        {
+            "origin": "Structure",
+            "destination": "PowerEquipment",
+            "outclass": "Structure_PowerEquipment",
+            "type": "SIMPLE",
+            "forwardlabel": "Power Equipment",
+            "backlabel": "Structure",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "StructureId",
+            "originfk": "StructureId"
+        },
+        {
+            "origin": "SupportingStructure",
+            "destination": "Cable",
+            "outclass": "SupportingStructure_Cable",
+            "type": "SIMPLE",
+            "forwardlabel": "Cable",
+            "backlabel": "Supporting Structure",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "SupportingStructureId",
+            "originfk": "SupportingStructureId"
         }
     ]
 }

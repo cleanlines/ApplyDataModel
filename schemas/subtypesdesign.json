@@ -114,7 +114,7 @@
     "WorkArea": {
         "field": {
             "Type": {
-                "0": "Distrbution Area",
+                "0": "Distribution Area",
                 "1": "Work Packet"
             },
             "domains": {

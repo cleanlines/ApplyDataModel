@@ -8,28 +8,29 @@
             "domains":"domainsdesign.json",
             "relationships":"relationshipsdesign.json",
             "overwrite":"true",
-            "exclude":"false"
+            "exclude":"true"
         },
         {
-            "workspace": "C:/Cloud/Dropbox/Work/Axin/Python/CreateFeatureClass/RDT.sde",
+            "workspace": "C:/Cloud/Dropbox/Work/Axin/Python/ApplyDataModel/RDT.sde",
             "schema": "RDT.GISADMIN.",
             "featureclasses": "featureclassesdesign.json",
             "subtypes":"subtypesdesign.json",
             "domains":"domainsdesign.json",
             "relationships":"relationshipsdesign.json",
             "overwrite":"true",
-            "exclude":"true"
+            "exclude":"false"
         },
         {
-            "workspace": "C:/Cloud/Dropbox/Work/Axin/rdtmarkup.gdb",
+            "workspace": "C:/Cloud/Dropbox/Work/Axin/Python/ApplyDataModel/RDT.sde",
             "schema": "",
             "featureclasses": "featureclassesredlining.json",
             "domains":"domainsredline.json",
             "relationships":"relationshipsredline.json",
-            "overwrite":"false"
+            "overwrite":"true",
+            "exclude":"false"
         },
         {
-            "workspace": "C:/Cloud/Dropbox/Work/Axin/rdtfielding.gdb",
+            "workspace": "C:/Cloud/Dropbox/Work/Axin/Python/ApplyDataModel/RDT.sde",
             "schema": "",
             "featureclasses": "featureclassesfielding.json",
             "subtypes":"subtypesfielding.json",
