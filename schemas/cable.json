@@ -127,7 +127,7 @@
             "precision": "",
             "scale": "",
             "length": "50",
-            "alias": "Name",
+            "alias": "Range Label",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""

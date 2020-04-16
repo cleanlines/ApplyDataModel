@@ -28,7 +28,7 @@
             "precision": "5",
             "scale": "0",
             "length": "",
-            "alias": "Name",
+            "alias": "Colour",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": "Colour"

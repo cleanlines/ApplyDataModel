@@ -89,7 +89,9 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "backhaul": "Backhaul"
+            "backhaul": "Backhaul",
+            "backbone":"Backbone",
+            "feeder":"Feeder"
         }
     },
     "DistributionCableType": {
@@ -193,7 +195,9 @@
             "0": "RED",
             "1": "BLUE",
             "2": "GREEN",
-            "3": "YELLOW"
+            "3": "YELLOW",
+            "4": "CYAN",
+            "5": "MAGENTA"
         }
     },
     "SplitterAreaType": {
@@ -293,7 +297,9 @@
         "merge": "DEFAULT",
         "codes": {
             "hubbell_570": "Hubbell 570",
-            "hubbell_790": "Hubbell 790"
+            "hubbell_790": "Hubbell 790",
+            "450D_FOSC":"450D FOSC",
+            "600D_FOSC": "600D FOSC"
         }
     },
     "CabinetType": {
@@ -377,11 +383,11 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "M":"Yes-moved",
-            "Y":"Yes",
-            "D":"Yes-discovered",
-            "N":"No",
-            "DNE":"Does not exist"
+            "M": "Yes-moved",
+            "Y": "Yes",
+            "D": "Yes-discovered",
+            "N": "No",
+            "DNE": "Does not exist"
         }
     }
 }

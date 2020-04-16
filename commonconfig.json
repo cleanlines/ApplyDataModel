@@ -1,14 +1,14 @@
 {
     "workspaces": [
         {
-            "workspace": "C:/Cloud/Dropbox/Work/Axin/rdtdesign.gdb",
+            "workspace": "C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc2.gdb",
             "schema": "",
             "featureclasses": "featureclassesdesign.json",
             "subtypes":"subtypesdesign.json",
             "domains":"domainsdesign.json",
             "relationships":"relationshipsdesign.json",
             "overwrite":"true",
-            "exclude":"true"
+            "exclude":"false"
         },
         {
             "workspace": "C:/Cloud/Dropbox/Work/Axin/Python/ApplyDataModel/RDT.sde",
@@ -18,7 +18,7 @@
             "domains":"domainsdesign.json",
             "relationships":"relationshipsdesign.json",
             "overwrite":"true",
-            "exclude":"false"
+            "exclude":"true"
         },
         {
             "workspace": "C:/Cloud/Dropbox/Work/Axin/Python/ApplyDataModel/RDT.sde",
@@ -27,7 +27,7 @@
             "domains":"domainsredline.json",
             "relationships":"relationshipsredline.json",
             "overwrite":"true",
-            "exclude":"false"
+            "exclude":"true"
         },
         {
             "workspace": "C:/Cloud/Dropbox/Work/Axin/Python/ApplyDataModel/RDT.sde",
@@ -35,7 +35,7 @@
             "featureclasses": "featureclassesfielding.json",
             "subtypes":"subtypesfielding.json",
             "overwrite":"true",
-            "exclude":"false"
+            "exclude":"true"
         }
     ]
 }

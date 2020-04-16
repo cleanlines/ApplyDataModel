@@ -83,7 +83,7 @@
             "precision": "",
             "scale": "",
             "length": "5",
-            "alias": "Name",
+            "alias": "Status",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": "WorkAreaStatus"

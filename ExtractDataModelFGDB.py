@@ -255,9 +255,10 @@ for k,v in enumerate(sorted(all_dommains)):
 for fgdb in fgdbs:
     gdbappdomainsheet = workbook.create_sheet(f"AppliedDomains-{fgdb}")
     appdomrow = 1
-    gdbappdomainsheet[f"{cols[0]}{appdomrow}"] = "Class Name"
-    gdbappdomainsheet[f"{cols[1]}{appdomrow}"] = "Field Name"
-    gdbappdomainsheet[f"{cols[2]}{appdomrow}"] = "Subtype Name"
+    gdbappdomainsheet[f"{cols[0]}{appdomrow}"] = "Domain Name"
+    gdbappdomainsheet[f"{cols[1]}{appdomrow}"] = "Class Name"
+    gdbappdomainsheet[f"{cols[2]}{appdomrow}"] = "Field Name"
+    gdbappdomainsheet[f"{cols[3]}{appdomrow}"] = "Subtype Name"
     appdomrow +=1
     db = fgdb.split(".")[0]
     conn_string = f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER=INAROS\SQLEXPRESS;DATABASE=RDT;UID=gisadmin;PWD=Zaq12wsx-GIS"
@@ -273,9 +274,10 @@ for fgdb in fgdbs:
             rows = cursor.fetchall()
             while rows:
                 for row in rows:
-                    gdbappdomainsheet[f"{cols[0]}{appdomrow}"] = "Null" if row[0] is None else row[0]
-                    gdbappdomainsheet[f"{cols[1]}{appdomrow}"] = "Null" if row[1] is None else row[1]
-                    gdbappdomainsheet[f"{cols[2]}{appdomrow}"] = "Null" if row[2] is None else row[2]
+                    gdbappdomainsheet[f"{cols[0]}{appdomrow}"] = a_domain.name
+                    gdbappdomainsheet[f"{cols[1]}{appdomrow}"] = "Null" if row[0] is None else row[0].split(".")[-1]
+                    gdbappdomainsheet[f"{cols[2]}{appdomrow}"] = "Null" if row[1] is None else row[1]
+                    gdbappdomainsheet[f"{cols[3]}{appdomrow}"] = "Null" if row[2] is None else row[2]
                     appdomrow += 1
                 if cursor.nextset():
                     rows = cursor.fetchall()

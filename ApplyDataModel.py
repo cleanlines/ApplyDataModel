@@ -259,7 +259,7 @@ class ApplyDataModel(BaseObject):
             self.errorlog(e)
 
 
-#TODO: set defaults
+#TODO: set default subtypes! setdefaultsubtype
 
 if __name__ == "__main__":
     cfc = ApplyDataModel()

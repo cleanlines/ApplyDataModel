@@ -83,7 +83,7 @@
             "precision": "9",
             "scale": "2",
             "length": "",
-            "alias": "Name",
+            "alias": "Actual Length",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""

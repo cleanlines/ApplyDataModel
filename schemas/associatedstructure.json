@@ -28,7 +28,7 @@
             "precision": "5",
             "scale": "0",
             "length": "",
-            "alias": "Name",
+            "alias": "Structure Type",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": "AssociatedStructType"
@@ -50,7 +50,7 @@
             "precision": "5",
             "scale": "0",
             "length": "",
-            "alias": "Name",
+            "alias": "End Structure",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": "TrueFalse"

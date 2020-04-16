@@ -8,10 +8,12 @@
             "forwardlabel": "Cable",
             "backlabel": "Route",
             "message": "NONE",
-            "cardinality": "ONE_TO_MANY",
+            "cardinality": "MANY_TO_MANY",
             "attributed": "NONE",
             "originpk": "RouteId",
-            "originfk": "RouteId"
+            "originfk": "RouteId",
+            "destinationpk":"CableId",
+            "destinationfk":"CableId"
         },
         {
             "origin": "Route",

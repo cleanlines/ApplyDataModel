@@ -22,7 +22,7 @@
     {
       "name": "Cable",
       "geometry": "POLYLINE",
-      "spatialref": 2277,
+      "spatialref": 2231,
       "fields": "cable.json",
       "globalids": true,
       "editortracking": true,
@@ -32,7 +32,7 @@
     {
       "name": "CableFeature",
       "geometry": "POINT",
-      "spatialref": 2277,
+      "spatialref": 2231,
       "fields": "cablefeature.json",
       "globalids": true,
       "editortracking": true,
@@ -42,7 +42,7 @@
     {
       "name": "CentralOffice",
       "geometry": "POINT",
-      "spatialref": 2277,
+      "spatialref": 2231,
       "fields": "centraloffice.json",
       "globalids": true,
       "editortracking": true,
@@ -62,7 +62,7 @@
     {
       "name": "CentralOfficeArea",
       "geometry": "POLYGON",
-      "spatialref": 2277,
+      "spatialref": 2231,
       "fields": "centralofficearea.json",
       "globalids": true,
       "editortracking": true,
@@ -72,7 +72,7 @@
     {
       "name": "Equipment",
       "geometry": "POINT",
-      "spatialref": 2277,
+      "spatialref": 2231,
       "fields": "equipment.json",
       "globalids": true,
       "editortracking": true,
@@ -82,7 +82,7 @@
     {
       "name": "MarkupLine",
       "geometry": "POLYLINE",
-      "spatialref": 2277,
+      "spatialref": 2231,
       "fields": "markupline.json",
       "globalids": true,
       "editortracking": true,
@@ -92,7 +92,7 @@
     {
       "name": "MarkupPoint",
       "geometry": "POINT",
-      "spatialref": 2277,
+      "spatialref": 2231,
       "fields": "markuppoint.json",
       "globalids": true,
       "editortracking": true,
@@ -102,7 +102,7 @@
     {
       "name": "MarkupPolygon",
       "geometry": "POLYGON",
-      "spatialref": 2277,
+      "spatialref": 2231,
       "fields": "markuppolygon.json",
       "globalids": true,
       "editortracking": true,
@@ -122,7 +122,7 @@
     {
       "name": "PrintTile",
       "geometry": "POLYGON",
-      "spatialref": 2277,
+      "spatialref": 2231,
       "fields": "printtile.json",
       "globalids": true,
       "editortracking": true,
@@ -132,7 +132,7 @@
     {
       "name": "Route",
       "geometry": "POLYLINE",
-      "spatialref": 2277,
+      "spatialref": 2231,
       "fields": "route.json",
       "globalids": true,
       "editortracking": true,
@@ -142,7 +142,7 @@
     {
       "name": "ServicePoint",
       "geometry": "POINT",
-      "spatialref": 2277,
+      "spatialref": 2231,
       "fields": "servicepoint.json",
       "globalids": true,
       "editortracking": true,
@@ -152,7 +152,7 @@
     {
       "name": "ServingArea",
       "geometry": "POLYGON",
-      "spatialref": 2277,
+      "spatialref": 2231,
       "fields": "servingarea.json",
       "globalids": true,
       "editortracking": true,
@@ -162,7 +162,7 @@
     {
       "name": "Structure",
       "geometry": "POINT",
-      "spatialref": 2277,
+      "spatialref": 2231,
       "fields": "structure.json",
       "globalids": true,
       "editortracking": true,
@@ -172,7 +172,7 @@
     {
       "name": "SupportingStructure",
       "geometry": "POLYLINE",
-      "spatialref": 2277,
+      "spatialref": 2231,
       "fields": "supportingstructure.json",
       "globalids": true,
       "editortracking": true,
@@ -182,7 +182,7 @@
     {
       "name": "WorkArea",
       "geometry": "POLYGON",
-      "spatialref": 2277,
+      "spatialref": 2231,
       "fields": "workarea.json",
       "globalids": true,
       "editortracking": true,

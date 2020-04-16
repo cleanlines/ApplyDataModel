@@ -6,7 +6,7 @@
             "precision": "5",
             "scale": "0",
             "length": "",
-            "alias": "Name",
+            "alias": "Type",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
@@ -17,7 +17,7 @@
             "precision": "",
             "scale": "",
             "length": "50",
-            "alias": "Name",
+            "alias": "Work Id",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
@@ -28,7 +28,7 @@
             "precision": "",
             "scale": "",
             "length": "50",
-            "alias": "Name",
+            "alias": "Comment",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
