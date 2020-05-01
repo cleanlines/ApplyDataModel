@@ -10,5 +10,22 @@
             "1": "Plow",
             "3": "Trench"
         }
+    },
+    "ApprovalStatus": {
+        "description": "Approval Status",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "Approved Co-op": "Approved Co-op",
+            "Automatic Approval": "Automatic Approval",
+            "Conflict Design Reviewed": "Conflict Design Reviewed",
+            "Design Complete Automatic": "Design Complete Automatic",
+            "Design Complete Co-op Approved": "Design Complete Co-op Approved",
+            "OK Design Reviewed": "OK Design Reviewed",
+            "Pending Approval": "Pending Approval",
+            "Rejected Co-op": "Rejected Co-op"
+        }
     }
 }

@@ -1,0 +1,311 @@
+{"asctime": "2020-04-02 17:08:31,726", "levelname": "DEBUG", "message": "ApplyDataModel :Class:ApplyDataModel"}
+{"asctime": "2020-04-02 17:08:31,733", "levelname": "DEBUG", "message": "ApplyDataModel :loaded config for ApplyDataModel from c:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.json"}
+{"asctime": "2020-04-02 17:08:31,734", "levelname": "DEBUG", "message": "ApplyDataModel :c:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel/schemas"}
+{"asctime": "2020-04-02 17:08:31,735", "levelname": "DEBUG", "message": "ApplyDataModel :c:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel/schemas/prjs/prjs.gdb"}
+{"asctime": "2020-04-02 17:09:05,782", "levelname": "DEBUG", "message": "ApplyDataModel :Can't add coded value Dflt to TerminalAreaType"}
+{"asctime": "2020-04-02 17:09:05,782", "levelname": "ERROR", "message": "ApplyDataModel :ERROR 002834: The geometry operation was cancelled.\nFailed to execute (AddCodedValueToDomain).\n"}
+{"asctime": "2020-04-02 17:09:05,783", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"c:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 133, in _process_domains\n    arcpy.AddCodedValueToDomain_management(self._connection,k, convert_code, dvalue)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 1696, in AddCodedValueToDomain\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 1693, in AddCodedValueToDomain\n    retval = convertArcObjectToPythonObject(gp.AddCodedValueToDomain_management(*gp_fixargs((in_workspace, domain_name, code, code_description), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: ERROR 002834: The geometry operation was cancelled.\nFailed to execute (AddCodedValueToDomain).\n"}
+{"asctime": "2020-04-02 17:09:31,666", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'Assembly', 'geometry': '', 'spatialref': '', 'fields': 'assembly.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:09:31,698", "levelname": "DEBUG", "message": "ApplyDataModel :Creating table Assembly"}
+{"asctime": "2020-04-02 17:09:33,758", "levelname": "DEBUG", "message": "ApplyDataModel :Assembly created"}
+{"asctime": "2020-04-02 17:09:33,759", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Assembly"}
+{"asctime": "2020-04-02 17:09:33,760", "levelname": "DEBUG", "message": "ApplyDataModel :Applying AssemblyId"}
+{"asctime": "2020-04-02 17:09:35,166", "levelname": "DEBUG", "message": "ApplyDataModel :Field AssemblyId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Assembly"}
+{"asctime": "2020-04-02 17:09:35,167", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StructureId"}
+{"asctime": "2020-04-02 17:09:36,527", "levelname": "DEBUG", "message": "ApplyDataModel :Field StructureId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Assembly"}
+{"asctime": "2020-04-02 17:09:36,528", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RUSCode"}
+{"asctime": "2020-04-02 17:09:37,770", "levelname": "DEBUG", "message": "ApplyDataModel :Field RUSCode added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Assembly"}
+{"asctime": "2020-04-02 17:09:37,771", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'AssociatedStructure', 'geometry': '', 'spatialref': '', 'fields': 'associatedstructure.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:09:37,806", "levelname": "DEBUG", "message": "ApplyDataModel :Creating table AssociatedStructure"}
+{"asctime": "2020-04-02 17:09:39,775", "levelname": "DEBUG", "message": "ApplyDataModel :AssociatedStructure created"}
+{"asctime": "2020-04-02 17:09:39,776", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/AssociatedStructure"}
+{"asctime": "2020-04-02 17:09:39,777", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StructureId"}
+{"asctime": "2020-04-02 17:09:41,056", "levelname": "DEBUG", "message": "ApplyDataModel :Field StructureId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/AssociatedStructure"}
+{"asctime": "2020-04-02 17:09:41,057", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CableId"}
+{"asctime": "2020-04-02 17:09:42,526", "levelname": "DEBUG", "message": "ApplyDataModel :Field CableId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/AssociatedStructure"}
+{"asctime": "2020-04-02 17:09:42,526", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StructureType"}
+{"asctime": "2020-04-02 17:09:44,173", "levelname": "DEBUG", "message": "ApplyDataModel :Field StructureType added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/AssociatedStructure"}
+{"asctime": "2020-04-02 17:09:44,173", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StartStructure"}
+{"asctime": "2020-04-02 17:09:45,851", "levelname": "DEBUG", "message": "ApplyDataModel :Field StartStructure added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/AssociatedStructure"}
+{"asctime": "2020-04-02 17:09:45,852", "levelname": "DEBUG", "message": "ApplyDataModel :Applying EndStructure"}
+{"asctime": "2020-04-02 17:09:47,464", "levelname": "DEBUG", "message": "ApplyDataModel :Field EndStructure added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/AssociatedStructure"}
+{"asctime": "2020-04-02 17:09:47,464", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'Cable', 'geometry': 'POLYLINE', 'spatialref': 2277, 'fields': 'cable.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:09:47,499", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class Cable"}
+{"asctime": "2020-04-02 17:09:49,413", "levelname": "DEBUG", "message": "ApplyDataModel :Cable created"}
+{"asctime": "2020-04-02 17:09:49,414", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Cable"}
+{"asctime": "2020-04-02 17:09:49,415", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CableId"}
+{"asctime": "2020-04-02 17:09:51,120", "levelname": "DEBUG", "message": "ApplyDataModel :Field CableId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Cable"}
+{"asctime": "2020-04-02 17:09:51,120", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RouteId"}
+{"asctime": "2020-04-02 17:09:52,573", "levelname": "DEBUG", "message": "ApplyDataModel :Field RouteId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Cable"}
+{"asctime": "2020-04-02 17:09:52,574", "levelname": "DEBUG", "message": "ApplyDataModel :Applying SupportingStructureId"}
+{"asctime": "2020-04-02 17:09:53,961", "levelname": "DEBUG", "message": "ApplyDataModel :Field SupportingStructureId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Cable"}
+{"asctime": "2020-04-02 17:09:53,961", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Size"}
+{"asctime": "2020-04-02 17:09:55,221", "levelname": "DEBUG", "message": "ApplyDataModel :Field Size added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Cable"}
+{"asctime": "2020-04-02 17:09:55,221", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CableType"}
+{"asctime": "2020-04-02 17:09:56,423", "levelname": "DEBUG", "message": "ApplyDataModel :Field CableType added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Cable"}
+{"asctime": "2020-04-02 17:09:56,424", "levelname": "DEBUG", "message": "ApplyDataModel :Applying SheathId"}
+{"asctime": "2020-04-02 17:09:57,628", "levelname": "DEBUG", "message": "ApplyDataModel :Field SheathId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Cable"}
+{"asctime": "2020-04-02 17:09:57,628", "levelname": "DEBUG", "message": "ApplyDataModel :Applying SectionId"}
+{"asctime": "2020-04-02 17:09:58,846", "levelname": "DEBUG", "message": "ApplyDataModel :Field SectionId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Cable"}
+{"asctime": "2020-04-02 17:09:58,846", "levelname": "DEBUG", "message": "ApplyDataModel :Applying WorkId"}
+{"asctime": "2020-04-02 17:10:00,167", "levelname": "DEBUG", "message": "ApplyDataModel :Field WorkId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Cable"}
+{"asctime": "2020-04-02 17:10:00,168", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-04-02 17:10:01,568", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Cable"}
+{"asctime": "2020-04-02 17:10:01,568", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CustomerServicePointId"}
+{"asctime": "2020-04-02 17:10:02,861", "levelname": "DEBUG", "message": "ApplyDataModel :Field CustomerServicePointId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Cable"}
+{"asctime": "2020-04-02 17:10:02,861", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CentralOfficeDetailId"}
+{"asctime": "2020-04-02 17:10:04,326", "levelname": "DEBUG", "message": "ApplyDataModel :Field CentralOfficeDetailId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Cable"}
+{"asctime": "2020-04-02 17:10:04,326", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RangeLabel"}
+{"asctime": "2020-04-02 17:10:05,911", "levelname": "DEBUG", "message": "ApplyDataModel :Field RangeLabel added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Cable"}
+{"asctime": "2020-04-02 17:10:05,911", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'CableFeature', 'geometry': 'POINT', 'spatialref': 2277, 'fields': 'cablefeature.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:10:05,948", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class CableFeature"}
+{"asctime": "2020-04-02 17:10:07,770", "levelname": "DEBUG", "message": "ApplyDataModel :CableFeature created"}
+{"asctime": "2020-04-02 17:10:07,771", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CableFeature"}
+{"asctime": "2020-04-02 17:10:07,771", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-04-02 17:10:09,217", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CableFeature"}
+{"asctime": "2020-04-02 17:10:09,218", "levelname": "DEBUG", "message": "ApplyDataModel :Applying WorkId"}
+{"asctime": "2020-04-02 17:10:10,719", "levelname": "DEBUG", "message": "ApplyDataModel :Field WorkId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CableFeature"}
+{"asctime": "2020-04-02 17:10:10,719", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-04-02 17:10:12,368", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CableFeature"}
+{"asctime": "2020-04-02 17:10:12,369", "levelname": "DEBUG", "message": "ApplyDataModel :Applying FeatureType"}
+{"asctime": "2020-04-02 17:10:13,833", "levelname": "DEBUG", "message": "ApplyDataModel :Field FeatureType added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CableFeature"}
+{"asctime": "2020-04-02 17:10:13,834", "levelname": "DEBUG", "message": "ApplyDataModel :Applying FromCableId"}
+{"asctime": "2020-04-02 17:10:15,243", "levelname": "DEBUG", "message": "ApplyDataModel :Field FromCableId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CableFeature"}
+{"asctime": "2020-04-02 17:10:15,243", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ToCableId"}
+{"asctime": "2020-04-02 17:10:16,530", "levelname": "DEBUG", "message": "ApplyDataModel :Field ToCableId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CableFeature"}
+{"asctime": "2020-04-02 17:10:16,531", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'CentralOffice', 'geometry': 'POINT', 'spatialref': 2277, 'fields': 'centraloffice.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:10:16,557", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class CentralOffice"}
+{"asctime": "2020-04-02 17:10:18,371", "levelname": "DEBUG", "message": "ApplyDataModel :CentralOffice created"}
+{"asctime": "2020-04-02 17:10:18,372", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CentralOffice"}
+{"asctime": "2020-04-02 17:10:18,373", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CentralOfficeId"}
+{"asctime": "2020-04-02 17:10:19,818", "levelname": "DEBUG", "message": "ApplyDataModel :Field CentralOfficeId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CentralOffice"}
+{"asctime": "2020-04-02 17:10:19,818", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-04-02 17:10:21,222", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CentralOffice"}
+{"asctime": "2020-04-02 17:10:21,222", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'CentralOfficeDetail', 'geometry': '', 'spatialref': '', 'fields': 'centralofficedetail.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:10:21,254", "levelname": "DEBUG", "message": "ApplyDataModel :Creating table CentralOfficeDetail"}
+{"asctime": "2020-04-02 17:10:22,722", "levelname": "DEBUG", "message": "ApplyDataModel :CentralOfficeDetail created"}
+{"asctime": "2020-04-02 17:10:22,723", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CentralOfficeDetail"}
+{"asctime": "2020-04-02 17:10:22,724", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Name"}
+{"asctime": "2020-04-02 17:10:23,736", "levelname": "DEBUG", "message": "ApplyDataModel :Field Name added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CentralOfficeDetail"}
+{"asctime": "2020-04-02 17:10:23,736", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Code"}
+{"asctime": "2020-04-02 17:10:24,699", "levelname": "DEBUG", "message": "ApplyDataModel :Field Code added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CentralOfficeDetail"}
+{"asctime": "2020-04-02 17:10:24,700", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CircuitNumber"}
+{"asctime": "2020-04-02 17:10:25,689", "levelname": "DEBUG", "message": "ApplyDataModel :Field CircuitNumber added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CentralOfficeDetail"}
+{"asctime": "2020-04-02 17:10:25,690", "levelname": "DEBUG", "message": "ApplyDataModel :Applying DetailId"}
+{"asctime": "2020-04-02 17:10:26,723", "levelname": "DEBUG", "message": "ApplyDataModel :Field DetailId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CentralOfficeDetail"}
+{"asctime": "2020-04-02 17:10:26,723", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CentralOfficeId"}
+{"asctime": "2020-04-02 17:10:28,001", "levelname": "DEBUG", "message": "ApplyDataModel :Field CentralOfficeId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CentralOfficeDetail"}
+{"asctime": "2020-04-02 17:10:28,002", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'CentralOfficeArea', 'geometry': 'POLYGON', 'spatialref': 2277, 'fields': 'centralofficearea.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:10:28,037", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class CentralOfficeArea"}
+{"asctime": "2020-04-02 17:10:29,683", "levelname": "DEBUG", "message": "ApplyDataModel :CentralOfficeArea created"}
+{"asctime": "2020-04-02 17:10:29,684", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CentralOfficeArea"}
+{"asctime": "2020-04-02 17:10:29,685", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CentralOfficeAreaId"}
+{"asctime": "2020-04-02 17:10:31,362", "levelname": "DEBUG", "message": "ApplyDataModel :Field CentralOfficeAreaId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CentralOfficeArea"}
+{"asctime": "2020-04-02 17:10:31,363", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CentralOfficeId"}
+{"asctime": "2020-04-02 17:10:33,022", "levelname": "DEBUG", "message": "ApplyDataModel :Field CentralOfficeId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/CentralOfficeArea"}
+{"asctime": "2020-04-02 17:10:33,023", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'Equipment', 'geometry': 'POINT', 'spatialref': 2277, 'fields': 'equipment.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:10:33,055", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class Equipment"}
+{"asctime": "2020-04-02 17:10:34,914", "levelname": "DEBUG", "message": "ApplyDataModel :Equipment created"}
+{"asctime": "2020-04-02 17:10:34,914", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Equipment"}
+{"asctime": "2020-04-02 17:10:34,916", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-04-02 17:10:36,473", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Equipment"}
+{"asctime": "2020-04-02 17:10:36,474", "levelname": "DEBUG", "message": "ApplyDataModel :Applying EquipmentId"}
+{"asctime": "2020-04-02 17:10:38,072", "levelname": "DEBUG", "message": "ApplyDataModel :Field EquipmentId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Equipment"}
+{"asctime": "2020-04-02 17:10:38,072", "levelname": "DEBUG", "message": "ApplyDataModel :Applying EquipmentType"}
+{"asctime": "2020-04-02 17:10:39,741", "levelname": "DEBUG", "message": "ApplyDataModel :Field EquipmentType added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Equipment"}
+{"asctime": "2020-04-02 17:10:39,741", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-04-02 17:10:41,279", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Equipment"}
+{"asctime": "2020-04-02 17:10:41,279", "levelname": "DEBUG", "message": "ApplyDataModel :Applying WorkId"}
+{"asctime": "2020-04-02 17:10:42,868", "levelname": "DEBUG", "message": "ApplyDataModel :Field WorkId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Equipment"}
+{"asctime": "2020-04-02 17:10:42,868", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RangeLabel"}
+{"asctime": "2020-04-02 17:10:44,248", "levelname": "DEBUG", "message": "ApplyDataModel :Field RangeLabel added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Equipment"}
+{"asctime": "2020-04-02 17:10:44,248", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Length"}
+{"asctime": "2020-04-02 17:10:45,523", "levelname": "DEBUG", "message": "ApplyDataModel :Field Length added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Equipment"}
+{"asctime": "2020-04-02 17:10:45,523", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ActualLength"}
+{"asctime": "2020-04-02 17:10:46,772", "levelname": "DEBUG", "message": "ApplyDataModel :Field ActualLength added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Equipment"}
+{"asctime": "2020-04-02 17:10:46,773", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'MarkupLine', 'geometry': 'POLYLINE', 'spatialref': 2277, 'fields': 'markupline.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:10:46,802", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class MarkupLine"}
+{"asctime": "2020-04-02 17:10:48,272", "levelname": "DEBUG", "message": "ApplyDataModel :MarkupLine created"}
+{"asctime": "2020-04-02 17:10:48,273", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/MarkupLine"}
+{"asctime": "2020-04-02 17:10:48,274", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-04-02 17:10:49,614", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/MarkupLine"}
+{"asctime": "2020-04-02 17:10:49,615", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-04-02 17:10:50,817", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/MarkupLine"}
+{"asctime": "2020-04-02 17:10:50,817", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Colour"}
+{"asctime": "2020-04-02 17:10:52,236", "levelname": "DEBUG", "message": "ApplyDataModel :Field Colour added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/MarkupLine"}
+{"asctime": "2020-04-02 17:10:52,237", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'MarkupPoint', 'geometry': 'POINT', 'spatialref': 2277, 'fields': 'markuppoint.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:10:52,261", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class MarkupPoint"}
+{"asctime": "2020-04-02 17:10:53,728", "levelname": "DEBUG", "message": "ApplyDataModel :MarkupPoint created"}
+{"asctime": "2020-04-02 17:10:53,729", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/MarkupPoint"}
+{"asctime": "2020-04-02 17:10:53,730", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-04-02 17:10:54,937", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/MarkupPoint"}
+{"asctime": "2020-04-02 17:10:54,937", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-04-02 17:10:56,371", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/MarkupPoint"}
+{"asctime": "2020-04-02 17:10:56,371", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Colour"}
+{"asctime": "2020-04-02 17:10:58,035", "levelname": "DEBUG", "message": "ApplyDataModel :Field Colour added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/MarkupPoint"}
+{"asctime": "2020-04-02 17:10:58,036", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'MarkupPolygon', 'geometry': 'POLYGON', 'spatialref': 2277, 'fields': 'markuppolygon.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:10:58,071", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class MarkupPolygon"}
+{"asctime": "2020-04-02 17:10:59,950", "levelname": "DEBUG", "message": "ApplyDataModel :MarkupPolygon created"}
+{"asctime": "2020-04-02 17:10:59,951", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/MarkupPolygon"}
+{"asctime": "2020-04-02 17:10:59,952", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-04-02 17:11:01,516", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/MarkupPolygon"}
+{"asctime": "2020-04-02 17:11:01,516", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-04-02 17:11:03,210", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/MarkupPolygon"}
+{"asctime": "2020-04-02 17:11:03,211", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Colour"}
+{"asctime": "2020-04-02 17:11:05,038", "levelname": "DEBUG", "message": "ApplyDataModel :Field Colour added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/MarkupPolygon"}
+{"asctime": "2020-04-02 17:11:05,038", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'NetworkConnectivity', 'geometry': '', 'spatialref': '', 'fields': 'networkconnectivity.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:11:05,068", "levelname": "DEBUG", "message": "ApplyDataModel :Creating table NetworkConnectivity"}
+{"asctime": "2020-04-02 17:11:06,719", "levelname": "DEBUG", "message": "ApplyDataModel :NetworkConnectivity created"}
+{"asctime": "2020-04-02 17:11:06,720", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/NetworkConnectivity"}
+{"asctime": "2020-04-02 17:11:06,720", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ConnectionId"}
+{"asctime": "2020-04-02 17:11:07,842", "levelname": "DEBUG", "message": "ApplyDataModel :Field ConnectionId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/NetworkConnectivity"}
+{"asctime": "2020-04-02 17:11:07,842", "levelname": "DEBUG", "message": "ApplyDataModel :Applying InFeatureId"}
+{"asctime": "2020-04-02 17:11:08,839", "levelname": "DEBUG", "message": "ApplyDataModel :Field InFeatureId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/NetworkConnectivity"}
+{"asctime": "2020-04-02 17:11:08,840", "levelname": "DEBUG", "message": "ApplyDataModel :Applying InConnectionStart"}
+{"asctime": "2020-04-02 17:11:09,869", "levelname": "DEBUG", "message": "ApplyDataModel :Field InConnectionStart added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/NetworkConnectivity"}
+{"asctime": "2020-04-02 17:11:09,869", "levelname": "DEBUG", "message": "ApplyDataModel :Applying InConnectionStop"}
+{"asctime": "2020-04-02 17:11:10,896", "levelname": "DEBUG", "message": "ApplyDataModel :Field InConnectionStop added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/NetworkConnectivity"}
+{"asctime": "2020-04-02 17:11:10,896", "levelname": "DEBUG", "message": "ApplyDataModel :Applying OutFeatureId"}
+{"asctime": "2020-04-02 17:11:11,835", "levelname": "DEBUG", "message": "ApplyDataModel :Field OutFeatureId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/NetworkConnectivity"}
+{"asctime": "2020-04-02 17:11:11,835", "levelname": "DEBUG", "message": "ApplyDataModel :Applying OutConnectionStart"}
+{"asctime": "2020-04-02 17:11:12,838", "levelname": "DEBUG", "message": "ApplyDataModel :Field OutConnectionStart added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/NetworkConnectivity"}
+{"asctime": "2020-04-02 17:11:12,838", "levelname": "DEBUG", "message": "ApplyDataModel :Applying OutConnectionStop"}
+{"asctime": "2020-04-02 17:11:13,790", "levelname": "DEBUG", "message": "ApplyDataModel :Field OutConnectionStop added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/NetworkConnectivity"}
+{"asctime": "2020-04-02 17:11:13,790", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Loss"}
+{"asctime": "2020-04-02 17:11:14,782", "levelname": "DEBUG", "message": "ApplyDataModel :Field Loss added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/NetworkConnectivity"}
+{"asctime": "2020-04-02 17:11:14,782", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'PrintTile', 'geometry': 'POLYGON', 'spatialref': 2277, 'fields': 'printtile.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:11:14,813", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class PrintTile"}
+{"asctime": "2020-04-02 17:11:16,253", "levelname": "DEBUG", "message": "ApplyDataModel :PrintTile created"}
+{"asctime": "2020-04-02 17:11:16,253", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/PrintTile"}
+{"asctime": "2020-04-02 17:11:16,254", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Name"}
+{"asctime": "2020-04-02 17:11:17,834", "levelname": "DEBUG", "message": "ApplyDataModel :Field Name added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/PrintTile"}
+{"asctime": "2020-04-02 17:11:17,835", "levelname": "DEBUG", "message": "ApplyDataModel :Applying PageNumber"}
+{"asctime": "2020-04-02 17:11:19,321", "levelname": "DEBUG", "message": "ApplyDataModel :Field PageNumber added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/PrintTile"}
+{"asctime": "2020-04-02 17:11:19,322", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'Route', 'geometry': 'POLYLINE', 'spatialref': 2277, 'fields': 'route.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:11:19,355", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class Route"}
+{"asctime": "2020-04-02 17:11:21,134", "levelname": "DEBUG", "message": "ApplyDataModel :Route created"}
+{"asctime": "2020-04-02 17:11:21,135", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Route"}
+{"asctime": "2020-04-02 17:11:21,136", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-04-02 17:11:22,615", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Route"}
+{"asctime": "2020-04-02 17:11:22,616", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RouteId"}
+{"asctime": "2020-04-02 17:11:23,958", "levelname": "DEBUG", "message": "ApplyDataModel :Field RouteId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Route"}
+{"asctime": "2020-04-02 17:11:23,959", "levelname": "DEBUG", "message": "ApplyDataModel :Applying FromStructureId"}
+{"asctime": "2020-04-02 17:11:25,251", "levelname": "DEBUG", "message": "ApplyDataModel :Field FromStructureId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Route"}
+{"asctime": "2020-04-02 17:11:25,251", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ToStructureId"}
+{"asctime": "2020-04-02 17:11:26,436", "levelname": "DEBUG", "message": "ApplyDataModel :Field ToStructureId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Route"}
+{"asctime": "2020-04-02 17:11:26,436", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Name"}
+{"asctime": "2020-04-02 17:11:27,675", "levelname": "DEBUG", "message": "ApplyDataModel :Field Name added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Route"}
+{"asctime": "2020-04-02 17:11:27,676", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Colour"}
+{"asctime": "2020-04-02 17:11:29,205", "levelname": "DEBUG", "message": "ApplyDataModel :Field Colour added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Route"}
+{"asctime": "2020-04-02 17:11:29,205", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'ServicePoint', 'geometry': 'POINT', 'spatialref': 2277, 'fields': 'servicepoint.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:11:29,233", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class ServicePoint"}
+{"asctime": "2020-04-02 17:11:30,659", "levelname": "DEBUG", "message": "ApplyDataModel :ServicePoint created"}
+{"asctime": "2020-04-02 17:11:30,660", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/ServicePoint"}
+{"asctime": "2020-04-02 17:11:30,661", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ServicePointId"}
+{"asctime": "2020-04-02 17:11:31,857", "levelname": "DEBUG", "message": "ApplyDataModel :Field ServicePointId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/ServicePoint"}
+{"asctime": "2020-04-02 17:11:31,857", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CustomerNumber"}
+{"asctime": "2020-04-02 17:11:33,053", "levelname": "DEBUG", "message": "ApplyDataModel :Field CustomerNumber added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/ServicePoint"}
+{"asctime": "2020-04-02 17:11:33,053", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CustomerServicePointId"}
+{"asctime": "2020-04-02 17:11:34,312", "levelname": "DEBUG", "message": "ApplyDataModel :Field CustomerServicePointId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/ServicePoint"}
+{"asctime": "2020-04-02 17:11:34,313", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Name"}
+{"asctime": "2020-04-02 17:11:35,887", "levelname": "DEBUG", "message": "ApplyDataModel :Field Name added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/ServicePoint"}
+{"asctime": "2020-04-02 17:11:35,888", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Address"}
+{"asctime": "2020-04-02 17:11:37,353", "levelname": "DEBUG", "message": "ApplyDataModel :Field Address added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/ServicePoint"}
+{"asctime": "2020-04-02 17:11:37,353", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'ServingArea', 'geometry': 'POLYGON', 'spatialref': 2277, 'fields': 'servingarea.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:11:37,387", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class ServingArea"}
+{"asctime": "2020-04-02 17:11:39,349", "levelname": "DEBUG", "message": "ApplyDataModel :ServingArea created"}
+{"asctime": "2020-04-02 17:11:39,349", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/ServingArea"}
+{"asctime": "2020-04-02 17:11:39,351", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-04-02 17:11:40,836", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/ServingArea"}
+{"asctime": "2020-04-02 17:11:40,836", "levelname": "DEBUG", "message": "ApplyDataModel :Applying AreaType"}
+{"asctime": "2020-04-02 17:11:42,418", "levelname": "DEBUG", "message": "ApplyDataModel :Field AreaType added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/ServingArea"}
+{"asctime": "2020-04-02 17:11:42,419", "levelname": "DEBUG", "message": "ApplyDataModel :Applying EquipmentId"}
+{"asctime": "2020-04-02 17:11:43,989", "levelname": "DEBUG", "message": "ApplyDataModel :Field EquipmentId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/ServingArea"}
+{"asctime": "2020-04-02 17:11:43,990", "levelname": "DEBUG", "message": "ApplyDataModel :Applying WorkId"}
+{"asctime": "2020-04-02 17:11:45,534", "levelname": "DEBUG", "message": "ApplyDataModel :Field WorkId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/ServingArea"}
+{"asctime": "2020-04-02 17:11:45,534", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CentralOfficeDetailId"}
+{"asctime": "2020-04-02 17:11:46,998", "levelname": "DEBUG", "message": "ApplyDataModel :Field CentralOfficeDetailId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/ServingArea"}
+{"asctime": "2020-04-02 17:11:46,998", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Colour"}
+{"asctime": "2020-04-02 17:11:48,644", "levelname": "DEBUG", "message": "ApplyDataModel :Field Colour added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/ServingArea"}
+{"asctime": "2020-04-02 17:11:48,644", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ServicePointCount"}
+{"asctime": "2020-04-02 17:11:50,172", "levelname": "DEBUG", "message": "ApplyDataModel :Field ServicePointCount added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/ServingArea"}
+{"asctime": "2020-04-02 17:11:50,172", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'Structure', 'geometry': 'POINT', 'spatialref': 2277, 'fields': 'structure.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:11:50,198", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class Structure"}
+{"asctime": "2020-04-02 17:11:51,630", "levelname": "DEBUG", "message": "ApplyDataModel :Structure created"}
+{"asctime": "2020-04-02 17:11:51,630", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Structure"}
+{"asctime": "2020-04-02 17:11:51,631", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-04-02 17:11:52,825", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Structure"}
+{"asctime": "2020-04-02 17:11:52,825", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StructureId"}
+{"asctime": "2020-04-02 17:11:54,000", "levelname": "DEBUG", "message": "ApplyDataModel :Field StructureId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Structure"}
+{"asctime": "2020-04-02 17:11:54,001", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CentralOfficeDetailId"}
+{"asctime": "2020-04-02 17:11:55,210", "levelname": "DEBUG", "message": "ApplyDataModel :Field CentralOfficeDetailId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Structure"}
+{"asctime": "2020-04-02 17:11:55,210", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StructureType"}
+{"asctime": "2020-04-02 17:11:56,426", "levelname": "DEBUG", "message": "ApplyDataModel :Field StructureType added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Structure"}
+{"asctime": "2020-04-02 17:11:56,426", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-04-02 17:11:57,730", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Structure"}
+{"asctime": "2020-04-02 17:11:57,730", "levelname": "DEBUG", "message": "ApplyDataModel :Applying FromCableId"}
+{"asctime": "2020-04-02 17:11:59,196", "levelname": "DEBUG", "message": "ApplyDataModel :Field FromCableId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Structure"}
+{"asctime": "2020-04-02 17:11:59,196", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ToCableId"}
+{"asctime": "2020-04-02 17:12:00,766", "levelname": "DEBUG", "message": "ApplyDataModel :Field ToCableId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Structure"}
+{"asctime": "2020-04-02 17:12:00,766", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CustomerStructureId"}
+{"asctime": "2020-04-02 17:12:02,253", "levelname": "DEBUG", "message": "ApplyDataModel :Field CustomerStructureId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Structure"}
+{"asctime": "2020-04-02 17:12:02,254", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StructureAudit"}
+{"asctime": "2020-04-02 17:12:03,732", "levelname": "DEBUG", "message": "ApplyDataModel :Field StructureAudit added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/Structure"}
+{"asctime": "2020-04-02 17:12:03,732", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'SupportingStructure', 'geometry': 'POLYLINE', 'spatialref': 2277, 'fields': 'supportingstructure.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:12:03,765", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class SupportingStructure"}
+{"asctime": "2020-04-02 17:12:05,218", "levelname": "DEBUG", "message": "ApplyDataModel :SupportingStructure created"}
+{"asctime": "2020-04-02 17:12:05,219", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/SupportingStructure"}
+{"asctime": "2020-04-02 17:12:05,226", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-04-02 17:12:06,428", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/SupportingStructure"}
+{"asctime": "2020-04-02 17:12:06,429", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RouteId"}
+{"asctime": "2020-04-02 17:12:07,614", "levelname": "DEBUG", "message": "ApplyDataModel :Field RouteId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/SupportingStructure"}
+{"asctime": "2020-04-02 17:12:07,615", "levelname": "DEBUG", "message": "ApplyDataModel :Applying SupportingStructureId"}
+{"asctime": "2020-04-02 17:12:08,833", "levelname": "DEBUG", "message": "ApplyDataModel :Field SupportingStructureId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/SupportingStructure"}
+{"asctime": "2020-04-02 17:12:08,833", "levelname": "DEBUG", "message": "ApplyDataModel :Applying InstallationType"}
+{"asctime": "2020-04-02 17:12:10,043", "levelname": "DEBUG", "message": "ApplyDataModel :Field InstallationType added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/SupportingStructure"}
+{"asctime": "2020-04-02 17:12:10,043", "levelname": "DEBUG", "message": "ApplyDataModel :Applying FromDistance"}
+{"asctime": "2020-04-02 17:12:11,277", "levelname": "DEBUG", "message": "ApplyDataModel :Field FromDistance added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/SupportingStructure"}
+{"asctime": "2020-04-02 17:12:11,277", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ToDistance"}
+{"asctime": "2020-04-02 17:12:12,707", "levelname": "DEBUG", "message": "ApplyDataModel :Field ToDistance added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/SupportingStructure"}
+{"asctime": "2020-04-02 17:12:12,708", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Size"}
+{"asctime": "2020-04-02 17:12:14,324", "levelname": "DEBUG", "message": "ApplyDataModel :Field Size added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/SupportingStructure"}
+{"asctime": "2020-04-02 17:12:14,325", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'WorkArea', 'geometry': 'POLYGON', 'spatialref': 2277, 'fields': 'workarea.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:12:14,362", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class WorkArea"}
+{"asctime": "2020-04-02 17:12:16,516", "levelname": "DEBUG", "message": "ApplyDataModel :WorkArea created"}
+{"asctime": "2020-04-02 17:12:16,517", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/WorkArea"}
+{"asctime": "2020-04-02 17:12:16,518", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-04-02 17:12:17,932", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/WorkArea"}
+{"asctime": "2020-04-02 17:12:17,933", "levelname": "DEBUG", "message": "ApplyDataModel :Applying AreaCableType"}
+{"asctime": "2020-04-02 17:12:19,190", "levelname": "DEBUG", "message": "ApplyDataModel :Field AreaCableType added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/WorkArea"}
+{"asctime": "2020-04-02 17:12:19,190", "levelname": "DEBUG", "message": "ApplyDataModel :Applying AreaArchitecture"}
+{"asctime": "2020-04-02 17:12:20,389", "levelname": "DEBUG", "message": "ApplyDataModel :Field AreaArchitecture added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/WorkArea"}
+{"asctime": "2020-04-02 17:12:20,390", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CentralOfficeId"}
+{"asctime": "2020-04-02 17:12:21,596", "levelname": "DEBUG", "message": "ApplyDataModel :Field CentralOfficeId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/WorkArea"}
+{"asctime": "2020-04-02 17:12:21,596", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Name"}
+{"asctime": "2020-04-02 17:12:22,901", "levelname": "DEBUG", "message": "ApplyDataModel :Field Name added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/WorkArea"}
+{"asctime": "2020-04-02 17:12:22,901", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Colour"}
+{"asctime": "2020-04-02 17:12:24,293", "levelname": "DEBUG", "message": "ApplyDataModel :Field Colour added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/WorkArea"}
+{"asctime": "2020-04-02 17:12:24,293", "levelname": "DEBUG", "message": "ApplyDataModel :Applying IsActive"}
+{"asctime": "2020-04-02 17:12:25,812", "levelname": "DEBUG", "message": "ApplyDataModel :Field IsActive added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/WorkArea"}
+{"asctime": "2020-04-02 17:12:25,813", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Status"}
+{"asctime": "2020-04-02 17:12:27,356", "levelname": "DEBUG", "message": "ApplyDataModel :Field Status added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/WorkArea"}
+{"asctime": "2020-04-02 17:12:27,356", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'PowerEquipment', 'geometry': '', 'spatialref': '', 'fields': 'powerequipment.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False}"}
+{"asctime": "2020-04-02 17:12:27,386", "levelname": "DEBUG", "message": "ApplyDataModel :Creating table PowerEquipment"}
+{"asctime": "2020-04-02 17:12:29,542", "levelname": "DEBUG", "message": "ApplyDataModel :PowerEquipment created"}
+{"asctime": "2020-04-02 17:12:29,543", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/PowerEquipment"}
+{"asctime": "2020-04-02 17:12:29,545", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StructureId"}
+{"asctime": "2020-04-02 17:12:30,941", "levelname": "DEBUG", "message": "ApplyDataModel :Field StructureId added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/PowerEquipment"}
+{"asctime": "2020-04-02 17:12:30,942", "levelname": "DEBUG", "message": "ApplyDataModel :Applying EquipmentType"}
+{"asctime": "2020-04-02 17:12:32,468", "levelname": "DEBUG", "message": "ApplyDataModel :Field EquipmentType added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/PowerEquipment"}
+{"asctime": "2020-04-02 17:12:32,469", "levelname": "DEBUG", "message": "ApplyDataModel :Applying EquipmentCount"}
+{"asctime": "2020-04-02 17:12:33,851", "levelname": "DEBUG", "message": "ApplyDataModel :Field EquipmentCount added to C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/PowerEquipment"}
+{"asctime": "2020-04-02 17:12:33,852", "levelname": "DEBUG", "message": "ApplyDataModel :Processing feature classes finished."}
+{"asctime": "2020-04-02 17:13:45,071", "levelname": "DEBUG", "message": "ApplyDataModel :Setting subtype field C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/WorkArea,domains failed"}
+{"asctime": "2020-04-02 17:13:45,072", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 000728: Field domains does not exist within table\nFailed to execute (SetSubtypeField).\n"}
+{"asctime": "2020-04-02 17:13:45,072", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"c:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 159, in _process_subtypes\n    arcpy.SetSubtypeField_management(full_fc, fd)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 19657, in SetSubtypeField\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 19654, in SetSubtypeField\n    retval = convertArcObjectToPythonObject(gp.SetSubtypeField_management(*gp_fixargs((in_table, field, clear_value), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 000728: Field domains does not exist within table\nFailed to execute (SetSubtypeField).\n"}
+{"asctime": "2020-04-02 17:13:45,110", "levelname": "DEBUG", "message": "ApplyDataModel :Setting subtype code C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc.gdb/WorkArea,domains,1,{'AreaArchitecture': 'WorkAreaArchitecture', 'AreaCableType': 'WorkAreaCableType'} failed"}
+{"asctime": "2020-04-02 17:13:45,111", "levelname": "ERROR", "message": "ApplyDataModel :Object: Error in executing tool"}
+{"asctime": "2020-04-02 17:13:45,111", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"c:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 165, in _process_subtypes\n    arcpy.AddSubtype_management(full_fc, code, st_vals[code])\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 19589, in AddSubtype\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 19586, in AddSubtype\n    retval = convertArcObjectToPythonObject(gp.AddSubtype_management(*gp_fixargs((in_table, subtype_code, subtype_description), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\nRuntimeError: Object: Error in executing tool"}
+{"asctime": "2020-04-02 17:14:37,282", "levelname": "DEBUG", "message": "ApplyDataModel :Can't add relationship for to Structure_PowerEquipment"}
+{"asctime": "2020-04-02 17:14:37,282", "levelname": "ERROR", "message": "ApplyDataModel :ERROR 999999: Something unexpected caused the tool to fail. Contact Esri Technical Support (http://esriurl.com/support) to Report a Bug, and refer to the error help for potential solutions or workarounds.\nFailed to execute (CreateRelationshipClass).\n"}
+{"asctime": "2020-04-02 17:14:37,283", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"c:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 91, in _process_relationship_classes\n    arcpy.CreateRelationshipClass_management(f\"{self._connection}/{a_relationship['origin']}\",f\"{self._connection}/{a_relationship['destination']}\", a_relationship['outclass'], a_relationship['type'], a_relationship['forwardlabel'], a_relationship['backlabel'], a_relationship['message'], a_relationship['cardinality'], a_relationship['attributed'], a_relationship['originpk'], a_relationship['originfk'])\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 19096, in CreateRelationshipClass\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 19093, in CreateRelationshipClass\n    retval = convertArcObjectToPythonObject(gp.CreateRelationshipClass_management(*gp_fixargs((origin_table, destination_table, out_relationship_class, relationship_type, forward_label, backward_label, message_direction, cardinality, attributed, origin_primary_key, origin_foreign_key, destination_primary_key, destination_foreign_key), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: ERROR 999999: Something unexpected caused the tool to fail. Contact Esri Technical Support (http://esriurl.com/support) to Report a Bug, and refer to the error help for potential solutions or workarounds.\nFailed to execute (CreateRelationshipClass).\n"}
