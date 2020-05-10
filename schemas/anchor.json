@@ -1,0 +1,70 @@
+{
+    "fields": [
+        {
+            "name": "AnchorId",
+            "type": "GUID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Anchor Id",
+            "nullable": "NULLABLE",
+            "required": "REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "Lead",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Lead",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "Feet"
+        },
+        {
+            "name": "Height",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Height",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "Feet"
+        },
+        {
+            "name": "PoleNumber",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "50",
+            "alias": "Pole Number",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "Lat",
+            "type": "DOUBLE",
+            "precision": "12",
+            "scale": "7",
+            "length": "",
+            "alias": "Lat",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "Long",
+            "type": "DOUBLE",
+            "precision": "12",
+            "scale": "7",
+            "length": "",
+            "alias": "Long",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        }
+    ]
+}

@@ -38,6 +38,71 @@
             "attributed": "NONE",
             "originpk": "RedlineFeatureId",
             "originfk": "RedlineFeatureId"
+        },
+        {
+            "origin": "Anchor",
+            "destination": "Assembly",
+            "outclass": "Anchor_Assembly",
+            "type": "SIMPLE",
+            "forwardlabel": "Assembly",
+            "backlabel": "Anchor",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "AnchorId",
+            "originfk": "StructureId"
+        },
+        {
+            "origin": "Anchor",
+            "destination": "Comment",
+            "outclass": "Anchor_Comment",
+            "type": "SIMPLE",
+            "forwardlabel": "Comment",
+            "backlabel": "Anchor",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "AnchorId",
+            "originfk": "FeatureId"
+        },
+        {
+            "origin": "Pole",
+            "destination": "Assembly",
+            "outclass": "Pole_Assembly",
+            "type": "SIMPLE",
+            "forwardlabel": "Assembly",
+            "backlabel": "Pole",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "PoleId",
+            "originfk": "StructureId"
+        },
+        {
+            "origin": "Pole",
+            "destination": "MakeReadyCategory",
+            "outclass": "Pole_MakeReadyCategory",
+            "type": "SIMPLE",
+            "forwardlabel": "MakeReadyCategory",
+            "backlabel": "Pole",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "PoleId",
+            "originfk": "PoleId"
+        },
+        {
+            "origin": "Pole",
+            "destination": "Comment",
+            "outclass": "Pole_Comment",
+            "type": "SIMPLE",
+            "forwardlabel": "Comment",
+            "backlabel": "Pole",
+            "message": "NONE",
+            "cardinality": "ONE_TO_MANY",
+            "attributed": "NONE",
+            "originpk": "PoleId",
+            "originfk": "FeatureId"
         }
     ]
 }

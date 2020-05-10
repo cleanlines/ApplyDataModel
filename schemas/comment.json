@@ -1,0 +1,48 @@
+{
+    "fields": [
+        {
+            "name": "CommentId",
+            "type": "GUID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Comment Id",
+            "nullable": "NULLABLE",
+            "required": "REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "FeatureId",
+            "type": "GUID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "FeatureId Id",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "Comment",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "255",
+            "alias": "Comment",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "CommentType",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Comment Type",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "CommentType"
+        }
+    ]
+}

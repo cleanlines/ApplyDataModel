@@ -8,7 +8,24 @@
         },
         "domains": {
             "1": {
-                "LineType": "RouteBuildType"}
+                "LineType": "RouteBuildType"
+            }
+        }
+    },
+    "Assembly": {
+        "field": {
+            "Type": {
+                "0": "Pole",
+                "1": "Anchor"
+            }
+        },
+        "domains": {
+            "0": {
+                "RUSCode": "RUSCodeAerial"
+            },
+            "1": {
+                "RUSCode": "RUSCodeAnchor"
+            }
         }
     }
 }

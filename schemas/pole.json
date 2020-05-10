@@ -1,0 +1,92 @@
+{
+    "fields": [
+        {
+            "name": "PoleId",
+            "type": "GUID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Pole Id",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "PoleNumber",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "50",
+            "alias": "Pole Number",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "ExtensionArm",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "10",
+            "alias": "Extension Arm",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "ExtensionArm"
+        },
+        {
+            "name": "ProposedAttachmentHeight",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Proposed Attachment Height",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "ProposedAttachmentHeight"
+        },
+        {
+            "name": "CollectionComplete",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Collection Complete",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "CollectionComplete"
+        },
+        {
+            "name": "FromCableId",
+            "type": "GUID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "From Cable Id",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "ToCableId",
+            "type": "GUID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "To Cable Id",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "StructureAudit",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "50",
+            "alias": "StructureStatus",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "StructureAudit"
+        }
+    ]
+}

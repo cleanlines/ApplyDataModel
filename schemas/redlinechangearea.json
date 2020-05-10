@@ -35,14 +35,14 @@
         },
         {
             "name": "ChangeId",
-            "alias": "Change Id",
-            "domain": "ApprovalStatus",
-            "nullable": "NULLABLE",
-            "length": 4,
+            "type": "LONG",
             "precision": 10,
-            "required": "NON_REQUIRED",
             "scale": 0,
-            "type": "LONG"
+            "length": "",
+            "alias": "Change Id",
+            "nullable": "NULLABLE",            
+            "required": "NON_REQUIRED",
+            "domain": ""            
         },
         {
             "name": "RedlineFeatureId",

@@ -1,72 +1,142 @@
 [
-    {
-      "name": "FieldingAreaMarker",
-      "geometry": "POLYGON",
-      "spatialref": 2277,
-      "fields": "fieldingareamarker.json",
-      "globalids": true,
-      "editortracking": true,
-      "archiving": true,
-      "attachments": true
-    },
-    {
-      "name": "FieldingPointMarker",
-      "geometry": "POINT",
-      "spatialref": 2277,
-      "fields": "fieldingpointmarker.json",
-      "globalids": true,
-      "editortracking": true,
-      "archiving": true,
-      "attachments": true
-    },
-    {
-      "name": "FieldingLineMarker",
-      "geometry": "POLYLINE",
-      "spatialref": 2277,
-      "fields": "fieldinglinemarker.json",
-      "globalids": true,
-      "editortracking": true,
-      "archiving": true,
-      "attachments": true
-    },
-    {
-      "name": "RedlineChangeArea",
-      "geometry": "POLYGON",
-      "spatialref": 2277,
-      "fields": "redlinechangearea.json",
-      "globalids": true,
-      "editortracking": true,
-      "archiving": true,
-      "attachments": false
-    },
-    {
-      "name": "RedlinePointMarker",
-      "geometry": "POINT",
-      "spatialref": 2277,
-      "fields": "redlinepointmarker.json",
-      "globalids": true,
-      "editortracking": true,
-      "archiving": true,
-      "attachments": true
-    },
-    {
-      "name": "RedlineLineMarker",
-      "geometry": "POLYLINE",
-      "spatialref": 2277,
-      "fields": "redlinelinemarker.json",
-      "globalids": true,
-      "editortracking": true,
-      "archiving": true,
-      "attachments": false
-    },
-    {
-      "name": "RedlineComment",
-      "geometry": "",
-      "spatialref": "",
-      "fields": "redlinecomment.json",
-      "globalids": true,
-      "editortracking": true,
-      "archiving": true,
-      "attachments": false
-    }
-  ]
+  {
+    "name": "Anchor",
+    "geometry": "POINT",
+    "spatialref": 2277,
+    "fields": "anchor.json",
+    "globalids": true,
+    "editortracking": true,
+    "archiving": true,
+    "attachments": false
+  },
+  {
+    "name": "Assembly",
+    "geometry": "",
+    "spatialref": "",
+    "fields": "assemblyfielding.json",
+    "globalids": true,
+    "editortracking": true,
+    "archiving": true,
+    "attachments": false
+  },
+  {
+    "name": "Comment",
+    "geometry": "",
+    "spatialref": "",
+    "fields": "comment.json",
+    "globalids": true,
+    "editortracking": true,
+    "archiving": true,
+    "attachments": false
+  },
+  {
+    "name": "Clearance",
+    "geometry": "POINT",
+    "spatialref": 2277,
+    "fields": "clearance.json",
+    "globalids": true,
+    "editortracking": true,
+    "archiving": true,
+    "attachments": false
+  },
+  {
+    "name": "FieldingAreaMarker",
+    "geometry": "POLYGON",
+    "spatialref": 2277,
+    "fields": "fieldingareamarker.json",
+    "globalids": true,
+    "editortracking": true,
+    "archiving": true,
+    "attachments": true
+  },
+  {
+    "name": "FieldingPointMarker",
+    "geometry": "POINT",
+    "spatialref": 2277,
+    "fields": "fieldingpointmarker.json",
+    "globalids": true,
+    "editortracking": true,
+    "archiving": true,
+    "attachments": true
+  },
+  {
+    "name": "FieldingLineMarker",
+    "geometry": "POLYLINE",
+    "spatialref": 2277,
+    "fields": "fieldinglinemarker.json",
+    "globalids": true,
+    "editortracking": true,
+    "archiving": true,
+    "attachments": true
+  },
+  {
+    "name": "MakeReadyCategory",
+    "geometry": "",
+    "spatialref": "",
+    "fields": "makereadycategory.json",
+    "globalids": true,
+    "editortracking": true,
+    "archiving": true,
+    "attachments": false
+  },
+  {
+    "name": "Pole",
+    "geometry": "POINT",
+    "spatialref": 2277,
+    "fields": "pole.json",
+    "globalids": true,
+    "editortracking": true,
+    "archiving": true,
+    "attachments": true
+  },
+  {
+    "name": "RedlineChangeArea",
+    "geometry": "POLYGON",
+    "spatialref": 2277,
+    "fields": "redlinechangearea.json",
+    "globalids": true,
+    "editortracking": true,
+    "archiving": true,
+    "attachments": false
+  },
+  {
+    "name": "RedlinePointMarker",
+    "geometry": "POINT",
+    "spatialref": 2277,
+    "fields": "redlinepointmarker.json",
+    "globalids": true,
+    "editortracking": true,
+    "archiving": true,
+    "attachments": true
+  },
+  {
+    "name": "RedlineLineMarker",
+    "geometry": "POLYLINE",
+    "spatialref": 2277,
+    "fields": "redlinelinemarker.json",
+    "globalids": true,
+    "editortracking": true,
+    "archiving": true,
+    "attachments": false
+  },
+  {
+    "name": "RedlineComment",
+    "geometry": "",
+    "spatialref": "",
+    "fields": "redlinecomment.json",
+    "globalids": true,
+    "editortracking": true,
+    "archiving": true,
+    "attachments": false
+  },
+  {
+    "name": "ServicePoint",
+    "geometry": "POINT",
+    "spatialref": 2231,
+    "fields": "servicepoint.json",
+    "globalids": true,
+    "editortracking": true,
+    "archiving": true,
+    "attachments": false
+  }
+]

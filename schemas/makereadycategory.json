@@ -1,0 +1,37 @@
+{
+    "fields": [
+        {
+            "name": "MakeReadyCategoryId",
+            "type": "GUID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Make Ready Category Id",
+            "nullable": "NULLABLE",
+            "required": "REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "PoleId",
+            "type": "GUID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Pole Id",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "Category",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Category",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "MakeReadyCategory"
+        }
+    ]
+}

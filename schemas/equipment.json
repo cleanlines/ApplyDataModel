@@ -23,6 +23,17 @@
             "domain": ""
         },
         {
+            "name": "PlantId",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "50",
+            "alias": "Plant Id",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
             "name": "EquipmentType",
             "type": "TEXT",
             "precision": "",

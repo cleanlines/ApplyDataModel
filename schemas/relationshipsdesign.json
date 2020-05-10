@@ -122,19 +122,6 @@
             "originfk": "StructureId"
         },
         {
-            "origin": "Structure",
-            "destination": "PowerEquipment",
-            "outclass": "Structure_PowerEquipment",
-            "type": "SIMPLE",
-            "forwardlabel": "Power Equipment",
-            "backlabel": "Structure",
-            "message": "NONE",
-            "cardinality": "ONE_TO_MANY",
-            "attributed": "NONE",
-            "originpk": "StructureId",
-            "originfk": "StructureId"
-        },
-        {
             "origin": "SupportingStructure",
             "destination": "Cable",
             "outclass": "SupportingStructure_Cable",

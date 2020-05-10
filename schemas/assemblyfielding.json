@@ -1,0 +1,48 @@
+{
+    "fields": [
+        {
+            "name": "AssemblyId",
+            "type": "GUID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Assembly Id",
+            "nullable": "NULLABLE",
+            "required": "REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "Type",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Type",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "StructureId",
+            "type": "GUID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "StructureId",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "RUSCode",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "50",
+            "alias": "RUS Code",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        }
+    ]
+}

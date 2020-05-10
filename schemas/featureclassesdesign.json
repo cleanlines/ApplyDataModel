@@ -140,16 +140,6 @@
       "attachments": false
     },
     {
-      "name": "ServicePoint",
-      "geometry": "POINT",
-      "spatialref": 2231,
-      "fields": "servicepoint.json",
-      "globalids": true,
-      "editortracking": true,
-      "archiving": true,
-      "attachments": false
-    },
-    {
       "name": "ServingArea",
       "geometry": "POLYGON",
       "spatialref": 2231,

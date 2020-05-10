@@ -49,8 +49,30 @@
             "type": "TEXT",
             "precision": "",
             "scale": "",
-            "length": "100",
+            "length": "255",
             "alias": "Address",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "City",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "50",
+            "alias": "City",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "Multiple",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Multiple",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""

@@ -1,0 +1,92 @@
+{
+    "fields": [
+        {
+            "name": "ClearanceId",
+            "type": "GUID",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Clearance Id",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "CrossingType",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Crossing Type",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "CrossingType"
+        },
+        {
+            "name": "MidspanType",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Midspan Type",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "MidspanType"
+        },
+        {
+            "name": "ClearanceFeet",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Clearance Feet",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "Feet"
+        },
+        {
+            "name": "ClearanceInches",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Clearance Inches",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "Inches"
+        },
+        {
+            "name": "ClearanceOK",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Clearance OK",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "YesNo"
+        },
+        {
+            "name": "Lat",
+            "type": "DOUBLE",
+            "precision": "12",
+            "scale": "7",
+            "length": "",
+            "alias": "Lat",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "Long",
+            "type": "DOUBLE",
+            "precision": "12",
+            "scale": "7",
+            "length": "",
+            "alias": "Long",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        }
+    ]
+}

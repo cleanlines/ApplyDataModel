@@ -56,28 +56,6 @@
             "domain": ""
         },
         {
-            "name": "SheathId",
-            "type": "TEXT",
-            "precision": "",
-            "scale": "",
-            "length": "50",
-            "alias": "Sheath Id",
-            "nullable": "NULLABLE",
-            "required": "NON_REQUIRED",
-            "domain": ""
-        },
-        {
-            "name": "SectionId",
-            "type": "TEXT",
-            "precision": "",
-            "scale": "",
-            "length": "50",
-            "alias": "Section Id",
-            "nullable": "NULLABLE",
-            "required": "NON_REQUIRED",
-            "domain": ""
-        },
-        {
             "name": "WorkId",
             "type": "TEXT",
             "precision": "",

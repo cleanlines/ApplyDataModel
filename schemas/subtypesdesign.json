@@ -116,12 +116,12 @@
             "Type": {
                 "0": "Distribution Area",
                 "1": "Work Packet"
-            },
-            "domains": {
-                "1": {
-                    "AreaArchitecture": "WorkAreaArchitecture",
-                    "AreaCableType": "WorkAreaCableType"
-                }
+            }
+        },
+        "domains": {
+            "1": {
+                "AreaArchitecture": "WorkAreaArchitecture",
+                "AreaCableType": "WorkAreaCableType"
             }
         }
     },
@@ -155,8 +155,7 @@
                 "3": "Handhole",
                 "11": "Spice Enclosure",
                 "12": "Cabinet",
-                "20": "Chamber",
-                "21": "Pole"
+                "20": "Chamber"
             }
         },
         "domains": {
@@ -174,9 +173,6 @@
             },
             "20": {
                 "StructureType": "ChamberType"
-            },
-            "21": {
-                "StructureType": "PoleType"
             }
         }
     }
