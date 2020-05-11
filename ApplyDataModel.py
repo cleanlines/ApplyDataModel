@@ -230,28 +230,28 @@ class ApplyDataModel(BaseObject):
     def _manage_database_item(self,config_dic):
         full_fc = f"{self._connection}/{config_dic['name']}"
         try:
-            if config_dic['globalids'] and config_dic['globalids'] == 'true':
+            if config_dic['globalids'] and config_dic['globalids'] == True:
                 self.log("Adding Globals Ids.")
                 arcpy.AddGlobalIDs_management(full_fc)
                 self.log("Global Ids done.")
         except Exception as e:
             self.errorlog(e)
         try:
-            if config_dic['editortracking'] and config_dic['editortracking'] == 'true':
+            if config_dic['editortracking'] and config_dic['editortracking'] == True:
                 self.log("Adding Editor tracking fields.")
                 arcpy.EnableEditorTracking_management(full_fc,"created_user","created_date","last_edited_user","last_edited_date","ADD_FIELDS")
                 self.log("Editor tracking enabled.")
         except Exception as e:
             self.errorlog(e)
         try:
-            if config_dic['archiving'] and config_dic['archiving'] == 'true':
+            if config_dic['archiving'] and config_dic['archiving'] == True:
                 self.log("Enabling archiving.")
                 arcpy.EnableArchiving_management(full_fc)
                 self.log("Archiving enabled.")
         except Exception as e:
             self.errorlog(e)
         try:
-            if config_dic['attachments'] and config_dic['attachments'] == 'true':
+            if config_dic['attachments'] and config_dic['attachments'] == True:
                 self.log("Enabling attachments.")
                 arcpy.EnableAttachments_management(full_fc)
                 self.log("Attachments enabled.")

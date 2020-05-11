@@ -1,41 +1,24 @@
 {
     "workspaces": [
         {
-            "workspace": "C:/Cloud/Dropbox/Work/Axin/SWEETPOC/sweetpoc2.gdb",
+            "workspace": "C:/Cloud/Dropbox/Work/Axin/RDTDataModel/fielding/rdtdesign.gdb",
             "schema": "",
             "featureclasses": "featureclassesdesign.json",
-            "subtypes":"subtypesdesign.json",
-            "domains":"domainsdesign.json",
-            "relationships":"relationshipsdesign.json",
-            "overwrite":"true",
-            "exclude":"false"
+            "domains": "domainsdesign.json",
+            "subtypes": "subtypesdesign.json",
+            "relationships": "relationshipsdesign.json",
+            "overwrite": "true",
+            "exclude": "false"
         },
         {
-            "workspace": "C:/Cloud/Dropbox/Work/Axin/Python/ApplyDataModel/RDT.sde",
-            "schema": "RDT.GISADMIN.",
-            "featureclasses": "featureclassesdesign.json",
-            "subtypes":"subtypesdesign.json",
-            "domains":"domainsdesign.json",
-            "relationships":"relationshipsdesign.json",
-            "overwrite":"true",
-            "exclude":"true"
-        },
-        {
-            "workspace": "C:/Cloud/Dropbox/Work/Axin/Python/ApplyDataModel/RDT.sde",
-            "schema": "",
-            "featureclasses": "featureclassesredlining.json",
-            "domains":"domainsredline.json",
-            "relationships":"relationshipsredline.json",
-            "overwrite":"true",
-            "exclude":"true"
-        },
-        {
-            "workspace": "C:/Cloud/Dropbox/Work/Axin/Python/ApplyDataModel/RDT.sde",
+            "workspace": "C:/Cloud/Dropbox/Work/Axin/RDTDataModel/fielding/rdtfielding.gdb",
             "schema": "",
             "featureclasses": "featureclassesfielding.json",
-            "subtypes":"subtypesfielding.json",
-            "overwrite":"true",
-            "exclude":"true"
+            "domains": "domainsfielding.json",
+            "subtypes": "subtypesfielding.json",
+            "relationships": "relationshipsfielding.json",
+            "overwrite": "true",
+            "exclude": "false"
         }
     ]
 }
