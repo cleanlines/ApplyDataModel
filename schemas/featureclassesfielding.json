@@ -8,7 +8,7 @@
     "editortracking": true,
     "archiving": true,
     "attachments": false,
-    "gpsmetadata":false
+    "gpsmetadata":true
   },
   {
     "name": "Assembly",

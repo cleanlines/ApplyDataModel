@@ -261,7 +261,7 @@ class ApplyDataModel(BaseObject):
         try:
             if config_dic['gpsmetadata'] and config_dic['gpsmetadata'] == True:
                 self.log("Enabling GPS metadata.")
-                arcpy.AddGPSMetadataFields(full_fc)
+                arcpy.AddGPSMetadataFields_management(full_fc)
                 self.log("Attachments enabled.")
         except Exception as e:
             self.errorlog(e)
