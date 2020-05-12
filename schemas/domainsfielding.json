@@ -141,7 +141,7 @@
         }
     },
     "MakeReadyCategory": {
-        "description": "make Ready Category",
+        "description": "Make Ready Category",
         "type": "SHORT",
         "domaintype": "CODED",
         "split": "DEFAULT",
