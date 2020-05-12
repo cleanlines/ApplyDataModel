@@ -43,28 +43,6 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
-        },
-        {
-            "name": "Lat",
-            "type": "DOUBLE",
-            "precision": "12",
-            "scale": "7",
-            "length": "",
-            "alias": "Lat",
-            "nullable": "NULLABLE",
-            "required": "NON_REQUIRED",
-            "domain": ""
-        },
-        {
-            "name": "Long",
-            "type": "DOUBLE",
-            "precision": "12",
-            "scale": "7",
-            "length": "",
-            "alias": "Long",
-            "nullable": "NULLABLE",
-            "required": "NON_REQUIRED",
-            "domain": ""
         }
     ]
 }

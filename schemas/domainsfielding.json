@@ -53,19 +53,19 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "PE1-2": "PE1-2 - INSTALL 6M DOWN GUY",
-            "PE1-2G": "PE1-2G - INSTALL 6M DOWN GUY GRD CONNECTION",
-            "PE1-3": "PE1-3 - INSTALL 10M DOWN GUY",
-            "PE1-3G": "PE1-3G - INSTALL 10M DOWN GUY GRD CONNECTION",
-            "PE1-4": "PE1-4 - INSTALL 16M DOWN GUY",
-            "PE1-4G": "PE1-4G - INSTALL 16M DOWN GUY GRD CONNECTION",
-            "PE2-2": "PE2-2 - INSTALL 6M OHG",
-            "PE2-2G": "PE2-2G - INSTALL OHG GRD CONNECTION",
-            "PE2-3": "PE2-3 - INSTALL 10M OHG",
-            "PE2-3G": "PE2-3G - INSTALL 10M OHG GRD CONNECTION",
-            "PM11": "PM11 - INSTALL GUY GUARD",
-            "PM12": "PM12 - INSTALL SIDEWALK GUY",
-            "PM14": "PM14 - INSTALL PUSH BRACE"
+            "PE1-2": "PE1-2 - Install 6m Down Guy",
+            "PE1-2G": "PE1-2G - Install 6m Down Guy Grd Connection",
+            "PE1-3": "PE1-3 - Install 10m Down Guy",
+            "PE1-3G": "PE1-3G - Install 10m Down Guy Grd Connection",
+            "PE1-4": "PE1-4 - Install 16m Down Guy",
+            "PE1-4G": "PE1-4G - Install 16m Down Guy Grd Connection",
+            "PE2-2": "PE2-2 - Install 6m Ohg",
+            "PE2-2G": "PE2-2G - Install Ohg Grd Connection",
+            "PE2-3": "PE2-3 - Install 10m OHG",
+            "PE2-3G": "PE2-3G - Install 10m OHG Grd Connection",
+            "PM11": "PM11 - Install Guy Guard",
+            "PM12": "PM12 - Install Sidewalk Guy",
+            "PM14": "PM14 - Install Push Brace"
         }
     },
     "RUSCodeAnchor": {
@@ -75,18 +75,18 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "PF3-3": "PF3-3 - INSTALL 6K LBS SCREW TYPE ANCHOR",
-            "PF3-5": "PF3-5 - INSTALL 10K LBS SCREW TYPE ANCHOR",
-            "PF3-7": "PF3-7 - INSTALL 16K LBS SCREW TYPE ANCHOR",
-            "PF1-3": "PF1-3 - INSTALL 6K LBS EXPANSION TYPE ANCHOR",
-            "PF1-5": "PF1-5 - INSTALL 10K LBS EXPANSION TYPE ANCHOR",
-            "PF1-7": "PF1-7 - INSTALL 16K LBS EXPANSION TYPE ANCHOR",
-            "PF5-3": "PF5-3 - INSTALL 10K LBS ROCK TYPE ANCHOR",
-            "PF5-4": "PF5-4 - INSTALL 16K LBS ROCK TYPE ANCHOR",
-            "PF6-3": "PF6-3 - INSTALL 6K LBS SWAMP TYPE ANCHOR",
-            "PF6-4": "PF6-4 - INSTALL 10K LBS SWAMP TYPE ANCHOR",
-            "PF6-5": "PF6-5 - INSTALL 16K LBS SWAMP TYPE ANCHOR",
-            "PF3-AUX": "PF3-AUX - INSTALL AUX EYE ON EXISTING ANCHOR"
+            "PF3-3": "PF3-3 - Install 6k Lbs Screw Type Anchor",
+            "PF3-5": "PF3-5 - Install 10k Lbs Screw Type Anchor",
+            "PF3-7": "PF3-7 - Install 16k Lbs Screw Type Anchor",
+            "PF1-3": "PF1-3 - Install 6k Lbs Expansion Type Anchor",
+            "PF1-5": "PF1-5 - Install 10k Lbs Expansion Type Anchor",
+            "PF1-7": "PF1-7 - Install 16k Lbs Expansion Type Anchor",
+            "PF5-3": "PF5-3 - Install 10k Lbs Rock Type Anchor",
+            "PF5-4": "PF5-4 - Install 16k Lbs Rock Type Anchor",
+            "PF6-3": "PF6-3 - Install 6k Lbs Swamp Type Anchor",
+            "PF6-4": "PF6-4 - Install 10k Lbs Swamp Type Anchor",
+            "PF6-5": "PF6-5 - Install 16k Lbs Swamp Type Anchor",
+            "PF3-AUX": "PF3-AUX - Install Aux Eye On Existing Anchor"
         }
     },
     "CommentType": {
@@ -107,13 +107,13 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "0": "DRIVEWAY",
-            "1": "ROAD",
-            "2": "HIGHWAY",
-            "3": "STATE HIGHWAY",
-            "4": "INTERSTATE",
-            "5": "RAILROAD",
-            "6": "WATERWAY"
+            "0": "Driveway",
+            "1": "Road",
+            "2": "Highway",
+            "3": "State Highway",
+            "4": "Interstate",
+            "5": "Railroad",
+            "6": "Waterway"
         }
     },
     "MidspanType": {
@@ -123,10 +123,10 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "0": "TELCO",
-            "1": "CATV",
-            "2": "POWER",
-            "3": "NEUTRAL"
+            "0": "Telco",
+            "1": "Catv",
+            "2": "Power",
+            "3": "Neutral"
         }
     },
     "YesNo": {
@@ -147,18 +147,18 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "0": "TREE TRIMMING",
-            "1": "RE-TENSION SPAN",
-            "2": "RAISE COMMS",
-            "3": "LOWER COMMS",
-            "4": "RAISE LIGHT",
-            "5": "LOWER LIGHT",
-            "6": "RAISE TRANSFORMER",
-            "7": "LOWER TRANSFORMER",
-            "8": "EXTEND RISER",
-            "9": "RAISE NEUTRAL",
-            "10": "LOWER NEUTRAL",
-            "11": "REPLACE POLE"
+            "0": "Tree Trimming",
+            "1": "Re-Tension Span",
+            "2": "Raise Comms",
+            "3": "Lower Comms",
+            "4": "Raise Light",
+            "5": "Lower Light",
+            "6": "Raise Transformer",
+            "7": "Lower Transformer",
+            "8": "Extend Riser",
+            "9": "Raise Neutral",
+            "10": "Lower Neutral",
+            "11": "Replace Pole"
         }
     },
     "StructureAudit": {
@@ -182,10 +182,10 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "0": "NOT COMPLETE",
-            "1": "COMPLETE WITH MR",
-            "2": "COMPLETE",
-            "3": "COOP REVIEW REQUIRED"
+            "0": "Not Complete",
+            "1": "Complete With MR",
+            "2": "Complete",
+            "3": "Coop Review Required"
         }
     },
     "ProposedAttachmentHeight": {
@@ -195,15 +195,15 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "0": "12 ABOVE COMMS",
-            "1": "18 ABOVE COMMS",
-            "2": "24 ABOVE COMMS",
-            "3": "30 ABOVE COMMS",
-            "4": "12 BELOW POWER",
-            "5": "18 BELOW POWER",
-            "6": "24 BELOW POWER",
-            "7": "30 BELOW POWER",
-            "8": "40 BELOW POWER"
+            "0": "12 Above Comms",
+            "1": "18 Above Comms",
+            "2": "24 Above Comms",
+            "3": "30 Above Comms",
+            "4": "12 Below Power",
+            "5": "18 Below Power",
+            "6": "24 Below Power",
+            "7": "30 Below Power",
+            "8": "40 Below Power"
         }
     },
     "ExtensionArm": {
@@ -213,10 +213,10 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "PM4": "SMALL EXTENSION ARM - LESS THAN 18in",
-            "PM4A": "LARGE EXTENSION ARM - 18in OR MORE",
-            "A-PM4": "ADSS - SMALL EXTENSION ARM - LESS THAN 18in",
-            "A-PM4A": "ADSS - LARGE EXTENSION ARM - 18in OR MORE"
+            "PM4": "Small Extension Arm - Less Than 18in",
+            "PM4A": "Large Extension Arm - 18in Or More",
+            "A-PM4": "ADSS - Small Extension Arm - Less Than 18in",
+            "A-PM4A": "ADSS - Large Extension Arm - 18in Or More"
         }
     }
 }
