@@ -258,6 +258,14 @@ class ApplyDataModel(BaseObject):
         except Exception as e:
             self.errorlog(e)
 
+        try:
+            if config_dic['gpsmetadata'] and config_dic['gpsmetadata'] == True:
+                self.log("Enabling GPS metadata.")
+                arcpy.AddGPSMetadataFields(full_fc)
+                self.log("Attachments enabled.")
+        except Exception as e:
+            self.errorlog(e)
+
 
 #TODO: set default subtypes! setdefaultsubtype
 

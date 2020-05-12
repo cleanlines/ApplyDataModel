@@ -7,7 +7,8 @@
     "globalids": true,
     "editortracking": true,
     "archiving": true,
-    "attachments": false
+    "attachments": false,
+    "gpsmetadata":false
   },
   {
     "name": "Assembly",
@@ -17,7 +18,8 @@
     "globalids": true,
     "editortracking": true,
     "archiving": true,
-    "attachments": false
+    "attachments": false,
+    "gpsmetadata":false
   },
   {
     "name": "Comment",
@@ -27,7 +29,8 @@
     "globalids": true,
     "editortracking": true,
     "archiving": true,
-    "attachments": false
+    "attachments": false,
+    "gpsmetadata":false
   },
   {
     "name": "Clearance",
@@ -37,7 +40,8 @@
     "globalids": true,
     "editortracking": true,
     "archiving": true,
-    "attachments": false
+    "attachments": false,
+    "gpsmetadata":false
   },
   {
     "name": "FieldingAreaMarker",
@@ -47,7 +51,8 @@
     "globalids": true,
     "editortracking": true,
     "archiving": true,
-    "attachments": true
+    "attachments": true,
+    "gpsmetadata":false
   },
   {
     "name": "FieldingPointMarker",
@@ -57,7 +62,8 @@
     "globalids": true,
     "editortracking": true,
     "archiving": true,
-    "attachments": true
+    "attachments": true,
+    "gpsmetadata":false
   },
   {
     "name": "FieldingLineMarker",
@@ -67,7 +73,8 @@
     "globalids": true,
     "editortracking": true,
     "archiving": true,
-    "attachments": true
+    "attachments": true,
+    "gpsmetadata":false
   },
   {
     "name": "MakeReadyCategory",
@@ -77,7 +84,8 @@
     "globalids": true,
     "editortracking": true,
     "archiving": true,
-    "attachments": false
+    "attachments": false,
+    "gpsmetadata":false
   },
   {
     "name": "Pole",
@@ -87,7 +95,8 @@
     "globalids": true,
     "editortracking": true,
     "archiving": true,
-    "attachments": true
+    "attachments": true,
+    "gpsmetadata":true
   },
   {
     "name": "RedlineChangeArea",
@@ -97,7 +106,8 @@
     "globalids": true,
     "editortracking": true,
     "archiving": true,
-    "attachments": false
+    "attachments": false,
+    "gpsmetadata":false
   },
   {
     "name": "RedlinePointMarker",
@@ -107,7 +117,8 @@
     "globalids": true,
     "editortracking": true,
     "archiving": true,
-    "attachments": true
+    "attachments": true,
+    "gpsmetadata":false
   },
   {
     "name": "RedlineLineMarker",
@@ -117,7 +128,8 @@
     "globalids": true,
     "editortracking": true,
     "archiving": true,
-    "attachments": false
+    "attachments": false,
+    "gpsmetadata":false
   },
   {
     "name": "RedlineComment",
@@ -127,7 +139,8 @@
     "globalids": true,
     "editortracking": true,
     "archiving": true,
-    "attachments": false
+    "attachments": false,
+    "gpsmetadata":false
   },
   {
     "name": "ServicePoint",
@@ -137,6 +150,7 @@
     "globalids": true,
     "editortracking": true,
     "archiving": true,
-    "attachments": false
+    "attachments": false,
+    "gpsmetadata":true
   }
 ]
