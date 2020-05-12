@@ -192,12 +192,12 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "0": "RED",
-            "1": "BLUE",
-            "2": "GREEN",
-            "3": "YELLOW",
-            "4": "CYAN",
-            "5": "MAGENTA"
+            "0": "Red",
+            "1": "Blue",
+            "2": "Green",
+            "3": "Yellow",
+            "4": "Cyan",
+            "5": "Magenta"
         }
     },
     "SplitterAreaType": {
