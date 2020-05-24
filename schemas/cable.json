@@ -35,7 +35,7 @@
         },
         {
             "name": "Size",
-            "type": "Text",
+            "type": "TEXT",
             "precision": "",
             "scale": "",
             "length": "20",
@@ -45,12 +45,12 @@
             "domain": ""
         },
         {
-            "name": "CableType",
+            "name": "ProductType",
             "type": "TEXT",
             "precision": "",
             "scale": "",
             "length": "20",
-            "alias": "Cable Type",
+            "alias": "Product Type",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
@@ -89,12 +89,12 @@
             "domain": ""
         },
         {
-            "name": "CentralOfficeDetailId",
+            "name": "CentralOfficeId",
             "type": "GUID",
             "precision": "",
             "scale": "",
             "length": "",
-            "alias": "Central Office Detail Id",
+            "alias": "Central Office Id",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""

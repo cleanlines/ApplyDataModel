@@ -76,17 +76,6 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
-        },
-        {
-            "name": "StructureAudit",
-            "type": "TEXT",
-            "precision": "",
-            "scale": "",
-            "length": "50",
-            "alias": "StructureStatus",
-            "nullable": "NULLABLE",
-            "required": "NON_REQUIRED",
-            "domain": "StructureAudit"
         }
     ]
 }

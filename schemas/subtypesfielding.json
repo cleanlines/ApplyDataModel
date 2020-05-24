@@ -1,17 +1,4 @@
 {
-    "FieldingLineMarker": {
-        "field": {
-            "Type": {
-                "0": "Default",
-                "1": "BuildCableRoute"
-            }
-        },
-        "domains": {
-            "1": {
-                "LineType": "RouteBuildType"
-            }
-        }
-    },
     "Assembly": {
         "field": {
             "Type": {
@@ -21,10 +8,10 @@
         },
         "domains": {
             "0": {
-                "RUSCode": "RUSCodeAerial"
+                "FieldingRUSCode": "RUSCodeAerial"
             },
             "1": {
-                "RUSCode": "RUSCodeAnchor"
+                "FieldingRUSCode": "RUSCodeAnchor"
             }
         }
     }

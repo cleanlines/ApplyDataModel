@@ -56,6 +56,17 @@
             "domain": ""
         },
         {
+            "name": "Existing",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Existing",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "TrueFalse"
+        },
+        {
             "name": "FromCableId",
             "type": "GUID",
             "precision": "",
@@ -87,17 +98,6 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
-        },
-        {
-            "name": "StructureAudit",
-            "type": "TEXT",
-            "precision": "",
-            "scale": "",
-            "length": "50",
-            "alias": "StructureStatus",
-            "nullable": "NULLABLE",
-            "required": "NON_REQUIRED",
-            "domain": "StructureAudit"
         }
     ]
 }

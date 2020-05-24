@@ -1,0 +1,698 @@
+{"asctime": "2020-05-25 10:55:28,126", "levelname": "DEBUG", "message": "ApplyDataModel :Class:ApplyDataModel"}
+{"asctime": "2020-05-25 10:55:28,128", "levelname": "DEBUG", "message": "ApplyDataModel :loaded config for ApplyDataModel from C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.json"}
+{"asctime": "2020-05-25 10:55:28,128", "levelname": "DEBUG", "message": "ApplyDataModel :C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel/schemas"}
+{"asctime": "2020-05-25 10:55:28,128", "levelname": "DEBUG", "message": "ApplyDataModel :C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel/schemas/prjs/prjs.gdb"}
+{"asctime": "2020-05-25 10:56:19,048", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'Assembly', 'geometry': '', 'spatialref': '', 'fields': 'assembly.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:56:19,077", "levelname": "DEBUG", "message": "ApplyDataModel :Creating table Assembly"}
+{"asctime": "2020-05-25 10:56:20,826", "levelname": "DEBUG", "message": "ApplyDataModel :Assembly created"}
+{"asctime": "2020-05-25 10:56:20,827", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Assembly"}
+{"asctime": "2020-05-25 10:56:20,827", "levelname": "DEBUG", "message": "ApplyDataModel :Applying AssemblyId"}
+{"asctime": "2020-05-25 10:56:21,888", "levelname": "DEBUG", "message": "ApplyDataModel :Field AssemblyId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Assembly"}
+{"asctime": "2020-05-25 10:56:21,888", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StructureId"}
+{"asctime": "2020-05-25 10:56:22,758", "levelname": "DEBUG", "message": "ApplyDataModel :Field StructureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Assembly"}
+{"asctime": "2020-05-25 10:56:22,758", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RUSCode"}
+{"asctime": "2020-05-25 10:56:23,638", "levelname": "DEBUG", "message": "ApplyDataModel :Field RUSCode added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Assembly"}
+{"asctime": "2020-05-25 10:56:23,639", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:56:25,036", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:56:25,037", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:56:26,383", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:56:26,383", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:56:26,619", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:56:26,619", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:56:26,627", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'AssociatedStructure', 'geometry': '', 'spatialref': '', 'fields': 'associatedstructure.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:56:26,651", "levelname": "DEBUG", "message": "ApplyDataModel :Creating table AssociatedStructure"}
+{"asctime": "2020-05-25 10:56:27,945", "levelname": "DEBUG", "message": "ApplyDataModel :AssociatedStructure created"}
+{"asctime": "2020-05-25 10:56:27,946", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/AssociatedStructure"}
+{"asctime": "2020-05-25 10:56:27,946", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StructureId"}
+{"asctime": "2020-05-25 10:56:28,806", "levelname": "DEBUG", "message": "ApplyDataModel :Field StructureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/AssociatedStructure"}
+{"asctime": "2020-05-25 10:56:28,806", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CableId"}
+{"asctime": "2020-05-25 10:56:29,701", "levelname": "DEBUG", "message": "ApplyDataModel :Field CableId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/AssociatedStructure"}
+{"asctime": "2020-05-25 10:56:29,701", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StructureType"}
+{"asctime": "2020-05-25 10:56:30,842", "levelname": "DEBUG", "message": "ApplyDataModel :Field StructureType added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/AssociatedStructure"}
+{"asctime": "2020-05-25 10:56:30,842", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StartStructure"}
+{"asctime": "2020-05-25 10:56:32,036", "levelname": "DEBUG", "message": "ApplyDataModel :Field StartStructure added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/AssociatedStructure"}
+{"asctime": "2020-05-25 10:56:32,037", "levelname": "DEBUG", "message": "ApplyDataModel :Applying EndStructure"}
+{"asctime": "2020-05-25 10:56:33,038", "levelname": "DEBUG", "message": "ApplyDataModel :Field EndStructure added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/AssociatedStructure"}
+{"asctime": "2020-05-25 10:56:33,039", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:56:34,476", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:56:34,476", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:56:36,041", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:56:36,042", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:56:36,304", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:56:36,304", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:56:36,305", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'Cable', 'geometry': 'POLYLINE', 'spatialref': 2231, 'fields': 'cable.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:56:36,333", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class Cable"}
+{"asctime": "2020-05-25 10:56:37,601", "levelname": "DEBUG", "message": "ApplyDataModel :Cable created"}
+{"asctime": "2020-05-25 10:56:37,601", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Cable"}
+{"asctime": "2020-05-25 10:56:37,602", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CableId"}
+{"asctime": "2020-05-25 10:56:38,628", "levelname": "DEBUG", "message": "ApplyDataModel :Field CableId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Cable"}
+{"asctime": "2020-05-25 10:56:38,628", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RouteId"}
+{"asctime": "2020-05-25 10:56:39,718", "levelname": "DEBUG", "message": "ApplyDataModel :Field RouteId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Cable"}
+{"asctime": "2020-05-25 10:56:39,718", "levelname": "DEBUG", "message": "ApplyDataModel :Applying SupportingStructureId"}
+{"asctime": "2020-05-25 10:56:40,765", "levelname": "DEBUG", "message": "ApplyDataModel :Field SupportingStructureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Cable"}
+{"asctime": "2020-05-25 10:56:40,766", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Size"}
+{"asctime": "2020-05-25 10:56:41,826", "levelname": "DEBUG", "message": "ApplyDataModel :Field Size added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Cable"}
+{"asctime": "2020-05-25 10:56:41,827", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ProductType"}
+{"asctime": "2020-05-25 10:56:42,879", "levelname": "DEBUG", "message": "ApplyDataModel :Field ProductType added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Cable"}
+{"asctime": "2020-05-25 10:56:42,880", "levelname": "DEBUG", "message": "ApplyDataModel :Applying WorkId"}
+{"asctime": "2020-05-25 10:56:43,934", "levelname": "DEBUG", "message": "ApplyDataModel :Field WorkId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Cable"}
+{"asctime": "2020-05-25 10:56:43,935", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-05-25 10:56:45,076", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Cable"}
+{"asctime": "2020-05-25 10:56:45,076", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CustomerServicePointId"}
+{"asctime": "2020-05-25 10:56:46,158", "levelname": "DEBUG", "message": "ApplyDataModel :Field CustomerServicePointId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Cable"}
+{"asctime": "2020-05-25 10:56:46,158", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CentralOfficeId"}
+{"asctime": "2020-05-25 10:56:47,227", "levelname": "DEBUG", "message": "ApplyDataModel :Field CentralOfficeId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Cable"}
+{"asctime": "2020-05-25 10:56:47,228", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RangeLabel"}
+{"asctime": "2020-05-25 10:56:48,265", "levelname": "DEBUG", "message": "ApplyDataModel :Field RangeLabel added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Cable"}
+{"asctime": "2020-05-25 10:56:48,265", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:56:49,624", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:56:49,624", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:56:51,205", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:56:51,206", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:56:51,460", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:56:51,460", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:56:51,461", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'CableFeature', 'geometry': 'POINT', 'spatialref': 2231, 'fields': 'cablefeature.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:56:51,485", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class CableFeature"}
+{"asctime": "2020-05-25 10:56:52,708", "levelname": "DEBUG", "message": "ApplyDataModel :CableFeature created"}
+{"asctime": "2020-05-25 10:56:52,708", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CableFeature"}
+{"asctime": "2020-05-25 10:56:52,709", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-05-25 10:56:53,715", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CableFeature"}
+{"asctime": "2020-05-25 10:56:53,716", "levelname": "DEBUG", "message": "ApplyDataModel :Applying WorkId"}
+{"asctime": "2020-05-25 10:56:54,894", "levelname": "DEBUG", "message": "ApplyDataModel :Field WorkId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CableFeature"}
+{"asctime": "2020-05-25 10:56:54,894", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-05-25 10:56:56,005", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CableFeature"}
+{"asctime": "2020-05-25 10:56:56,005", "levelname": "DEBUG", "message": "ApplyDataModel :Applying FeatureType"}
+{"asctime": "2020-05-25 10:56:57,058", "levelname": "DEBUG", "message": "ApplyDataModel :Field FeatureType added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CableFeature"}
+{"asctime": "2020-05-25 10:56:57,058", "levelname": "DEBUG", "message": "ApplyDataModel :Applying FromCableId"}
+{"asctime": "2020-05-25 10:56:58,100", "levelname": "DEBUG", "message": "ApplyDataModel :Field FromCableId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CableFeature"}
+{"asctime": "2020-05-25 10:56:58,100", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ToCableId"}
+{"asctime": "2020-05-25 10:56:59,158", "levelname": "DEBUG", "message": "ApplyDataModel :Field ToCableId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CableFeature"}
+{"asctime": "2020-05-25 10:56:59,159", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:57:00,495", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:57:00,495", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:57:02,095", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:57:02,096", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:57:02,353", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:57:02,353", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:57:02,354", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'CentralOffice', 'geometry': 'POINT', 'spatialref': 2231, 'fields': 'centraloffice.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:57:02,379", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class CentralOffice"}
+{"asctime": "2020-05-25 10:57:03,585", "levelname": "DEBUG", "message": "ApplyDataModel :CentralOffice created"}
+{"asctime": "2020-05-25 10:57:03,586", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CentralOffice"}
+{"asctime": "2020-05-25 10:57:03,586", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CentralOfficeId"}
+{"asctime": "2020-05-25 10:57:04,607", "levelname": "DEBUG", "message": "ApplyDataModel :Field CentralOfficeId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CentralOffice"}
+{"asctime": "2020-05-25 10:57:04,607", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-05-25 10:57:05,632", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CentralOffice"}
+{"asctime": "2020-05-25 10:57:05,632", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Name"}
+{"asctime": "2020-05-25 10:57:06,653", "levelname": "DEBUG", "message": "ApplyDataModel :Field Name added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CentralOffice"}
+{"asctime": "2020-05-25 10:57:06,653", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Code"}
+{"asctime": "2020-05-25 10:57:07,720", "levelname": "DEBUG", "message": "ApplyDataModel :Field Code added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CentralOffice"}
+{"asctime": "2020-05-25 10:57:07,720", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CircuitNumber"}
+{"asctime": "2020-05-25 10:57:08,785", "levelname": "DEBUG", "message": "ApplyDataModel :Field CircuitNumber added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CentralOffice"}
+{"asctime": "2020-05-25 10:57:08,786", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:57:10,115", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:57:10,115", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:57:11,626", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:57:11,627", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:57:11,875", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:57:11,875", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:57:11,876", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'CentralOfficeArea', 'geometry': 'POLYGON', 'spatialref': 2231, 'fields': 'centralofficearea.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:57:11,900", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class CentralOfficeArea"}
+{"asctime": "2020-05-25 10:57:13,108", "levelname": "DEBUG", "message": "ApplyDataModel :CentralOfficeArea created"}
+{"asctime": "2020-05-25 10:57:13,109", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CentralOfficeArea"}
+{"asctime": "2020-05-25 10:57:13,109", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CentralOfficeAreaId"}
+{"asctime": "2020-05-25 10:57:14,110", "levelname": "DEBUG", "message": "ApplyDataModel :Field CentralOfficeAreaId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CentralOfficeArea"}
+{"asctime": "2020-05-25 10:57:14,111", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CentralOfficeId"}
+{"asctime": "2020-05-25 10:57:15,145", "levelname": "DEBUG", "message": "ApplyDataModel :Field CentralOfficeId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CentralOfficeArea"}
+{"asctime": "2020-05-25 10:57:15,146", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Name"}
+{"asctime": "2020-05-25 10:57:16,172", "levelname": "DEBUG", "message": "ApplyDataModel :Field Name added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/CentralOfficeArea"}
+{"asctime": "2020-05-25 10:57:16,173", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:57:17,473", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:57:17,474", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:57:19,004", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:57:19,005", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:57:19,249", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:57:19,250", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:57:19,251", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'Equipment', 'geometry': 'POINT', 'spatialref': 2231, 'fields': 'equipment.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:57:19,275", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class Equipment"}
+{"asctime": "2020-05-25 10:57:20,516", "levelname": "DEBUG", "message": "ApplyDataModel :Equipment created"}
+{"asctime": "2020-05-25 10:57:20,516", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Equipment"}
+{"asctime": "2020-05-25 10:57:20,517", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-05-25 10:57:21,620", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Equipment"}
+{"asctime": "2020-05-25 10:57:21,620", "levelname": "DEBUG", "message": "ApplyDataModel :Applying EquipmentId"}
+{"asctime": "2020-05-25 10:57:22,720", "levelname": "DEBUG", "message": "ApplyDataModel :Field EquipmentId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Equipment"}
+{"asctime": "2020-05-25 10:57:22,721", "levelname": "DEBUG", "message": "ApplyDataModel :Applying PlantId"}
+{"asctime": "2020-05-25 10:57:23,743", "levelname": "DEBUG", "message": "ApplyDataModel :Field PlantId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Equipment"}
+{"asctime": "2020-05-25 10:57:23,743", "levelname": "DEBUG", "message": "ApplyDataModel :Applying EquipmentType"}
+{"asctime": "2020-05-25 10:57:24,818", "levelname": "DEBUG", "message": "ApplyDataModel :Field EquipmentType added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Equipment"}
+{"asctime": "2020-05-25 10:57:24,819", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-05-25 10:57:25,899", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Equipment"}
+{"asctime": "2020-05-25 10:57:25,900", "levelname": "DEBUG", "message": "ApplyDataModel :Applying WorkId"}
+{"asctime": "2020-05-25 10:57:26,984", "levelname": "DEBUG", "message": "ApplyDataModel :Field WorkId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Equipment"}
+{"asctime": "2020-05-25 10:57:26,984", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RangeLabel"}
+{"asctime": "2020-05-25 10:57:28,096", "levelname": "DEBUG", "message": "ApplyDataModel :Field RangeLabel added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Equipment"}
+{"asctime": "2020-05-25 10:57:28,097", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Length"}
+{"asctime": "2020-05-25 10:57:29,155", "levelname": "DEBUG", "message": "ApplyDataModel :Field Length added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Equipment"}
+{"asctime": "2020-05-25 10:57:29,156", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ActualLength"}
+{"asctime": "2020-05-25 10:57:30,286", "levelname": "DEBUG", "message": "ApplyDataModel :Field ActualLength added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Equipment"}
+{"asctime": "2020-05-25 10:57:30,287", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:57:31,680", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:57:31,680", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:57:33,195", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:57:33,195", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:57:33,447", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:57:33,448", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:57:33,448", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'MarkupLine', 'geometry': 'POLYLINE', 'spatialref': 2231, 'fields': 'markupline.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:57:33,472", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class MarkupLine"}
+{"asctime": "2020-05-25 10:57:34,664", "levelname": "DEBUG", "message": "ApplyDataModel :MarkupLine created"}
+{"asctime": "2020-05-25 10:57:34,664", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/MarkupLine"}
+{"asctime": "2020-05-25 10:57:34,665", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-05-25 10:57:35,689", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/MarkupLine"}
+{"asctime": "2020-05-25 10:57:35,689", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-05-25 10:57:36,724", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/MarkupLine"}
+{"asctime": "2020-05-25 10:57:36,725", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Colour"}
+{"asctime": "2020-05-25 10:57:37,892", "levelname": "DEBUG", "message": "ApplyDataModel :Field Colour added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/MarkupLine"}
+{"asctime": "2020-05-25 10:57:37,892", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:57:39,397", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:57:39,397", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:57:41,398", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:57:41,398", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:57:41,675", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:57:41,676", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:57:41,677", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'MarkupPoint', 'geometry': 'POINT', 'spatialref': 2231, 'fields': 'markuppoint.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:57:41,705", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class MarkupPoint"}
+{"asctime": "2020-05-25 10:57:43,156", "levelname": "DEBUG", "message": "ApplyDataModel :MarkupPoint created"}
+{"asctime": "2020-05-25 10:57:43,156", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/MarkupPoint"}
+{"asctime": "2020-05-25 10:57:43,157", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-05-25 10:57:44,273", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/MarkupPoint"}
+{"asctime": "2020-05-25 10:57:44,273", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-05-25 10:57:45,515", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/MarkupPoint"}
+{"asctime": "2020-05-25 10:57:45,516", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Colour"}
+{"asctime": "2020-05-25 10:57:47,029", "levelname": "DEBUG", "message": "ApplyDataModel :Field Colour added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/MarkupPoint"}
+{"asctime": "2020-05-25 10:57:47,029", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:57:48,712", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:57:48,712", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:57:50,597", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:57:50,597", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:57:50,917", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:57:50,918", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:57:50,918", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'MarkupPolygon', 'geometry': 'POLYGON', 'spatialref': 2231, 'fields': 'markuppolygon.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:57:50,945", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class MarkupPolygon"}
+{"asctime": "2020-05-25 10:57:52,319", "levelname": "DEBUG", "message": "ApplyDataModel :MarkupPolygon created"}
+{"asctime": "2020-05-25 10:57:52,320", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/MarkupPolygon"}
+{"asctime": "2020-05-25 10:57:52,320", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-05-25 10:57:53,494", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/MarkupPolygon"}
+{"asctime": "2020-05-25 10:57:53,494", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-05-25 10:57:54,604", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/MarkupPolygon"}
+{"asctime": "2020-05-25 10:57:54,605", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Colour"}
+{"asctime": "2020-05-25 10:57:55,888", "levelname": "DEBUG", "message": "ApplyDataModel :Field Colour added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/MarkupPolygon"}
+{"asctime": "2020-05-25 10:57:55,888", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:57:57,602", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:57:57,602", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:57:59,523", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:57:59,523", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:57:59,865", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:57:59,866", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:57:59,867", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'NetworkConnectivity', 'geometry': '', 'spatialref': '', 'fields': 'networkconnectivity.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:57:59,894", "levelname": "DEBUG", "message": "ApplyDataModel :Creating table NetworkConnectivity"}
+{"asctime": "2020-05-25 10:58:01,191", "levelname": "DEBUG", "message": "ApplyDataModel :NetworkConnectivity created"}
+{"asctime": "2020-05-25 10:58:01,192", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/NetworkConnectivity"}
+{"asctime": "2020-05-25 10:58:01,192", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ConnectionId"}
+{"asctime": "2020-05-25 10:58:02,170", "levelname": "DEBUG", "message": "ApplyDataModel :Field ConnectionId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/NetworkConnectivity"}
+{"asctime": "2020-05-25 10:58:02,170", "levelname": "DEBUG", "message": "ApplyDataModel :Applying InFeatureId"}
+{"asctime": "2020-05-25 10:58:03,039", "levelname": "DEBUG", "message": "ApplyDataModel :Field InFeatureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/NetworkConnectivity"}
+{"asctime": "2020-05-25 10:58:03,040", "levelname": "DEBUG", "message": "ApplyDataModel :Applying InConnectionStart"}
+{"asctime": "2020-05-25 10:58:03,882", "levelname": "DEBUG", "message": "ApplyDataModel :Field InConnectionStart added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/NetworkConnectivity"}
+{"asctime": "2020-05-25 10:58:03,882", "levelname": "DEBUG", "message": "ApplyDataModel :Applying InConnectionStop"}
+{"asctime": "2020-05-25 10:58:04,702", "levelname": "DEBUG", "message": "ApplyDataModel :Field InConnectionStop added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/NetworkConnectivity"}
+{"asctime": "2020-05-25 10:58:04,702", "levelname": "DEBUG", "message": "ApplyDataModel :Applying OutFeatureId"}
+{"asctime": "2020-05-25 10:58:05,529", "levelname": "DEBUG", "message": "ApplyDataModel :Field OutFeatureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/NetworkConnectivity"}
+{"asctime": "2020-05-25 10:58:05,529", "levelname": "DEBUG", "message": "ApplyDataModel :Applying OutConnectionStart"}
+{"asctime": "2020-05-25 10:58:06,364", "levelname": "DEBUG", "message": "ApplyDataModel :Field OutConnectionStart added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/NetworkConnectivity"}
+{"asctime": "2020-05-25 10:58:06,364", "levelname": "DEBUG", "message": "ApplyDataModel :Applying OutConnectionStop"}
+{"asctime": "2020-05-25 10:58:07,182", "levelname": "DEBUG", "message": "ApplyDataModel :Field OutConnectionStop added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/NetworkConnectivity"}
+{"asctime": "2020-05-25 10:58:07,183", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Loss"}
+{"asctime": "2020-05-25 10:58:08,046", "levelname": "DEBUG", "message": "ApplyDataModel :Field Loss added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/NetworkConnectivity"}
+{"asctime": "2020-05-25 10:58:08,047", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:58:09,350", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:58:09,351", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:58:10,702", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:58:10,702", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:58:10,980", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:58:10,980", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:58:10,982", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'PrintTile', 'geometry': 'POLYGON', 'spatialref': 2231, 'fields': 'printtile.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:58:11,011", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class PrintTile"}
+{"asctime": "2020-05-25 10:58:12,343", "levelname": "DEBUG", "message": "ApplyDataModel :PrintTile created"}
+{"asctime": "2020-05-25 10:58:12,343", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/PrintTile"}
+{"asctime": "2020-05-25 10:58:12,344", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Name"}
+{"asctime": "2020-05-25 10:58:13,435", "levelname": "DEBUG", "message": "ApplyDataModel :Field Name added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/PrintTile"}
+{"asctime": "2020-05-25 10:58:13,436", "levelname": "DEBUG", "message": "ApplyDataModel :Applying PageNumber"}
+{"asctime": "2020-05-25 10:58:14,488", "levelname": "DEBUG", "message": "ApplyDataModel :Field PageNumber added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/PrintTile"}
+{"asctime": "2020-05-25 10:58:14,489", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:58:15,830", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:58:15,830", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:58:17,430", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:58:17,431", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:58:17,736", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:58:17,737", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:58:17,738", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'Route', 'geometry': 'POLYLINE', 'spatialref': 2231, 'fields': 'route.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:58:17,764", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class Route"}
+{"asctime": "2020-05-25 10:58:19,051", "levelname": "DEBUG", "message": "ApplyDataModel :Route created"}
+{"asctime": "2020-05-25 10:58:19,052", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Route"}
+{"asctime": "2020-05-25 10:58:19,052", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-05-25 10:58:20,132", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Route"}
+{"asctime": "2020-05-25 10:58:20,132", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RouteId"}
+{"asctime": "2020-05-25 10:58:21,248", "levelname": "DEBUG", "message": "ApplyDataModel :Field RouteId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Route"}
+{"asctime": "2020-05-25 10:58:21,248", "levelname": "DEBUG", "message": "ApplyDataModel :Applying FromStructureId"}
+{"asctime": "2020-05-25 10:58:22,304", "levelname": "DEBUG", "message": "ApplyDataModel :Field FromStructureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Route"}
+{"asctime": "2020-05-25 10:58:22,305", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ToStructureId"}
+{"asctime": "2020-05-25 10:58:23,360", "levelname": "DEBUG", "message": "ApplyDataModel :Field ToStructureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Route"}
+{"asctime": "2020-05-25 10:58:23,360", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Name"}
+{"asctime": "2020-05-25 10:58:24,385", "levelname": "DEBUG", "message": "ApplyDataModel :Field Name added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Route"}
+{"asctime": "2020-05-25 10:58:24,386", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Colour"}
+{"asctime": "2020-05-25 10:58:25,692", "levelname": "DEBUG", "message": "ApplyDataModel :Field Colour added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Route"}
+{"asctime": "2020-05-25 10:58:25,692", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Existing"}
+{"asctime": "2020-05-25 10:58:27,025", "levelname": "DEBUG", "message": "ApplyDataModel :Field Existing added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Route"}
+{"asctime": "2020-05-25 10:58:27,026", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:58:28,543", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:58:28,544", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:58:30,319", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:58:30,319", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:58:30,583", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:58:30,583", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:58:30,584", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'ServingArea', 'geometry': 'POLYGON', 'spatialref': 2231, 'fields': 'servingarea.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:58:30,608", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class ServingArea"}
+{"asctime": "2020-05-25 10:58:31,821", "levelname": "DEBUG", "message": "ApplyDataModel :ServingArea created"}
+{"asctime": "2020-05-25 10:58:31,822", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/ServingArea"}
+{"asctime": "2020-05-25 10:58:31,823", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-05-25 10:58:32,897", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/ServingArea"}
+{"asctime": "2020-05-25 10:58:32,898", "levelname": "DEBUG", "message": "ApplyDataModel :Applying AreaType"}
+{"asctime": "2020-05-25 10:58:34,022", "levelname": "DEBUG", "message": "ApplyDataModel :Field AreaType added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/ServingArea"}
+{"asctime": "2020-05-25 10:58:34,022", "levelname": "DEBUG", "message": "ApplyDataModel :Applying EquipmentId"}
+{"asctime": "2020-05-25 10:58:35,144", "levelname": "DEBUG", "message": "ApplyDataModel :Field EquipmentId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/ServingArea"}
+{"asctime": "2020-05-25 10:58:35,144", "levelname": "DEBUG", "message": "ApplyDataModel :Applying WorkId"}
+{"asctime": "2020-05-25 10:58:36,232", "levelname": "DEBUG", "message": "ApplyDataModel :Field WorkId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/ServingArea"}
+{"asctime": "2020-05-25 10:58:36,233", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CentralOfficeDetailId"}
+{"asctime": "2020-05-25 10:58:37,298", "levelname": "DEBUG", "message": "ApplyDataModel :Field CentralOfficeDetailId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/ServingArea"}
+{"asctime": "2020-05-25 10:58:37,298", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Colour"}
+{"asctime": "2020-05-25 10:58:38,539", "levelname": "DEBUG", "message": "ApplyDataModel :Field Colour added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/ServingArea"}
+{"asctime": "2020-05-25 10:58:38,540", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ServicePointCount"}
+{"asctime": "2020-05-25 10:58:39,849", "levelname": "DEBUG", "message": "ApplyDataModel :Field ServicePointCount added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/ServingArea"}
+{"asctime": "2020-05-25 10:58:39,850", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:58:41,381", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:58:41,381", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:58:43,180", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:58:43,180", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:58:43,457", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:58:43,457", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:58:43,458", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'Structure', 'geometry': 'POINT', 'spatialref': 2231, 'fields': 'structure.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:58:43,482", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class Structure"}
+{"asctime": "2020-05-25 10:58:44,741", "levelname": "DEBUG", "message": "ApplyDataModel :Structure created"}
+{"asctime": "2020-05-25 10:58:44,742", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Structure"}
+{"asctime": "2020-05-25 10:58:44,742", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-05-25 10:58:46,011", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Structure"}
+{"asctime": "2020-05-25 10:58:46,011", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StructureId"}
+{"asctime": "2020-05-25 10:58:47,033", "levelname": "DEBUG", "message": "ApplyDataModel :Field StructureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Structure"}
+{"asctime": "2020-05-25 10:58:47,033", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CentralOfficeDetailId"}
+{"asctime": "2020-05-25 10:58:48,056", "levelname": "DEBUG", "message": "ApplyDataModel :Field CentralOfficeDetailId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Structure"}
+{"asctime": "2020-05-25 10:58:48,056", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StructureType"}
+{"asctime": "2020-05-25 10:58:49,113", "levelname": "DEBUG", "message": "ApplyDataModel :Field StructureType added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Structure"}
+{"asctime": "2020-05-25 10:58:49,114", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-05-25 10:58:50,163", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Structure"}
+{"asctime": "2020-05-25 10:58:50,163", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Existing"}
+{"asctime": "2020-05-25 10:58:51,365", "levelname": "DEBUG", "message": "ApplyDataModel :Field Existing added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Structure"}
+{"asctime": "2020-05-25 10:58:51,365", "levelname": "DEBUG", "message": "ApplyDataModel :Applying FromCableId"}
+{"asctime": "2020-05-25 10:58:52,621", "levelname": "DEBUG", "message": "ApplyDataModel :Field FromCableId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Structure"}
+{"asctime": "2020-05-25 10:58:52,621", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ToCableId"}
+{"asctime": "2020-05-25 10:58:53,855", "levelname": "DEBUG", "message": "ApplyDataModel :Field ToCableId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Structure"}
+{"asctime": "2020-05-25 10:58:53,855", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CustomerStructureId"}
+{"asctime": "2020-05-25 10:58:55,139", "levelname": "DEBUG", "message": "ApplyDataModel :Field CustomerStructureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/Structure"}
+{"asctime": "2020-05-25 10:58:55,139", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:58:56,666", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:58:56,667", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:58:58,414", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:58:58,414", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:58:58,679", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:58:58,679", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:58:58,680", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'SupportingStructure', 'geometry': 'POLYLINE', 'spatialref': 2231, 'fields': 'supportingstructure.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:58:58,704", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class SupportingStructure"}
+{"asctime": "2020-05-25 10:58:59,924", "levelname": "DEBUG", "message": "ApplyDataModel :SupportingStructure created"}
+{"asctime": "2020-05-25 10:58:59,924", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/SupportingStructure"}
+{"asctime": "2020-05-25 10:58:59,925", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-05-25 10:59:00,936", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/SupportingStructure"}
+{"asctime": "2020-05-25 10:59:00,936", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RouteId"}
+{"asctime": "2020-05-25 10:59:01,976", "levelname": "DEBUG", "message": "ApplyDataModel :Field RouteId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/SupportingStructure"}
+{"asctime": "2020-05-25 10:59:01,976", "levelname": "DEBUG", "message": "ApplyDataModel :Applying SupportingStructureId"}
+{"asctime": "2020-05-25 10:59:02,996", "levelname": "DEBUG", "message": "ApplyDataModel :Field SupportingStructureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/SupportingStructure"}
+{"asctime": "2020-05-25 10:59:02,996", "levelname": "DEBUG", "message": "ApplyDataModel :Applying InstallationType"}
+{"asctime": "2020-05-25 10:59:04,028", "levelname": "DEBUG", "message": "ApplyDataModel :Field InstallationType added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/SupportingStructure"}
+{"asctime": "2020-05-25 10:59:04,029", "levelname": "DEBUG", "message": "ApplyDataModel :Applying FromDistance"}
+{"asctime": "2020-05-25 10:59:05,077", "levelname": "DEBUG", "message": "ApplyDataModel :Field FromDistance added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/SupportingStructure"}
+{"asctime": "2020-05-25 10:59:05,078", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ToDistance"}
+{"asctime": "2020-05-25 10:59:06,133", "levelname": "DEBUG", "message": "ApplyDataModel :Field ToDistance added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/SupportingStructure"}
+{"asctime": "2020-05-25 10:59:06,134", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Size"}
+{"asctime": "2020-05-25 10:59:07,167", "levelname": "DEBUG", "message": "ApplyDataModel :Field Size added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/SupportingStructure"}
+{"asctime": "2020-05-25 10:59:07,167", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Existing"}
+{"asctime": "2020-05-25 10:59:08,357", "levelname": "DEBUG", "message": "ApplyDataModel :Field Existing added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/SupportingStructure"}
+{"asctime": "2020-05-25 10:59:08,358", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ProductType"}
+{"asctime": "2020-05-25 10:59:09,800", "levelname": "DEBUG", "message": "ApplyDataModel :Field ProductType added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/SupportingStructure"}
+{"asctime": "2020-05-25 10:59:09,800", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:59:11,375", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:59:11,375", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:59:13,129", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:59:13,129", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:59:13,392", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:59:13,392", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:59:13,393", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'WorkArea', 'geometry': 'POLYGON', 'spatialref': 2231, 'fields': 'workarea.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:59:13,421", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class WorkArea"}
+{"asctime": "2020-05-25 10:59:14,633", "levelname": "DEBUG", "message": "ApplyDataModel :WorkArea created"}
+{"asctime": "2020-05-25 10:59:14,634", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/WorkArea"}
+{"asctime": "2020-05-25 10:59:14,634", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-05-25 10:59:15,676", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/WorkArea"}
+{"asctime": "2020-05-25 10:59:15,677", "levelname": "DEBUG", "message": "ApplyDataModel :Applying AreaCableType"}
+{"asctime": "2020-05-25 10:59:16,714", "levelname": "DEBUG", "message": "ApplyDataModel :Field AreaCableType added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/WorkArea"}
+{"asctime": "2020-05-25 10:59:16,715", "levelname": "DEBUG", "message": "ApplyDataModel :Applying AreaArchitecture"}
+{"asctime": "2020-05-25 10:59:17,828", "levelname": "DEBUG", "message": "ApplyDataModel :Field AreaArchitecture added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/WorkArea"}
+{"asctime": "2020-05-25 10:59:17,828", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CentralOfficeId"}
+{"asctime": "2020-05-25 10:59:19,007", "levelname": "DEBUG", "message": "ApplyDataModel :Field CentralOfficeId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/WorkArea"}
+{"asctime": "2020-05-25 10:59:19,007", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Name"}
+{"asctime": "2020-05-25 10:59:20,044", "levelname": "DEBUG", "message": "ApplyDataModel :Field Name added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/WorkArea"}
+{"asctime": "2020-05-25 10:59:20,044", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Colour"}
+{"asctime": "2020-05-25 10:59:21,398", "levelname": "DEBUG", "message": "ApplyDataModel :Field Colour added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/WorkArea"}
+{"asctime": "2020-05-25 10:59:21,398", "levelname": "DEBUG", "message": "ApplyDataModel :Applying IsActive"}
+{"asctime": "2020-05-25 10:59:22,684", "levelname": "DEBUG", "message": "ApplyDataModel :Field IsActive added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/WorkArea"}
+{"asctime": "2020-05-25 10:59:22,684", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Status"}
+{"asctime": "2020-05-25 10:59:23,958", "levelname": "DEBUG", "message": "ApplyDataModel :Field Status added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/WorkArea"}
+{"asctime": "2020-05-25 10:59:23,958", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:59:25,533", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:59:25,533", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:59:27,335", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:59:27,335", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:59:27,640", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:59:27,641", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:59:27,641", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'PowerEquipment', 'geometry': '', 'spatialref': '', 'fields': 'powerequipment.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 10:59:27,669", "levelname": "DEBUG", "message": "ApplyDataModel :Creating table PowerEquipment"}
+{"asctime": "2020-05-25 10:59:28,925", "levelname": "DEBUG", "message": "ApplyDataModel :PowerEquipment created"}
+{"asctime": "2020-05-25 10:59:28,925", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/PowerEquipment"}
+{"asctime": "2020-05-25 10:59:28,926", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StructureId"}
+{"asctime": "2020-05-25 10:59:29,760", "levelname": "DEBUG", "message": "ApplyDataModel :Field StructureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/PowerEquipment"}
+{"asctime": "2020-05-25 10:59:29,761", "levelname": "DEBUG", "message": "ApplyDataModel :Applying EquipmentType"}
+{"asctime": "2020-05-25 10:59:30,613", "levelname": "DEBUG", "message": "ApplyDataModel :Field EquipmentType added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/PowerEquipment"}
+{"asctime": "2020-05-25 10:59:30,613", "levelname": "DEBUG", "message": "ApplyDataModel :Applying EquipmentCount"}
+{"asctime": "2020-05-25 10:59:31,435", "levelname": "DEBUG", "message": "ApplyDataModel :Field EquipmentCount added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtdesign.gdb/PowerEquipment"}
+{"asctime": "2020-05-25 10:59:31,435", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 10:59:32,677", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 10:59:32,677", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 10:59:34,008", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 10:59:34,009", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 10:59:34,259", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:59:34,259", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 10:59:34,260", "levelname": "DEBUG", "message": "ApplyDataModel :Processing feature classes finished."}
+{"asctime": "2020-05-25 11:02:16,258", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'Anchor', 'geometry': 'POINT', 'spatialref': 2277, 'fields': 'anchor.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': True}"}
+{"asctime": "2020-05-25 11:02:16,291", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class Anchor"}
+{"asctime": "2020-05-25 11:02:17,576", "levelname": "DEBUG", "message": "ApplyDataModel :Anchor created"}
+{"asctime": "2020-05-25 11:02:17,577", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Anchor"}
+{"asctime": "2020-05-25 11:02:17,578", "levelname": "DEBUG", "message": "ApplyDataModel :Applying AnchorId"}
+{"asctime": "2020-05-25 11:02:18,609", "levelname": "DEBUG", "message": "ApplyDataModel :Field AnchorId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Anchor"}
+{"asctime": "2020-05-25 11:02:18,609", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Lead"}
+{"asctime": "2020-05-25 11:02:19,813", "levelname": "DEBUG", "message": "ApplyDataModel :Field Lead added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Anchor"}
+{"asctime": "2020-05-25 11:02:19,813", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Height"}
+{"asctime": "2020-05-25 11:02:21,012", "levelname": "DEBUG", "message": "ApplyDataModel :Field Height added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Anchor"}
+{"asctime": "2020-05-25 11:02:21,012", "levelname": "DEBUG", "message": "ApplyDataModel :Applying PoleNumber"}
+{"asctime": "2020-05-25 11:02:22,187", "levelname": "DEBUG", "message": "ApplyDataModel :Field PoleNumber added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Anchor"}
+{"asctime": "2020-05-25 11:02:22,188", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 11:02:23,641", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 11:02:23,641", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 11:02:25,393", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 11:02:25,393", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 11:02:25,664", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:02:25,665", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:02:25,666", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling GPS metadata."}
+{"asctime": "2020-05-25 11:02:58,449", "levelname": "DEBUG", "message": "ApplyDataModel :GPS metadata enabled."}
+{"asctime": "2020-05-25 11:02:58,449", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'Assembly', 'geometry': '', 'spatialref': '', 'fields': 'assemblyfielding.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 11:02:58,473", "levelname": "DEBUG", "message": "ApplyDataModel :Creating table Assembly"}
+{"asctime": "2020-05-25 11:02:59,784", "levelname": "DEBUG", "message": "ApplyDataModel :Assembly created"}
+{"asctime": "2020-05-25 11:02:59,784", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Assembly"}
+{"asctime": "2020-05-25 11:02:59,785", "levelname": "DEBUG", "message": "ApplyDataModel :Applying AssemblyId"}
+{"asctime": "2020-05-25 11:03:00,697", "levelname": "DEBUG", "message": "ApplyDataModel :Field AssemblyId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Assembly"}
+{"asctime": "2020-05-25 11:03:00,697", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-05-25 11:03:01,560", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Assembly"}
+{"asctime": "2020-05-25 11:03:01,561", "levelname": "DEBUG", "message": "ApplyDataModel :Applying StructureId"}
+{"asctime": "2020-05-25 11:03:02,406", "levelname": "DEBUG", "message": "ApplyDataModel :Field StructureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Assembly"}
+{"asctime": "2020-05-25 11:03:02,406", "levelname": "DEBUG", "message": "ApplyDataModel :Applying FieldingRUSCode"}
+{"asctime": "2020-05-25 11:03:03,240", "levelname": "DEBUG", "message": "ApplyDataModel :Field FieldingRUSCode added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Assembly"}
+{"asctime": "2020-05-25 11:03:03,240", "levelname": "DEBUG", "message": "ApplyDataModel :Applying DesignRUSCode"}
+{"asctime": "2020-05-25 11:03:04,106", "levelname": "DEBUG", "message": "ApplyDataModel :Field DesignRUSCode added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Assembly"}
+{"asctime": "2020-05-25 11:03:04,106", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 11:03:05,646", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 11:03:05,647", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 11:03:07,122", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 11:03:07,122", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 11:03:07,414", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:03:07,415", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:03:07,416", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'Comment', 'geometry': '', 'spatialref': '', 'fields': 'comment.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 11:03:07,442", "levelname": "DEBUG", "message": "ApplyDataModel :Creating table Comment"}
+{"asctime": "2020-05-25 11:03:08,709", "levelname": "DEBUG", "message": "ApplyDataModel :Comment created"}
+{"asctime": "2020-05-25 11:03:08,710", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Comment"}
+{"asctime": "2020-05-25 11:03:08,710", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CommentId"}
+{"asctime": "2020-05-25 11:03:09,556", "levelname": "DEBUG", "message": "ApplyDataModel :Field CommentId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Comment"}
+{"asctime": "2020-05-25 11:03:09,556", "levelname": "DEBUG", "message": "ApplyDataModel :Applying FeatureId"}
+{"asctime": "2020-05-25 11:03:10,432", "levelname": "DEBUG", "message": "ApplyDataModel :Field FeatureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Comment"}
+{"asctime": "2020-05-25 11:03:10,433", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-05-25 11:03:11,329", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Comment"}
+{"asctime": "2020-05-25 11:03:11,329", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CommentType"}
+{"asctime": "2020-05-25 11:03:12,290", "levelname": "DEBUG", "message": "ApplyDataModel :Field CommentType added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Comment"}
+{"asctime": "2020-05-25 11:03:12,290", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 11:03:13,753", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 11:03:13,753", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 11:03:15,267", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 11:03:15,268", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 11:03:15,524", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:03:15,524", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:03:15,525", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'Clearance', 'geometry': 'POINT', 'spatialref': 2277, 'fields': 'clearance.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': True}"}
+{"asctime": "2020-05-25 11:03:15,552", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class Clearance"}
+{"asctime": "2020-05-25 11:03:16,797", "levelname": "DEBUG", "message": "ApplyDataModel :Clearance created"}
+{"asctime": "2020-05-25 11:03:16,797", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Clearance"}
+{"asctime": "2020-05-25 11:03:16,798", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ClearanceId"}
+{"asctime": "2020-05-25 11:03:17,816", "levelname": "DEBUG", "message": "ApplyDataModel :Field ClearanceId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Clearance"}
+{"asctime": "2020-05-25 11:03:17,816", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CrossingType"}
+{"asctime": "2020-05-25 11:03:19,021", "levelname": "DEBUG", "message": "ApplyDataModel :Field CrossingType added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Clearance"}
+{"asctime": "2020-05-25 11:03:19,022", "levelname": "DEBUG", "message": "ApplyDataModel :Applying MidspanType"}
+{"asctime": "2020-05-25 11:03:20,264", "levelname": "DEBUG", "message": "ApplyDataModel :Field MidspanType added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Clearance"}
+{"asctime": "2020-05-25 11:03:20,265", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ClearanceFeet"}
+{"asctime": "2020-05-25 11:03:21,523", "levelname": "DEBUG", "message": "ApplyDataModel :Field ClearanceFeet added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Clearance"}
+{"asctime": "2020-05-25 11:03:21,523", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ClearanceInches"}
+{"asctime": "2020-05-25 11:03:22,799", "levelname": "DEBUG", "message": "ApplyDataModel :Field ClearanceInches added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Clearance"}
+{"asctime": "2020-05-25 11:03:22,800", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ClearanceOK"}
+{"asctime": "2020-05-25 11:03:24,058", "levelname": "DEBUG", "message": "ApplyDataModel :Field ClearanceOK added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Clearance"}
+{"asctime": "2020-05-25 11:03:24,059", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 11:03:25,595", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 11:03:25,596", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 11:03:27,386", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 11:03:27,386", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 11:03:27,659", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:03:27,659", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:03:27,660", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling GPS metadata."}
+{"asctime": "2020-05-25 11:03:55,482", "levelname": "DEBUG", "message": "ApplyDataModel :GPS metadata enabled."}
+{"asctime": "2020-05-25 11:03:55,482", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'FieldingAreaMarker', 'geometry': 'POLYGON', 'spatialref': 2277, 'fields': 'fieldingareamarker.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': True, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 11:03:55,506", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class FieldingAreaMarker"}
+{"asctime": "2020-05-25 11:03:56,808", "levelname": "DEBUG", "message": "ApplyDataModel :FieldingAreaMarker created"}
+{"asctime": "2020-05-25 11:03:56,809", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/FieldingAreaMarker"}
+{"asctime": "2020-05-25 11:03:56,809", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Label"}
+{"asctime": "2020-05-25 11:03:57,935", "levelname": "DEBUG", "message": "ApplyDataModel :Field Label added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/FieldingAreaMarker"}
+{"asctime": "2020-05-25 11:03:57,935", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-05-25 11:03:59,063", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/FieldingAreaMarker"}
+{"asctime": "2020-05-25 11:03:59,063", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 11:04:00,455", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 11:04:00,455", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 11:04:02,272", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 11:04:02,272", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 11:04:02,566", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:04:02,567", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:04:02,568", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling attachments."}
+{"asctime": "2020-05-25 11:04:03,996", "levelname": "DEBUG", "message": "ApplyDataModel :Attachments enabled."}
+{"asctime": "2020-05-25 11:04:03,996", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'FieldingPointMarker', 'geometry': 'POINT', 'spatialref': 2277, 'fields': 'fieldingpointmarker.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': True, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 11:04:04,022", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class FieldingPointMarker"}
+{"asctime": "2020-05-25 11:04:05,323", "levelname": "DEBUG", "message": "ApplyDataModel :FieldingPointMarker created"}
+{"asctime": "2020-05-25 11:04:05,324", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/FieldingPointMarker"}
+{"asctime": "2020-05-25 11:04:05,324", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Label"}
+{"asctime": "2020-05-25 11:04:06,419", "levelname": "DEBUG", "message": "ApplyDataModel :Field Label added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/FieldingPointMarker"}
+{"asctime": "2020-05-25 11:04:06,419", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-05-25 11:04:07,475", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/FieldingPointMarker"}
+{"asctime": "2020-05-25 11:04:07,476", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 11:04:08,761", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 11:04:08,762", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 11:04:10,318", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 11:04:10,319", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 11:04:10,556", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:04:10,556", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:04:10,557", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling attachments."}
+{"asctime": "2020-05-25 11:04:11,928", "levelname": "DEBUG", "message": "ApplyDataModel :Attachments enabled."}
+{"asctime": "2020-05-25 11:04:11,929", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'FieldingLineMarker', 'geometry': 'POLYLINE', 'spatialref': 2277, 'fields': 'fieldinglinemarker.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': True, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 11:04:11,953", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class FieldingLineMarker"}
+{"asctime": "2020-05-25 11:04:13,181", "levelname": "DEBUG", "message": "ApplyDataModel :FieldingLineMarker created"}
+{"asctime": "2020-05-25 11:04:13,182", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/FieldingLineMarker"}
+{"asctime": "2020-05-25 11:04:13,182", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Label"}
+{"asctime": "2020-05-25 11:04:14,200", "levelname": "DEBUG", "message": "ApplyDataModel :Field Label added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/FieldingLineMarker"}
+{"asctime": "2020-05-25 11:04:14,201", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-05-25 11:04:15,229", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/FieldingLineMarker"}
+{"asctime": "2020-05-25 11:04:15,230", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Type"}
+{"asctime": "2020-05-25 11:04:16,264", "levelname": "DEBUG", "message": "ApplyDataModel :Field Type added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/FieldingLineMarker"}
+{"asctime": "2020-05-25 11:04:16,265", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 11:04:17,586", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 11:04:17,587", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 11:04:19,141", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 11:04:19,142", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 11:04:19,384", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:04:19,385", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:04:19,386", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling attachments."}
+{"asctime": "2020-05-25 11:04:20,741", "levelname": "DEBUG", "message": "ApplyDataModel :Attachments enabled."}
+{"asctime": "2020-05-25 11:04:20,741", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'MakeReadyCategory', 'geometry': '', 'spatialref': '', 'fields': 'makereadycategory.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 11:04:20,771", "levelname": "DEBUG", "message": "ApplyDataModel :Creating table MakeReadyCategory"}
+{"asctime": "2020-05-25 11:04:22,072", "levelname": "DEBUG", "message": "ApplyDataModel :MakeReadyCategory created"}
+{"asctime": "2020-05-25 11:04:22,073", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/MakeReadyCategory"}
+{"asctime": "2020-05-25 11:04:22,073", "levelname": "DEBUG", "message": "ApplyDataModel :Applying MakeReadyCategoryId"}
+{"asctime": "2020-05-25 11:04:22,920", "levelname": "DEBUG", "message": "ApplyDataModel :Field MakeReadyCategoryId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/MakeReadyCategory"}
+{"asctime": "2020-05-25 11:04:22,921", "levelname": "DEBUG", "message": "ApplyDataModel :Applying PoleId"}
+{"asctime": "2020-05-25 11:04:23,916", "levelname": "DEBUG", "message": "ApplyDataModel :Field PoleId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/MakeReadyCategory"}
+{"asctime": "2020-05-25 11:04:23,917", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Category"}
+{"asctime": "2020-05-25 11:04:25,167", "levelname": "DEBUG", "message": "ApplyDataModel :Field Category added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/MakeReadyCategory"}
+{"asctime": "2020-05-25 11:04:25,168", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 11:04:26,900", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 11:04:26,901", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 11:04:28,543", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 11:04:28,544", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 11:04:28,800", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:04:28,800", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:04:28,801", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'Pole', 'geometry': 'POINT', 'spatialref': 2277, 'fields': 'pole.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': True, 'gpsmetadata': True}"}
+{"asctime": "2020-05-25 11:04:28,824", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class Pole"}
+{"asctime": "2020-05-25 11:04:30,038", "levelname": "DEBUG", "message": "ApplyDataModel :Pole created"}
+{"asctime": "2020-05-25 11:04:30,038", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Pole"}
+{"asctime": "2020-05-25 11:04:30,038", "levelname": "DEBUG", "message": "ApplyDataModel :Applying PoleId"}
+{"asctime": "2020-05-25 11:04:31,059", "levelname": "DEBUG", "message": "ApplyDataModel :Field PoleId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Pole"}
+{"asctime": "2020-05-25 11:04:31,059", "levelname": "DEBUG", "message": "ApplyDataModel :Applying PoleNumber"}
+{"asctime": "2020-05-25 11:04:32,074", "levelname": "DEBUG", "message": "ApplyDataModel :Field PoleNumber added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Pole"}
+{"asctime": "2020-05-25 11:04:32,074", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ExtensionArm"}
+{"asctime": "2020-05-25 11:04:33,345", "levelname": "DEBUG", "message": "ApplyDataModel :Field ExtensionArm added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Pole"}
+{"asctime": "2020-05-25 11:04:33,345", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ProposedAttachmentHeight"}
+{"asctime": "2020-05-25 11:04:34,727", "levelname": "DEBUG", "message": "ApplyDataModel :Field ProposedAttachmentHeight added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Pole"}
+{"asctime": "2020-05-25 11:04:34,727", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CollectionComplete"}
+{"asctime": "2020-05-25 11:04:35,974", "levelname": "DEBUG", "message": "ApplyDataModel :Field CollectionComplete added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Pole"}
+{"asctime": "2020-05-25 11:04:35,974", "levelname": "DEBUG", "message": "ApplyDataModel :Applying FromCableId"}
+{"asctime": "2020-05-25 11:04:37,162", "levelname": "DEBUG", "message": "ApplyDataModel :Field FromCableId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Pole"}
+{"asctime": "2020-05-25 11:04:37,162", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ToCableId"}
+{"asctime": "2020-05-25 11:04:38,360", "levelname": "DEBUG", "message": "ApplyDataModel :Field ToCableId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/Pole"}
+{"asctime": "2020-05-25 11:04:38,360", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 11:04:39,868", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 11:04:39,868", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 11:04:41,679", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 11:04:41,679", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 11:04:41,973", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:04:41,974", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:04:41,976", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling attachments."}
+{"asctime": "2020-05-25 11:04:43,635", "levelname": "DEBUG", "message": "ApplyDataModel :Attachments enabled."}
+{"asctime": "2020-05-25 11:04:43,635", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling GPS metadata."}
+{"asctime": "2020-05-25 11:05:13,319", "levelname": "DEBUG", "message": "ApplyDataModel :GPS metadata enabled."}
+{"asctime": "2020-05-25 11:05:13,320", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'RedlineChangeArea', 'geometry': 'POLYGON', 'spatialref': 2277, 'fields': 'redlinechangearea.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 11:05:13,344", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class RedlineChangeArea"}
+{"asctime": "2020-05-25 11:05:14,590", "levelname": "DEBUG", "message": "ApplyDataModel :RedlineChangeArea created"}
+{"asctime": "2020-05-25 11:05:14,590", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlineChangeArea"}
+{"asctime": "2020-05-25 11:05:14,590", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Description"}
+{"asctime": "2020-05-25 11:05:15,594", "levelname": "DEBUG", "message": "ApplyDataModel :Field Description added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlineChangeArea"}
+{"asctime": "2020-05-25 11:05:15,594", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-05-25 11:05:16,667", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlineChangeArea"}
+{"asctime": "2020-05-25 11:05:16,668", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ApprovalStatus"}
+{"asctime": "2020-05-25 11:05:17,862", "levelname": "DEBUG", "message": "ApplyDataModel :Field ApprovalStatus added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlineChangeArea"}
+{"asctime": "2020-05-25 11:05:17,863", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ChangeId"}
+{"asctime": "2020-05-25 11:05:19,105", "levelname": "DEBUG", "message": "ApplyDataModel :Field ChangeId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlineChangeArea"}
+{"asctime": "2020-05-25 11:05:19,106", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RedlineFeatureId"}
+{"asctime": "2020-05-25 11:05:20,339", "levelname": "DEBUG", "message": "ApplyDataModel :Field RedlineFeatureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlineChangeArea"}
+{"asctime": "2020-05-25 11:05:20,339", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 11:05:21,850", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 11:05:21,851", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 11:05:23,650", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 11:05:23,650", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 11:05:23,943", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:05:23,943", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:05:23,944", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'RedlinePointMarker', 'geometry': 'POINT', 'spatialref': 2277, 'fields': 'redlinepointmarker.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': True, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 11:05:23,968", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class RedlinePointMarker"}
+{"asctime": "2020-05-25 11:05:25,210", "levelname": "DEBUG", "message": "ApplyDataModel :RedlinePointMarker created"}
+{"asctime": "2020-05-25 11:05:25,211", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlinePointMarker"}
+{"asctime": "2020-05-25 11:05:25,211", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Label"}
+{"asctime": "2020-05-25 11:05:26,296", "levelname": "DEBUG", "message": "ApplyDataModel :Field Label added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlinePointMarker"}
+{"asctime": "2020-05-25 11:05:26,296", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-05-25 11:05:27,351", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlinePointMarker"}
+{"asctime": "2020-05-25 11:05:27,351", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RedlineFeatureId"}
+{"asctime": "2020-05-25 11:05:28,439", "levelname": "DEBUG", "message": "ApplyDataModel :Field RedlineFeatureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlinePointMarker"}
+{"asctime": "2020-05-25 11:05:28,439", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 11:05:29,772", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 11:05:29,772", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 11:05:31,305", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 11:05:31,305", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 11:05:31,553", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:05:31,553", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:05:31,554", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling attachments."}
+{"asctime": "2020-05-25 11:05:32,890", "levelname": "DEBUG", "message": "ApplyDataModel :Attachments enabled."}
+{"asctime": "2020-05-25 11:05:32,891", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'RedlineLineMarker', 'geometry': 'POLYLINE', 'spatialref': 2277, 'fields': 'redlinelinemarker.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 11:05:32,914", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class RedlineLineMarker"}
+{"asctime": "2020-05-25 11:05:34,138", "levelname": "DEBUG", "message": "ApplyDataModel :RedlineLineMarker created"}
+{"asctime": "2020-05-25 11:05:34,138", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlineLineMarker"}
+{"asctime": "2020-05-25 11:05:34,139", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Label"}
+{"asctime": "2020-05-25 11:05:35,188", "levelname": "DEBUG", "message": "ApplyDataModel :Field Label added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlineLineMarker"}
+{"asctime": "2020-05-25 11:05:35,189", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-05-25 11:05:36,215", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlineLineMarker"}
+{"asctime": "2020-05-25 11:05:36,215", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RedlineFeatureId"}
+{"asctime": "2020-05-25 11:05:37,351", "levelname": "DEBUG", "message": "ApplyDataModel :Field RedlineFeatureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlineLineMarker"}
+{"asctime": "2020-05-25 11:05:37,351", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 11:05:38,728", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 11:05:38,728", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 11:05:40,326", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 11:05:40,326", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 11:05:40,642", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:05:40,643", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:05:40,644", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'RedlineComment', 'geometry': '', 'spatialref': '', 'fields': 'redlinecomment.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': False}"}
+{"asctime": "2020-05-25 11:05:40,674", "levelname": "DEBUG", "message": "ApplyDataModel :Creating table RedlineComment"}
+{"asctime": "2020-05-25 11:05:42,068", "levelname": "DEBUG", "message": "ApplyDataModel :RedlineComment created"}
+{"asctime": "2020-05-25 11:05:42,068", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlineComment"}
+{"asctime": "2020-05-25 11:05:42,069", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ApprovalStatus"}
+{"asctime": "2020-05-25 11:05:43,091", "levelname": "DEBUG", "message": "ApplyDataModel :Field ApprovalStatus added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlineComment"}
+{"asctime": "2020-05-25 11:05:43,092", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Comment"}
+{"asctime": "2020-05-25 11:05:44,148", "levelname": "DEBUG", "message": "ApplyDataModel :Field Comment added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlineComment"}
+{"asctime": "2020-05-25 11:05:44,149", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RedlineFeatureId"}
+{"asctime": "2020-05-25 11:05:45,133", "levelname": "DEBUG", "message": "ApplyDataModel :Field RedlineFeatureId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlineComment"}
+{"asctime": "2020-05-25 11:05:45,133", "levelname": "DEBUG", "message": "ApplyDataModel :Applying RedlineCommentId"}
+{"asctime": "2020-05-25 11:05:46,135", "levelname": "DEBUG", "message": "ApplyDataModel :Field RedlineCommentId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/RedlineComment"}
+{"asctime": "2020-05-25 11:05:46,136", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 11:05:47,584", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 11:05:47,584", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 11:05:49,367", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 11:05:49,367", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 11:05:49,616", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:05:49,617", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:05:49,618", "levelname": "DEBUG", "message": "ApplyDataModel :{'name': 'ServicePoint', 'geometry': 'POINT', 'spatialref': 2231, 'fields': 'servicepoint.json', 'globalids': True, 'editortracking': True, 'archiving': True, 'attachments': False, 'gpsmetadata': True}"}
+{"asctime": "2020-05-25 11:05:49,641", "levelname": "DEBUG", "message": "ApplyDataModel :Creating feature class ServicePoint"}
+{"asctime": "2020-05-25 11:05:50,852", "levelname": "DEBUG", "message": "ApplyDataModel :ServicePoint created"}
+{"asctime": "2020-05-25 11:05:50,852", "levelname": "DEBUG", "message": "ApplyDataModel :Applying fields for C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/ServicePoint"}
+{"asctime": "2020-05-25 11:05:50,853", "levelname": "DEBUG", "message": "ApplyDataModel :Applying ServicePointId"}
+{"asctime": "2020-05-25 11:05:51,926", "levelname": "DEBUG", "message": "ApplyDataModel :Field ServicePointId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/ServicePoint"}
+{"asctime": "2020-05-25 11:05:51,926", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CustomerNumber"}
+{"asctime": "2020-05-25 11:05:53,034", "levelname": "DEBUG", "message": "ApplyDataModel :Field CustomerNumber added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/ServicePoint"}
+{"asctime": "2020-05-25 11:05:53,035", "levelname": "DEBUG", "message": "ApplyDataModel :Applying CustomerServicePointId"}
+{"asctime": "2020-05-25 11:05:54,064", "levelname": "DEBUG", "message": "ApplyDataModel :Field CustomerServicePointId added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/ServicePoint"}
+{"asctime": "2020-05-25 11:05:54,064", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Name"}
+{"asctime": "2020-05-25 11:05:55,098", "levelname": "DEBUG", "message": "ApplyDataModel :Field Name added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/ServicePoint"}
+{"asctime": "2020-05-25 11:05:55,099", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Address"}
+{"asctime": "2020-05-25 11:05:56,192", "levelname": "DEBUG", "message": "ApplyDataModel :Field Address added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/ServicePoint"}
+{"asctime": "2020-05-25 11:05:56,192", "levelname": "DEBUG", "message": "ApplyDataModel :Applying City"}
+{"asctime": "2020-05-25 11:05:57,256", "levelname": "DEBUG", "message": "ApplyDataModel :Field City added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/ServicePoint"}
+{"asctime": "2020-05-25 11:05:57,256", "levelname": "DEBUG", "message": "ApplyDataModel :Applying Multiple"}
+{"asctime": "2020-05-25 11:05:58,294", "levelname": "DEBUG", "message": "ApplyDataModel :Field Multiple added to C:/Cloud/Dropbox/Work/Axin/RDTDataModel/rdtfielding.gdb/ServicePoint"}
+{"asctime": "2020-05-25 11:05:58,295", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Globals Ids."}
+{"asctime": "2020-05-25 11:05:59,667", "levelname": "DEBUG", "message": "ApplyDataModel :Global Ids done."}
+{"asctime": "2020-05-25 11:05:59,668", "levelname": "DEBUG", "message": "ApplyDataModel :Adding Editor tracking fields."}
+{"asctime": "2020-05-25 11:06:01,374", "levelname": "DEBUG", "message": "ApplyDataModel :Editor tracking enabled."}
+{"asctime": "2020-05-25 11:06:01,374", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling archiving."}
+{"asctime": "2020-05-25 11:06:01,644", "levelname": "ERROR", "message": "ApplyDataModel :Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:06:01,644", "levelname": "ERROR", "message": "Traceback as follows:", "exc_info": "Traceback (most recent call last):\n  File \"C:\\Cloud\\Dropbox\\Work\\Axin\\Python\\ApplyDataModel\\ApplyDataModel.py\", line 249, in _manage_database_item\n    arcpy.EnableArchiving_management(full_fc)\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 209, in EnableArchiving\n    raise e\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\management.py\", line 206, in EnableArchiving\n    retval = convertArcObjectToPythonObject(gp.EnableArchiving_management(*gp_fixargs((in_dataset,), True)))\n  File \"C:\\Program Files\\ArcGIS\\Pro\\Resources\\ArcPy\\arcpy\\geoprocessing\\_base.py\", line 511, in <lambda>\n    return lambda *args: val(*gp_fixargs(args, True))\narcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.\nERROR 001542: This dataset type is not supported by archiving.\nFailed to execute (EnableArchiving).\n"}
+{"asctime": "2020-05-25 11:06:01,645", "levelname": "DEBUG", "message": "ApplyDataModel :Enabling GPS metadata."}
+{"asctime": "2020-05-25 11:06:28,069", "levelname": "DEBUG", "message": "ApplyDataModel :GPS metadata enabled."}
+{"asctime": "2020-05-25 11:06:28,069", "levelname": "DEBUG", "message": "ApplyDataModel :Processing feature classes finished."}

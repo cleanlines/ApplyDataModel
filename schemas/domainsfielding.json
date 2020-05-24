@@ -31,20 +31,68 @@
     "Feet": {
         "description": "Feet",
         "type": "SHORT",
-        "domaintype": "RANGE",
+        "domaintype": "CODED",
         "split": "DEFAULT",
         "merge": "DEFAULT",
-        "minrange": 5,
-        "maxrange": 40
+        "codes": {
+            "5": "5 FEET",
+            "6": "6 FEET",
+            "7": "7 FEET",
+            "8": "8 FEET",
+            "9": "9 FEET",
+            "10": "10 FEET",
+            "11": "11 FEET",
+            "12": "12 FEET",
+            "13": "13 FEET",
+            "14": "14 FEET",
+            "15": "15 FEET",
+            "16": "16 FEET",
+            "17": "17 FEET",
+            "18": "18 FEET",
+            "19": "19 FEET",
+            "20": "20 FEET",
+            "21": "21 FEET",
+            "22": "22 FEET",
+            "23": "23 FEET",
+            "24": "24 FEET",
+            "25": "25 FEET",
+            "26": "26 FEET",
+            "27": "27 FEET",
+            "28": "28 FEET",
+            "29": "29 FEET",
+            "30": "30 FEET",
+            "31": "31 FEET",
+            "32": "32 FEET",
+            "33": "33 FEET",
+            "34": "34 FEET",
+            "35": "35 FEET",
+            "36": "36 FEET",
+            "37": "37 FEET",
+            "38": "38 FEET",
+            "39": "39 FEET",
+            "40": "40 FEET"
+        }
     },
     "Inches": {
         "description": "Inches",
         "type": "SHORT",
-        "domaintype": "RANGE",
+        "domaintype": "CODED",
         "split": "DEFAULT",
         "merge": "DEFAULT",
-        "minrange": 0,
-        "maxrange": 11
+        "codes": {
+            "0": "0 INCHES",
+            "1": "1 INCHES",
+            "2": "2 INCHES",
+            "3": "3 INCHES",
+            "4": "4 INCHES",
+            "5": "5 INCHES",
+            "6": "6 INCHES",
+            "7": "7 INCHES",
+            "8": "8 INCHES",
+            "9": "9 INCHES",
+            "10": "10 INCHES",
+            "11": "11 INCHES"
+        }
     },
     "RUSCodeAerial": {
         "description": "RUS Codes for Poles",
@@ -159,20 +207,6 @@
             "9": "Raise Neutral",
             "10": "Lower Neutral",
             "11": "Replace Pole"
-        }
-    },
-    "StructureAudit": {
-        "description": "Default Structure Audit",
-        "type": "TEXT",
-        "domaintype": "CODED",
-        "split": "DEFAULT",
-        "merge": "DEFAULT",
-        "codes": {
-            "M": "Yes-moved",
-            "Y": "Yes",
-            "D": "Yes-discovered",
-            "N": "No",
-            "DNE": "Does not exist"
         }
     },
     "CollectionComplete": {

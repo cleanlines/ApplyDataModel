@@ -34,12 +34,23 @@
             "domain": ""
         },
         {
-            "name": "RUSCode",
+            "name": "FieldingRUSCode",
             "type": "TEXT",
             "precision": "",
             "scale": "",
             "length": "50",
-            "alias": "RUS Code",
+            "alias": "Fielding RUS Code",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
+            "name": "DesignRUSCode",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "100",
+            "alias": "Design RUS Code",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""

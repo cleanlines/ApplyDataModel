@@ -32,17 +32,6 @@
             "required": "REQUIRED",
             "scale": "0",
             "type": "SHORT"
-        },
-        {
-            "name": "LineType",
-            "alias": "Line Type",
-            "domain": "",
-            "nullable": "NULLABLE",
-            "length": "",
-            "precision": "5",
-            "required": "REQUIRED",
-            "scale": "0",
-            "type": "SHORT"
         }
     ]
 }

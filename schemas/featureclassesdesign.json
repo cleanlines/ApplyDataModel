@@ -55,17 +55,6 @@
       "gpsmetadata":false
     },
     {
-      "name": "CentralOfficeDetail",
-      "geometry": "",
-      "spatialref": "",
-      "fields": "centralofficedetail.json",
-      "globalids": true,
-      "editortracking": true,
-      "archiving": true,
-      "attachments": false,
-      "gpsmetadata":false
-    },
-    {
       "name": "CentralOfficeArea",
       "geometry": "POLYGON",
       "spatialref": 2231,

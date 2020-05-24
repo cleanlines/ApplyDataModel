@@ -76,6 +76,28 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
+        },
+        {
+            "name": "Existing",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Existing",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "TrueFalse"
+        },
+        {
+            "name": "ProductType",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "3",
+            "alias": "Product Type",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
         }
     ]
 }

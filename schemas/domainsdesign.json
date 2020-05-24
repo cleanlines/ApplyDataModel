@@ -21,6 +21,17 @@
             "1": "True"
         }
     },
+    "BackboneCableSize": {
+        "description": "Default Cable Sizes",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "144F": "144F",
+            "288F": "288F"
+        }
+    },
     "FeederCableSize": {
         "description": "Default Cable Sizes",
         "type": "TEXT",
@@ -70,48 +81,6 @@
             "mst_6F": "MST 6F",
             "mst_8F": "MST 8F",
             "mst_12F": "MST 12F"
-        }
-    },
-    "TerminalCableType": {
-        "description": "Default Cable Type",
-        "type": "TEXT",
-        "domaintype": "CODED",
-        "split": "DEFAULT",
-        "merge": "DEFAULT",
-        "codes": {
-            "terminaltail": "Terminal Tail"
-        }
-    },
-    "FeederCableType": {
-        "description": "Default Cable Type",
-        "type": "TEXT",
-        "domaintype": "CODED",
-        "split": "DEFAULT",
-        "merge": "DEFAULT",
-        "codes": {
-            "backhaul": "Backhaul",
-            "backbone":"Backbone",
-            "feeder":"Feeder"
-        }
-    },
-    "DistributionCableType": {
-        "description": "Default Cable Type",
-        "type": "TEXT",
-        "domaintype": "CODED",
-        "split": "DEFAULT",
-        "merge": "DEFAULT",
-        "codes": {
-            "distribution": "Distribution"
-        }
-    },
-    "DropCableType": {
-        "description": "Default Cable Type",
-        "type": "TEXT",
-        "domaintype": "CODED",
-        "split": "DEFAULT",
-        "merge": "DEFAULT",
-        "codes": {
-            "drop": "Drop"
         }
     },
     "DipType": {
@@ -170,6 +139,16 @@
             "hubbell_790": "Hubbell 790"
         }
     },
+    "WirelessTerminalType": {
+        "description": "Default Fiber Terminal Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "TWR": "Tower"
+        }
+    },
     "FiberTerminalTail": {
         "description": "Default Fiber Terminal Tail Length",
         "type": "SHORT",
@@ -209,16 +188,6 @@
         "codes": {
             "ssa": "Splitter Serving Area",
             "ref": "Reference"
-        }
-    },
-    "TerminalAreaType": {
-        "description": "Default Terminal Area Type",
-        "type": "TEXT",
-        "domaintype": "CODED",
-        "split": "DEFAULT",
-        "merge": "DEFAULT",
-        "codes": {
-            "Dflt": "Default"
         }
     },
     "ConduitInstallationType": {
@@ -298,11 +267,11 @@
         "codes": {
             "hubbell_570": "Hubbell 570",
             "hubbell_790": "Hubbell 790",
-            "450D_FOSC":"450D FOSC",
+            "450D_FOSC": "450D FOSC",
             "600D_FOSC": "600D FOSC"
         }
     },
-    "CabinetType": {
+    "PassiveCabinetType": {
         "description": "Default Cabinet Type",
         "type": "TEXT",
         "domaintype": "CODED",
@@ -376,18 +345,46 @@
             "C": "Completed"
         }
     },
-    "StructureAudit": {
-        "description": "Default Structure Audit",
+    "CableProductType": {
+        "description": "Product type for cables",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "M": "Yes-moved",
-            "Y": "Yes",
-            "D": "Yes-discovered",
-            "N": "No",
-            "DNE": "Does not exist"
+            "ADSS": "ADSS",
+            "Non-ADSS": "Non-ADSS"
+        }
+    },
+    "NotApplicable": {
+        "description": "Not Applicable",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "NA": "Not Applicable"
+        }
+    },
+    "ConduitProductType": {
+        "description": "Product Type for conduits",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "STK": "Stick",
+            "CL":"Coil"
+        }
+    },
+    "StrandProductType": {
+        "description": "Product Type for strands",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "STL": "Steel"
         }
     }
 }

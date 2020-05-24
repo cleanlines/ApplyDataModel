@@ -2,28 +2,33 @@
     "Cable": {
         "field": {
             "Type": {
-                "201": "Feeder",
+                "201": "Backbone",
+                "202": "Feeder",
                 "203": "Distribution",
-                "207": "Drop",
-                "205": "Terminal Tail"
+                "204": "Terminal Tail",
+                "205": "Drop"
             }
         },
         "domains": {
             "201": {
+                "Size": "BackboneCableSize",
+                "ProductType": "CableProductType"
+            },
+            "202": {
                 "Size": "FeederCableSize",
-                "CableType": "FeederCableType"
+                "ProductType": "CableProductType"
             },
             "203": {
                 "Size": "DistributionCableSize",
-                "CableType": "DistributionCableType"
+                "ProductType": "CableProductType"
             },
-            "207": {
-                "Size": "DropCableSize",
-                "CableType": "DropCableType"
+            "204": {
+                "Size": "TerminalCableSize",
+                "ProductType": "NotApplicable"
             },
             "205": {
-                "Size": "TerminalCableSize",
-                "CableType": "TerminalCableType"
+                "Size": "DropCableSize",
+                "ProductType": "NotApplicable"
             }
         }
     },
@@ -45,28 +50,34 @@
         "domains": {
             "0": {
                 "InstallationType": "ConduitInstallationType",
-                "Size": "ConduitSize"
+                "Size": "ConduitSize",
+                "ProductType": "ConduitProductType"
             },
             "1": {
                 "InstallationType": "StrandInstallationType",
-                "Size": "StrandSize"
+                "Size": "StrandSize",
+                "ProductType": "StrandProductType"
             }
         }
     },
     "Equipment": {
         "field": {
             "Type": {
-                "5": "Splitter",
-                "6": "Fiber Terminal"
+                "0": "Splitter",
+                "1": "Fiber Terminal",
+                "2": "Wireless Terminal"
             }
         },
         "domains": {
-            "5": {
+            "0": {
                 "EquipmentType": "SplitterType"
             },
-            "6": {
+            "1": {
                 "EquipmentType": "FiberTerminalType",
                 "Length": "FiberTerminalTail"
+            },
+            "2": {
+                "EquipmentType": "WirelessTerminalType"
             }
         }
     },
@@ -90,7 +101,8 @@
         "field": {
             "Type": {
                 "0": "Splitter Area",
-                "1": "Terminal Area"
+                "1": "Terminal Area",
+                "2": "Cabinet Area"
             }
         },
         "domains": {
@@ -98,7 +110,10 @@
                 "AreaType": "SplitterAreaType"
             },
             "1": {
-                "AreaType": "TerminalAreaType"
+                "AreaType": "NotApplicable"
+            },
+            "2": {
+                "AreaType": "NotApplicable"
             }
         }
     },
@@ -107,7 +122,7 @@
             "Type": {
                 "0": "Substation",
                 "1": "Office",
-                "2": "Cabinet"
+                "2": "Active Cabinet"
             }
         }
     },
@@ -119,6 +134,10 @@
             }
         },
         "domains": {
+            "0": {
+                "AreaArchitecture": "NotApplicable",
+                "AreaCableType": "NotApplicable"
+            },
             "1": {
                 "AreaArchitecture": "WorkAreaArchitecture",
                 "AreaCableType": "WorkAreaCableType"
@@ -151,27 +170,27 @@
     "Structure": {
         "field": {
             "Type": {
-                "1": "Pedestal",
-                "3": "Handhole",
-                "11": "Spice Enclosure",
-                "12": "Cabinet",
-                "20": "Chamber"
+                "0": "Pedestal",
+                "1": "Handhole",
+                "2": "Spice Enclosure",
+                "3": "Passive Cabinet",
+                "4": "Chamber"
             }
         },
         "domains": {
-            "1": {
+            "0": {
                 "StructureType": "PedestalType"
             },
-            "3": {
+            "1": {
                 "StructureType": "HandholeType"
             },
-            "11": {
+            "2": {
                 "StructureType": "SpliceEnclosureType"
             },
-            "12": {
-                "StructureType": "CabinetType"
+            "3": {
+                "StructureType": "PassiveCabinetType"
             },
-            "20": {
+            "4": {
                 "StructureType": "ChamberType"
             }
         }

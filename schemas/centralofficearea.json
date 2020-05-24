@@ -21,6 +21,17 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
+        },
+        {
+            "name": "Name",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "50",
+            "alias": "Name",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
         }
     ]
 }
