@@ -50,7 +50,7 @@
             "precision": "12",
             "scale": "2",
             "length": "",
-            "alias": "FromD istance",
+            "alias": "From Distance",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
