@@ -32,6 +32,17 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
+        },
+        {
+            "name": "Colour",
+            "type": "SHORT",
+            "precision": "",
+            "scale": "",
+            "length": "",
+            "alias": "Colour",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "Colour"
         }
     ]
 }
