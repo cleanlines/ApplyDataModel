@@ -43,17 +43,6 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
-        },
-        {
-            "name": "CircuitNumber",
-            "type": "TEXT",
-            "precision": "",
-            "scale": "",
-            "length": "50",
-            "alias": "Circuit Number",
-            "nullable": "NULLABLE",
-            "required": "NON_REQUIRED",
-            "domain": ""
         }
     ]
 }
