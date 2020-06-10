@@ -39,7 +39,7 @@
             "precision": "",
             "scale": "",
             "length": "25",
-            "alias": "",
+            "alias": "Equipment Type",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
