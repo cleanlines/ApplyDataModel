@@ -22,7 +22,7 @@
         }
     },
     "BackboneCableSize": {
-        "description": "Default Cable Sizes",
+        "description": "Backbone Cable Sizes",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -33,7 +33,7 @@
         }
     },
     "FeederCableSize": {
-        "description": "Default Cable Sizes",
+        "description": "Feeder Cable Sizes",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -47,7 +47,7 @@
         }
     },
     "DistributionCableSize": {
-        "description": "Default Cable Sizes",
+        "description": "Distribution Cable Sizes",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -61,7 +61,7 @@
         }
     },
     "DropCableSize": {
-        "description": "Default Cable Sizes",
+        "description": "Drop Cable Sizes",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -71,7 +71,7 @@
         }
     },
     "TerminalCableSize": {
-        "description": "Default Cable Sizes",
+        "description": "Terminal Cable Sizes",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -84,7 +84,7 @@
         }
     },
     "DipType": {
-        "description": "Default Dip Type",
+        "description": "Dip Type",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -94,7 +94,7 @@
         }
     },
     "StoredSlackLength": {
-        "description": "Default Stored Slack Length",
+        "description": "Stored Slack Length",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -108,7 +108,7 @@
         }
     },
     "SplitterType": {
-        "description": "Default Splitter Type",
+        "description": "Splitter Type",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -124,7 +124,7 @@
         }
     },
     "FiberTerminalType": {
-        "description": "Default Fiber Terminal Type",
+        "description": "Fiber Terminal Type",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -140,7 +140,7 @@
         }
     },
     "WirelessTerminalType": {
-        "description": "Default Fiber Terminal Type",
+        "description": "Wireless Terminal Type",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -150,7 +150,7 @@
         }
     },
     "FiberTerminalTail": {
-        "description": "Default Fiber Terminal Tail Length",
+        "description": "Fiber Terminal Tail Length",
         "type": "SHORT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -180,7 +180,7 @@
         }
     },
     "SplitterAreaType": {
-        "description": "Default Splitter Area Type",
+        "description": "Splitter Area Type",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -191,7 +191,7 @@
         }
     },
     "ConduitInstallationType": {
-        "description": "Default Conduit Installation Type",
+        "description": "Conduit Installation Type",
         "type": "SHORT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -203,7 +203,7 @@
         }
     },
     "StrandInstallationType": {
-        "description": "Default Strand Installation Type",
+        "description": "Strand Installation Type",
         "type": "SHORT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -213,7 +213,7 @@
         }
     },
     "ConduitSize": {
-        "description": "Default Conduit Size",
+        "description": "Conduit Size",
         "type": "SHORT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -225,7 +225,7 @@
         }
     },
     "StrandSize": {
-        "description": "Default Strand Size",
+        "description": "Strand Size",
         "type": "SHORT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -235,7 +235,7 @@
         }
     },
     "PedestalType": {
-        "description": "Default Pedestal Type",
+        "description": "Pedestal Type",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -246,7 +246,7 @@
         }
     },
     "HandholeType": {
-        "description": "Default Handhole Type",
+        "description": "Handhole Type",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -259,7 +259,7 @@
         }
     },
     "SpliceEnclosureType": {
-        "description": "Default Splice Enclosure Type",
+        "description": "Splice Enclosure Type",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -272,7 +272,7 @@
         }
     },
     "PassiveCabinetType": {
-        "description": "Default Cabinet Type",
+        "description": "Passive Cabinet Type",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -290,7 +290,7 @@
         }
     },
     "ChamberType": {
-        "description": "Default Chamber Type",
+        "description": "Chamber Type",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -300,7 +300,7 @@
         }
     },
     "PoleType": {
-        "description": "Default Pole Type",
+        "description": "Pole Type",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -310,7 +310,7 @@
         }
     },
     "WorkAreaArchitecture": {
-        "description": "Default Work Area Architecture",
+        "description": "Work Area Architecture",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -321,7 +321,7 @@
         }
     },
     "WorkAreaCableType": {
-        "description": "Default Work Area Cable Type",
+        "description": "Work Area Cable Type",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
@@ -332,7 +332,7 @@
         }
     },
     "WorkAreaStatus": {
-        "description": "Default Work Area Cable Type",
+        "description": "Work Area Status",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
