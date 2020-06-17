@@ -135,6 +135,7 @@
             "6F_MST": "6F Multiport Service Terminal",
             "8F_MST": "8F Multiport Service Terminal",
             "corning_optisheath": "Corning Optisheath",
+            "hubbell_350":"Hubbell 350",
             "hubbell_570": "Hubbell 570",
             "hubbell_790": "Hubbell 790"
         }
@@ -242,7 +243,10 @@
         "merge": "DEFAULT",
         "codes": {
             "standard": "Standard Pedestal",
-            "oversized": "Oversized Pedestal"
+            "oversized": "Oversized Pedestal",
+            "splice": "Splice Junction Pedestal",
+            "terminal": "Terminal Junction Pedestal",
+            "pipe": "Pipe Junction Pedestal"
         }
     },
     "HandholeType": {
@@ -265,10 +269,27 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "hubbell_570": "Hubbell 570",
-            "hubbell_790": "Hubbell 790",
+            "LG_350SD":"LG-350SD",
+            "LG_350U":"LG-350U",
+            "LG_350XL":"LG-350XL",
+            "HUBBELL_350":"Hubbell 350",
+            "HUBBELL_570": "Hubbell 570",
+            "HUBBELL_790": "Hubbell 790",
             "450D_FOSC": "450D FOSC",
-            "600D_FOSC": "600D FOSC"
+            "600D_FOSC": "600D FOSC",
+            "450BS":"450BS FOSC",
+            "450A_FOSC":"450A FOSC",
+            "450B_FOSC":"450B FOSC",
+            "450C_FOSC":"450C FOSC",
+            "Air_FOSC":"Air FOSC",
+            "SNAP_9T24":"SNAP-9T24",
+            "SNAP_9T34":"SNAP-9T34",
+            "2179_CD":"2179 CD",
+            "2178_S_SL":"2178 S or SL",
+            "2178_LS":"2178 LS",
+            "COY_RUNT":"Coyote Runt",
+            "COY_9.5_19":"Coyote 9.5 x 19 Dome",
+            "COY_6.5_17":"Coyote 6.5 x 17 Dome"
         }
     },
     "PassiveCabinetType": {
@@ -296,7 +317,18 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "Default": "Default"
+            "Default": "Default",
+            "36x48x36":"36 x 48 x 36",
+            "36x76x42":"36 x 76 x 42",
+            "12x12x12":"12 x 12 x 12",
+            "24x36x24":"24 x 36 x 24",
+            "30x48x36":"30 x 48 x 36",
+            "13x24x13":"13 x 24 x 13",
+            "17x30x24":"17 x 30 x 24",
+            "11x18x18":"11 x 18 x 18",
+            "12x19x12":"12 x 19 x 12",
+            "36x60x36":"36 x 60 x 36",
+            "48x48x36":"48 x 48 x 36"
         }
     },
     "PoleType": {
@@ -374,7 +406,7 @@
         "merge": "DEFAULT",
         "codes": {
             "STK": "Stick",
-            "CL":"Coil"
+            "CL": "Coil"
         }
     },
     "StrandProductType": {

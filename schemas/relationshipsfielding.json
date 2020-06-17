@@ -10,8 +10,8 @@
             "message": "NONE",
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
-            "originpk": "RedlineFeatureId",
-            "originfk": "RedlineFeatureId"
+            "originpk": "GlobalID",
+            "originfk": "GlobalID"
         },
         {
             "origin": "RedlinePointMarker",
@@ -23,8 +23,8 @@
             "message": "NONE",
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
-            "originpk": "RedlineFeatureId",
-            "originfk": "RedlineFeatureId"
+            "originpk": "GlobalID",
+            "originfk": "GlobalID"
         },
         {
             "origin": "RedlineLineMarker",
@@ -36,8 +36,8 @@
             "message": "NONE",
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
-            "originpk": "RedlineFeatureId",
-            "originfk": "RedlineFeatureId"
+            "originpk": "GlobalID",
+            "originfk": "GlobalID"
         },
         {
             "origin": "Anchor",
@@ -49,8 +49,8 @@
             "message": "NONE",
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
-            "originpk": "AnchorId",
-            "originfk": "StructureId"
+            "originpk": "GlobalID",
+            "originfk": "GlobalID"
         },
         {
             "origin": "Anchor",
@@ -62,8 +62,8 @@
             "message": "NONE",
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
-            "originpk": "AnchorId",
-            "originfk": "FeatureId"
+            "originpk": "GlobalID",
+            "originfk": "GlobalID"
         },
         {
             "origin": "Pole",
@@ -75,8 +75,8 @@
             "message": "NONE",
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
-            "originpk": "PoleId",
-            "originfk": "StructureId"
+            "originpk": "GlobalID",
+            "originfk": "GlobalID"
         },
         {
             "origin": "Pole",
@@ -88,8 +88,8 @@
             "message": "NONE",
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
-            "originpk": "PoleId",
-            "originfk": "PoleId"
+            "originpk": "GlobalID",
+            "originfk": "GlobalID"
         },
         {
             "origin": "Pole",
@@ -101,8 +101,8 @@
             "message": "NONE",
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
-            "originpk": "PoleId",
-            "originfk": "FeatureId"
+            "originpk": "GlobalID",
+            "originfk": "GlobalID"
         }
     ]
 }
