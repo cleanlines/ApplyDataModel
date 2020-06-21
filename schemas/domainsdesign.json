@@ -134,10 +134,7 @@
             "4F_MST": "4F Multiport Service Terminal",
             "6F_MST": "6F Multiport Service Terminal",
             "8F_MST": "8F Multiport Service Terminal",
-            "corning_optisheath": "Corning Optisheath",
-            "hubbell_350":"Hubbell 350",
-            "hubbell_570": "Hubbell 570",
-            "hubbell_790": "Hubbell 790"
+            "corning_optisheath": "Corning Optisheath"
         }
     },
     "WirelessTerminalType": {
@@ -255,11 +252,19 @@
         "domaintype": "CODED",
         "split": "DEFAULT",
         "merge": "DEFAULT",
-        "codes": {
-            "12x12": "12 x 12 (Hand Hole)",
-            "24x36": "24 x 36 (Pull Box)",
-            "30x48x36": "30 x 48 x 36 (Vault)",
-            "30x48x36_FWA": "30 x 48 x 36 (FWA)"
+        "codes": {    
+            "36x48x36":"36 x 48 x 36",
+            "36x76x42":"36 x 76 x 42",
+            "12x12x12":"12 x 12 x 12",
+            "24x36x24":"24 x 36 x 24",
+            "30x48x36":"30 x 48 x 36",
+            "30x48x36_FWA": "30 x 48 x 36 (FWA)",
+            "13x24x13":"13 x 24 x 13",
+            "17x30x24":"17 x 30 x 24",
+            "11x18x18":"11 x 18 x 18",
+            "12x19x12":"12 x 19 x 12",
+            "36x60x36":"36 x 60 x 36",
+            "48x48x36":"48 x 48 x 36"
         }
     },
     "SpliceEnclosureType": {
@@ -308,27 +313,6 @@
             "hh_288F": "Handhole 288F cabinet",
             "hh_432F": "Handhole 432F cabinet",
             "hh_864F": "Handhole 864F cabinet"
-        }
-    },
-    "ChamberType": {
-        "description": "Chamber Type",
-        "type": "TEXT",
-        "domaintype": "CODED",
-        "split": "DEFAULT",
-        "merge": "DEFAULT",
-        "codes": {
-            "Default": "Default",
-            "36x48x36":"36 x 48 x 36",
-            "36x76x42":"36 x 76 x 42",
-            "12x12x12":"12 x 12 x 12",
-            "24x36x24":"24 x 36 x 24",
-            "30x48x36":"30 x 48 x 36",
-            "13x24x13":"13 x 24 x 13",
-            "17x30x24":"17 x 30 x 24",
-            "11x18x18":"11 x 18 x 18",
-            "12x19x12":"12 x 19 x 12",
-            "36x60x36":"36 x 60 x 36",
-            "48x48x36":"48 x 48 x 36"
         }
     },
     "PoleType": {

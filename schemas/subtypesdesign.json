@@ -173,8 +173,7 @@
                 "0": "Pedestal",
                 "1": "Handhole",
                 "2": "Splice Enclosure",
-                "3": "Passive Cabinet",
-                "4": "Chamber"
+                "3": "Passive Cabinet"
             }
         },
         "domains": {
@@ -189,9 +188,6 @@
             },
             "3": {
                 "StructureType": "PassiveCabinetType"
-            },
-            "4": {
-                "StructureType": "ChamberType"
             }
         }
     }
