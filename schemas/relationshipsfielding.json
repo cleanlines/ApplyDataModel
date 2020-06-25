@@ -11,7 +11,7 @@
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
             "originpk": "GlobalID",
-            "originfk": "GlobalID"
+            "originfk": "RedlineFeatureId"
         },
         {
             "origin": "RedlinePointMarker",
@@ -24,7 +24,7 @@
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
             "originpk": "GlobalID",
-            "originfk": "GlobalID"
+            "originfk": "RedlineFeatureId"
         },
         {
             "origin": "RedlineLineMarker",
@@ -37,7 +37,7 @@
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
             "originpk": "GlobalID",
-            "originfk": "GlobalID"
+            "originfk": "RedlineFeatureId"
         },
         {
             "origin": "Anchor",
@@ -50,7 +50,7 @@
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
             "originpk": "GlobalID",
-            "originfk": "GlobalID"
+            "originfk": "FeatureId"
         },
         {
             "origin": "Anchor",
@@ -63,7 +63,7 @@
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
             "originpk": "GlobalID",
-            "originfk": "GlobalID"
+            "originfk": "FeatureId"
         },
         {
             "origin": "Pole",
@@ -76,7 +76,7 @@
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
             "originpk": "GlobalID",
-            "originfk": "GlobalID"
+            "originfk": "FeatureId"
         },
         {
             "origin": "Pole",
@@ -89,7 +89,7 @@
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
             "originpk": "GlobalID",
-            "originfk": "GlobalID"
+            "originfk": "FeatureId"
         },
         {
             "origin": "Pole",
@@ -102,7 +102,7 @@
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
             "originpk": "GlobalID",
-            "originfk": "GlobalID"
+            "originfk": "FeatureId"
         }
     ]
 }
