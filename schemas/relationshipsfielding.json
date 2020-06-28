@@ -50,7 +50,7 @@
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
             "originpk": "GlobalID",
-            "originfk": "FeatureId"
+            "originfk": "StructureId"
         },
         {
             "origin": "Anchor",
@@ -76,7 +76,7 @@
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
             "originpk": "GlobalID",
-            "originfk": "FeatureId"
+            "originfk": "StructureId"
         },
         {
             "origin": "Pole",
@@ -89,7 +89,7 @@
             "cardinality": "ONE_TO_MANY",
             "attributed": "NONE",
             "originpk": "GlobalID",
-            "originfk": "FeatureId"
+            "originfk": "PoleId"
         },
         {
             "origin": "Pole",
