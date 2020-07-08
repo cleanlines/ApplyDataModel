@@ -134,7 +134,8 @@
             "4F_MST": "4F Multiport Service Terminal",
             "6F_MST": "6F Multiport Service Terminal",
             "8F_MST": "8F Multiport Service Terminal",
-            "corning_optisheath": "Corning Optisheath"
+            "corning_optisheath": "Corning Optisheath",
+            "Air_FOSC":"Air FOSC"
         }
     },
     "WirelessTerminalType": {
@@ -286,7 +287,6 @@
             "450A_FOSC":"450A FOSC",
             "450B_FOSC":"450B FOSC",
             "450C_FOSC":"450C FOSC",
-            "Air_FOSC":"Air FOSC",
             "SNAP_9T24":"SNAP-9T24",
             "SNAP_9T34":"SNAP-9T34",
             "2179_CD":"2179 CD",
