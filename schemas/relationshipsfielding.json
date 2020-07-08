@@ -3,7 +3,7 @@
         {
             "origin": "RedlineChangeArea",
             "destination": "RedlineComment",
-            "outclass": "ChangeArea_Comment",
+            "outclass": "RedLineChangeArea_Comment",
             "type": "SIMPLE",
             "forwardlabel": "Redline Comment",
             "backlabel": "Redline Change Area",
@@ -16,7 +16,7 @@
         {
             "origin": "RedlinePointMarker",
             "destination": "RedlineComment",
-            "outclass": "PointMarker_Comment",
+            "outclass": "RedLinePointMarker_Comment",
             "type": "SIMPLE",
             "forwardlabel": "Redline Comment",
             "backlabel": "Redline Point Marker",
@@ -29,7 +29,7 @@
         {
             "origin": "RedlineLineMarker",
             "destination": "RedlineComment",
-            "outclass": "LineMarker_Comment",
+            "outclass": "RedLineLineMarker_Comment",
             "type": "SIMPLE",
             "forwardlabel": "Redline Comment",
             "backlabel": "Redline Line Marker",
