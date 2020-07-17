@@ -223,6 +223,17 @@
             "2": "20"
         }
     },
+    "PlacementType":{
+        "description": "Placement Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "OH":"Aerial",
+            "UG":"Underground"
+        }
+    },
     "StrandSize": {
         "description": "Strand Size",
         "type": "SHORT",
@@ -254,16 +265,25 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {    
-            "36x48x36":"36 x 48 x 36",
-            "36x76x42":"36 x 76 x 42",
+            "11x18x18":"11 x 18 x 18",
             "12x12x12":"12 x 12 x 12",
+            "12x19x12":"12 x 19 x 12"
+        }
+    },
+    "ChamberType":{
+        "description": "Chamber Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": { 
+            "13x24x13":"13 x 24 x 13",
+            "17x30x24":"17 x 30 x 24",
             "24x36x24":"24 x 36 x 24",
             "30x48x36":"30 x 48 x 36",
             "30x48x36_FWA": "30 x 48 x 36 (FWA)",
-            "13x24x13":"13 x 24 x 13",
-            "17x30x24":"17 x 30 x 24",
-            "11x18x18":"11 x 18 x 18",
-            "12x19x12":"12 x 19 x 12",
+            "36x48x36":"36 x 48 x 36",
+            "36x76x42":"36 x 76 x 42",
             "36x60x36":"36 x 60 x 36",
             "48x48x36":"48 x 48 x 36"
         }

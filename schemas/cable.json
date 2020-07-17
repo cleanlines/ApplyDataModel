@@ -56,6 +56,17 @@
             "domain": ""
         },
         {
+            "name": "PlacementType",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "5",
+            "alias": "Placement Type",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
             "name": "WorkId",
             "type": "TEXT",
             "precision": "",

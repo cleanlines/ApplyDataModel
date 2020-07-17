@@ -12,23 +12,28 @@
         "domains": {
             "201": {
                 "Size": "BackboneCableSize",
-                "ProductType": "CableProductType"
+                "ProductType": "CableProductType",
+                "PlacementType":"PlacementType"
             },
             "202": {
                 "Size": "FeederCableSize",
-                "ProductType": "CableProductType"
+                "ProductType": "CableProductType",
+                "PlacementType":"PlacementType"
             },
             "203": {
                 "Size": "DistributionCableSize",
-                "ProductType": "CableProductType"
+                "ProductType": "CableProductType",
+                "PlacementType":"PlacementType"
             },
             "204": {
                 "Size": "TerminalCableSize",
-                "ProductType": "NotApplicable"
+                "ProductType": "NotApplicable",
+                "PlacementType":"PlacementType"
             },
             "205": {
                 "Size": "DropCableSize",
-                "ProductType": "NotApplicable"
+                "ProductType": "NotApplicable",
+                "PlacementType":"PlacementType"
             }
         }
     },
@@ -135,8 +140,8 @@
         },
         "domains": {
             "0": {
-                "AreaArchitecture": "NotApplicable",
-                "AreaCableType": "NotApplicable"
+                "AreaArchitecture": "WorkAreaArchitecture",
+                "AreaCableType": "WorkAreaCableType"
             },
             "1": {
                 "AreaArchitecture": "WorkAreaArchitecture",
@@ -173,7 +178,8 @@
                 "0": "Pedestal",
                 "1": "Handhole",
                 "2": "Splice Enclosure",
-                "3": "Passive Cabinet"
+                "3": "Passive Cabinet",
+                "4": "Chamber"
             }
         },
         "domains": {
@@ -188,6 +194,9 @@
             },
             "3": {
                 "StructureType": "PassiveCabinetType"
+            },
+            "4": {
+                "StructureType": "ChamberType"
             }
         }
     }
