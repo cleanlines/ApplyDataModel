@@ -89,12 +89,12 @@
             "domain": ""
         },
         {
-            "name": "CustomerStructureId",
+            "name": "StructureLabel",
             "type": "TEXT",
             "precision": "",
             "scale": "",
             "length": "50",
-            "alias": "Customer Structure Id",
+            "alias": "Structure Label",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""

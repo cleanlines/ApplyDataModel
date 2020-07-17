@@ -23,12 +23,12 @@
             "domain": ""
         },
         {
-            "name": "PlantId",
+            "name": "EquipmentLabel",
             "type": "TEXT",
             "precision": "",
             "scale": "",
             "length": "50",
-            "alias": "Plant Id",
+            "alias": "Equipment Label",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
