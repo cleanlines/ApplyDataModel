@@ -134,8 +134,8 @@
             "4F_MST": "4F Multiport Service Terminal",
             "6F_MST": "6F Multiport Service Terminal",
             "8F_MST": "8F Multiport Service Terminal",
-            "corning_optisheath": "Corning Optisheath",
-            "Air_FOSC":"Air FOSC"
+            "12_corning_optisheath": "Corning Optisheath",
+            "12_Air_FOSC":"Air FOSC"
         }
     },
     "WirelessTerminalType": {
@@ -374,11 +374,12 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "A": "active",
-            "ID": "In Design",
-            "IC": "In Construction",
-            "AV": "Awaiting Validation",
-            "C": "Completed"
+            "COMPLETED": "Completed",
+            "ELEVATED_IMPACT": "Elevated Impact",
+            "HIGH_RISK": "High Risk",
+            "NO_IMPACT": "No Impact",
+            "NOT_STARTED": "Not Started",
+            "ISSUED_FOR_CONSTRUCTION":"Issued for Construction"
         }
     },
     "CableProductType": {
