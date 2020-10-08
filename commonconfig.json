@@ -1,17 +1,17 @@
 {
     "workspaces": [
         {
-            "workspace": "C:/Cloud/Dropbox/Work/Axin/RDTDataModel/20200629/rdtdesign.gdb",
+            "workspace": "C:/Cloud/Dropbox/Work/Axin/RDTDataModel/20201008/rdtdesign.gdb",
             "schema": "",
             "featureclasses": "featureclassesdesign.json",
             "domains": "domainsdesign.json",
             "subtypes": "subtypesdesign.json",
             "relationships": "relationshipsdesign.json",
             "overwrite": "true",
-            "exclude": "true"
+            "exclude": "false"
         },
         {
-            "workspace": "C:/Cloud/Dropbox/Work/Axin/RDTDataModel/20200629/rdtfielding.gdb",
+            "workspace": "C:/Cloud/Dropbox/Work/Axin/RDTDataModel/20201008/rdtfielding.gdb",
             "schema": "",
             "featureclasses": "featureclassesfielding.json",
             "domains": "domainsfielding.json",

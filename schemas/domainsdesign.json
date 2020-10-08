@@ -423,5 +423,16 @@
         "codes": {
             "STL": "Steel"
         }
+    },
+    "ConnectionPortPosition": {
+        "description": "Connection Port Position",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "1": "Input",
+            "2": "Output"
+        }
     }
 }

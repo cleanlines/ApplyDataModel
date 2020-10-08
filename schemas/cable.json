@@ -12,17 +12,6 @@
             "domain": ""
         },
         {
-            "name": "RouteId",
-            "type": "GUID",
-            "precision": "",
-            "scale": "",
-            "length": "",
-            "alias": "Route Id",
-            "nullable": "NULLABLE",
-            "required": "NON_REQUIRED",
-            "domain": ""
-        },
-        {
             "name": "SupportingStructureId",
             "type": "GUID",
             "precision": "",

@@ -23,23 +23,23 @@
             "domain": ""
         },
         {
-            "name": "InConnectionStart",
+            "name": "InConnectionRangeBegin",
             "type": "SHORT",
             "precision": "5",
             "scale": "0",
             "length": "",
-            "alias": "In Connection Start",
+            "alias": "In Connection Range Begin",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
         },
         {
-            "name": "InConnectionStop",
+            "name": "InConnectionRangeEnd",
             "type": "SHORT",
             "precision": "5",
             "scale": "0",
             "length": "",
-            "alias": "In Connection Stop",
+            "alias": "In Connection Range End",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
@@ -56,26 +56,48 @@
             "domain": ""
         },
         {
-            "name": "OutConnectionStart",
+            "name": "OutConnectionRangeBegin",
             "type": "SHORT",
             "precision": "5",
             "scale": "0",
             "length": "",
-            "alias": "Out Connection Start",
+            "alias": "Out Connection Range Begin",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
         },
         {
-            "name": "OutConnectionStop",
+            "name": "OutConnectionRangeEnd",
             "type": "SHORT",
             "precision": "5",
             "scale": "0",
             "length": "",
-            "alias": "Out Connection Stop",
+            "alias": "Out Connection Range End",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
+        },
+        {
+            "name": "InConnectionPortPosition",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "In Connection Port Position",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "ConnectionPortPosition"
+        },
+        {
+            "name": "OutConnectionPortPosition",
+            "type": "SHORT",
+            "precision": "5",
+            "scale": "0",
+            "length": "",
+            "alias": "Out Connection Port Position",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "ConnectionPortPosition"
         },
         {
             "name": "Loss",

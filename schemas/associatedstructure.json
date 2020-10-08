@@ -34,7 +34,7 @@
             "domain": "AssociatedStructType"
         },
         {
-            "name": "StartStructure",
+            "name": "IsStartStructure",
             "type": "SHORT",
             "precision": "5",
             "scale": "0",
@@ -45,7 +45,7 @@
             "domain": "TrueFalse"
         },
         {
-            "name": "EndStructure",
+            "name": "IsEndStructure",
             "type": "SHORT",
             "precision": "5",
             "scale": "0",

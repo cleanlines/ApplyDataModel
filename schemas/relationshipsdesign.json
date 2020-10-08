@@ -23,16 +23,18 @@
             "forwardlabel": "Supporting Structure",
             "backlabel": "Route",
             "message": "NONE",
-            "cardinality": "ONE_TO_MANY",
+            "cardinality": "MANY_TO_MANY",
             "attributed": "NONE",
             "originpk": "RouteId",
-            "originfk": "RouteId"
+            "originfk": "RouteId",
+            "destinationpk":"SupportingStructureId",
+            "destinationfk":"SupportingStructureId"
         },
         {
             "origin": "Cable",
             "destination": "AssociatedStructure",
             "outclass": "Cable_AssociatedStructure",
-            "type": "SIMPLE",
+            "type": "COMPOSITE",
             "forwardlabel": "Associated Structure",
             "backlabel": "Cable",
             "message": "NONE",

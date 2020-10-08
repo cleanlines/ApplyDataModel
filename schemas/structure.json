@@ -67,23 +67,23 @@
             "domain": "TrueFalse"
         },
         {
-            "name": "FromCableId",
+            "name": "FromRouteId",
             "type": "GUID",
             "precision": "",
             "scale": "",
             "length": "",
-            "alias": "From Cable Id",
+            "alias": "From Route Id",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
         },
         {
-            "name": "ToCableId",
+            "name": "ToRouteId",
             "type": "GUID",
             "precision": "",
             "scale": "",
             "length": "",
-            "alias": "To Cable Id",
+            "alias": "To Route Id",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""

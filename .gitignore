@@ -1,5 +1,7 @@
 RDT.sde
+__pycache__/
 __pycache__/ApplyDataModel.cpython-36.pyc
+logs/
 logs/_ags_apply_dm_log_20200331_130849661751.json
 logs/_ags_apply_dm_log_20200331_131220089476.json
 logs/_ags_apply_dm_log_20200331_131729404252.json
@@ -13,3 +15,17 @@ dbs202003311354.xlsx
 dbs202003311538.xlsx
 dbs202004011512.xlsx
 ~$dbs202004011512.xlsx
+logs/_ags_apply_dm_log_20200708_155959355396.json
+logs/_ags_apply_dm_log_20200709_082849462436.json
+logs/_ags_apply_dm_log_20200709_083058806326.json
+logs/_ags_apply_dm_log_20200709_120824921075.json
+logs/_ags_apply_dm_log_20200717_114712022592.json
+logs/_ags_apply_dm_log_20200717_155911465933.json
+logs/_ags_apply_dm_log_20200812_114404580003.json
+__pycache__/ApplyDataModel.cpython-36.pyc
+test.py
+test2.py
+__pycache__/ApplyDataModel.cpython-36.pyc
+__pycache__/ApplyDataModel.cpython-36.pyc
+logs/_ags_apply_dm_log_20200826_171107025513.json
+__pycache__/ApplyDataModel.cpython-36.pyc
