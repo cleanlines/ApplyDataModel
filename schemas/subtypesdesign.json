@@ -163,102 +163,103 @@
             "2": {
                 "Type": "CentralOfficeSubtype"
             }
-        },
-        "WorkArea": {
-            "field": {
-                "Type": {
-                    "0": "Distribution Area",
-                    "1": "Work Packet"
-                }
-            },
-            "domains": {
-                "0": {
-                    "Type": "WorkAreaSubtype",
-                    "AreaArchitecture": "WorkAreaArchitecture",
-                    "AreaCableType": "WorkAreaCableType"
-                },
-                "1": {
-                    "Type": "WorkAreaSubtype",
-                    "AreaArchitecture": "WorkAreaArchitecture",
-                    "AreaCableType": "WorkAreaCableType"
-                }
+        }
+    },
+    "WorkArea": {
+        "field": {
+            "Type": {
+                "0": "Distribution Area",
+                "1": "Work Packet"
             }
         },
-        "MarkupPolygon": {
-            "field": {
-                "Type": {
-                    "0": "Default",
-                    "1": "Optic Area"
-                }
+        "domains": {
+            "0": {
+                "Type": "WorkAreaSubtype",
+                "AreaArchitecture": "WorkAreaArchitecture",
+                "AreaCableType": "WorkAreaCableType"
             },
-            "domains": {
-                "0": {
-                    "Type": "MarkupPolygonSubtype"
-                },
-                "1": {
-                    "Type": "MarkupPolygonSubtype"
-                }
+            "1": {
+                "Type": "WorkAreaSubtype",
+                "AreaArchitecture": "WorkAreaArchitecture",
+                "AreaCableType": "WorkAreaCableType"
+            }
+        }
+    },
+    "MarkupPolygon": {
+        "field": {
+            "Type": {
+                "0": "Default",
+                "1": "Optic Area"
             }
         },
-        "MarkupLine": {
-            "field": {
-                "Type": {
-                    "0": "Default",
-                    "1": "Splitter Extent"
-                }
+        "domains": {
+            "0": {
+                "Type": "MarkupPolygonSubtype"
             },
-            "domains": {
-                "0": {
-                    "Type": "MarkupLineSubtype"
-                },
-                "1": {
-                    "Type": "MarkupLineSubtype"
-                }
+            "1": {
+                "Type": "MarkupPolygonSubtype"
+            }
+        }
+    },
+    "MarkupLine": {
+        "field": {
+            "Type": {
+                "0": "Default",
+                "1": "Splitter Extent"
             }
         },
-        "MarkupPoint": {
-            "field": {
-                "Type": {
-                    "0": "Default"
-                }
+        "domains": {
+            "0": {
+                "Type": "MarkupLineSubtype"
             },
-            "domains": {
-                "0": {
-                    "Type": "MarkupPointSubtype"
-                }
+            "1": {
+                "Type": "MarkupLineSubtype"
+            }
+        }
+    },
+    "MarkupPoint": {
+        "field": {
+            "Type": {
+                "0": "Default"
             }
         },
-        "Structure": {
-            "field": {
-                "Type": {
-                    "0": "Pedestal",
-                    "1": "Handhole",
-                    "2": "Splice Enclosure",
-                    "3": "Passive Cabinet",
-                    "4": "Chamber"
-                }
+        "domains": {
+            "0": {
+                "Type": "MarkupPointSubtype"
+            }
+        }
+    },
+    "Structure": {
+        "field": {
+            "Type": {
+                "0": "Pedestal",
+                "1": "Handhole",
+                "2": "Splice Enclosure",
+                "3": "Passive Cabinet",
+                "4": "Chamber"
+            }
+        },
+        "domains": {
+            "0": {
+                "Type": "StructureSubtype",
+                "StructureType": "PedestalType"
             },
-            "domains": {
-                "0": {
-                    "Type": "StructureSubtype",
-                    "StructureType": "PedestalType"
-                },
-                "1": {
-                    "Type": "StructureSubtype",
-                    "StructureType": "HandholeType"
-                },
-                "2": {
-                    "Type": "StructureSubtype",
-                    "StructureType": "SpliceEnclosureType"
-                },
-                "3": {
-                    "Type": "StructureSubtype",
-                    "StructureType": "PassiveCabinetType"
-                },
-                "4": {
-                    "Type": "StructureSubtype",
-                    "StructureType": "ChamberType"
-                }
+            "1": {
+                "Type": "StructureSubtype",
+                "StructureType": "HandholeType"
+            },
+            "2": {
+                "Type": "StructureSubtype",
+                "StructureType": "SpliceEnclosureType"
+            },
+            "3": {
+                "Type": "StructureSubtype",
+                "StructureType": "PassiveCabinetType"
+            },
+            "4": {
+                "Type": "StructureSubtype",
+                "StructureType": "ChamberType"
             }
         }
     }
+}

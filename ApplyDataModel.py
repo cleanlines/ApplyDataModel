@@ -249,7 +249,7 @@ class ApplyDataModel(BaseObject):
                 arcpy.EnableArchiving_management(full_fc)
                 self.log("Archiving enabled.")
         except Exception as e:
-            self.errorlog(e)
+            pass#self.errorlog(e)
         try:
             if config_dic['attachments'] and config_dic['attachments'] == True:
                 self.log("Enabling attachments.")
