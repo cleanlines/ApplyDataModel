@@ -105,10 +105,12 @@
             "forwardlabel": "Cable",
             "backlabel": "Supporting Structure",
             "message": "NONE",
-            "cardinality": "ONE_TO_MANY",
+            "cardinality": "MANY_TO_MANY",
             "attributed": "NONE",
             "originpk": "SupportingStructureId",
-            "originfk": "SupportingStructureId"
+            "originfk": "SupportingStructureId",
+            "destinationpk":"CableId",
+            "destinationfk":"CableId"
         }
     ]
 }

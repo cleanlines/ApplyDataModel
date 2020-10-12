@@ -7,7 +7,7 @@
         "merge": "DEFAULT",
         "codes": {
             "0": "Pole",
-            "1": "Chamber"
+            "1": "Structure"
         }
     },
     "TrueFalse": {
@@ -433,6 +433,135 @@
         "codes": {
             "1": "Input",
             "2": "Output"
+        }
+    },
+    "CableSubtype": {
+        "description": "Cable Subtypes",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "201": "Backbone",
+            "202": "Feeder",
+            "203": "Distribution",
+            "204": "Terminal Tail",
+            "205": "Drop"
+        }
+    },
+    "RouteSubtype": {
+        "description": "Route Subtypes",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Trench",
+            "1": "Aerial Run"
+        }
+    },
+    "SupportingStructureSubtype": {
+        "description": "Supporting Structure Subtypes",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Conduit",
+            "1": "Strand"
+        }
+    },
+    "EquipmentSubtype": {
+        "description": "Equipment Subtypes",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Splitter",
+            "1": "Fiber Terminal",
+            "2": "Wireless Terminal"
+        }
+    },
+    "CableFeatureSubtype": {
+        "description": "Cable Feature Subtypes",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Dip",
+            "1": "Stored Slack"
+        }
+    },
+    "ServingAreaSubtype": {
+        "description": "Serving Area Feature Subtypes",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Splitter Area",
+            "1": "Terminal Area",
+            "2": "Cabinet Area"
+        }
+    },
+    "CentralOfficeSubtype": {
+        "description": "Serving Area Feature Subtypes",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Substation",
+            "1": "Office",
+            "2": "Active Cabinet"
+        }
+    },
+    "MarkupPolygonSubtype": {
+        "description": "Markup Polygon Subtypes",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Default",
+            "1": "Optic Area"
+        }
+    },
+    "MarkupLineSubtype": {
+        "description": "Markup Line Subtypes",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Default",
+            "1": "Splitter Extent"
+        }
+    },
+    "MarkupPointSubtype": {
+        "description": "Markup Point Subtypes",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Default"
+        }
+    },
+    "StructureSubtype": {
+        "description": "Structure Subtypes",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Pedestal",
+            "1": "Handhole",
+            "2": "Splice Enclosure",
+            "3": "Passive Cabinet",
+            "4": "Chamber"
         }
     }
 }

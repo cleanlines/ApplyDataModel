@@ -252,5 +252,16 @@
             "A-PM4": "ADSS - Small Extension Arm - Less Than 18in",
             "A-PM4A": "ADSS - Large Extension Arm - 18in Or More"
         }
+    },
+    "AssemblySubtype": {
+        "description": "Assembly Subtypes",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Pole",
+            "1": "Anchor"
+        }
     }
 }

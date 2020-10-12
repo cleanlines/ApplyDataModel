@@ -11,26 +11,31 @@
         },
         "domains": {
             "201": {
+                "Type":"CableSubtype",
                 "Size": "BackboneCableSize",
                 "ProductType": "CableProductType",
                 "PlacementType":"PlacementType"
             },
             "202": {
+                "Type":"CableSubtype",
                 "Size": "FeederCableSize",
                 "ProductType": "CableProductType",
                 "PlacementType":"PlacementType"
             },
             "203": {
+                "Type":"CableSubtype",
                 "Size": "DistributionCableSize",
                 "ProductType": "CableProductType",
                 "PlacementType":"PlacementType"
             },
             "204": {
+                "Type":"CableSubtype",
                 "Size": "TerminalCableSize",
                 "ProductType": "NotApplicable",
                 "PlacementType":"PlacementType"
             },
             "205": {
+                "Type":"CableSubtype",
                 "Size": "DropCableSize",
                 "ProductType": "NotApplicable",
                 "PlacementType":"PlacementType"
@@ -43,6 +48,10 @@
                 "0": "Trench",
                 "1": "Aerial Run"
             }
+        },
+        "domains": {
+            "0":{"Type":"RouteSubtype"},
+            "1":{"Type":"RouteSubtype"}
         }
     },
     "SupportingStructure": {
@@ -54,11 +63,13 @@
         },
         "domains": {
             "0": {
+                "Type":"SupportingStructureSubtype",
                 "InstallationType": "ConduitInstallationType",
                 "Size": "ConduitSize",
                 "ProductType": "ConduitProductType"
             },
             "1": {
+                "Type":"SupportingStructureSubtype",
                 "InstallationType": "StrandInstallationType",
                 "Size": "StrandSize",
                 "ProductType": "StrandProductType"
@@ -75,13 +86,16 @@
         },
         "domains": {
             "0": {
+                "Type":"EquipmentSubtype",
                 "EquipmentType": "SplitterType"
             },
             "1": {
+                "Type":"EquipmentSubtype",
                 "EquipmentType": "FiberTerminalType",
                 "Length": "FiberTerminalTail"
             },
             "2": {
+                "Type":"EquipmentSubtype",
                 "EquipmentType": "WirelessTerminalType"
             }
         }
@@ -95,9 +109,11 @@
         },
         "domains": {
             "0": {
+                "Type":"CableFeatureSubtype",
                 "FeatureType": "DipType"
             },
             "1": {
+                "Type":"CableFeatureSubtype",
                 "FeatureType": "StoredSlackLength"
             }
         }
@@ -112,12 +128,15 @@
         },
         "domains": {
             "0": {
+                "Type":"ServingAreaSubtype",
                 "AreaType": "SplitterAreaType"
             },
             "1": {
+                "Type":"ServingAreaSubtype",
                 "AreaType": "NotApplicable"
             },
             "2": {
+                "Type":"ServingAreaSubtype",
                 "AreaType": "NotApplicable"
             }
         }
@@ -140,10 +159,12 @@
         },
         "domains": {
             "0": {
+                "Type":"CentralOfficeSubtype",
                 "AreaArchitecture": "WorkAreaArchitecture",
                 "AreaCableType": "WorkAreaCableType"
             },
             "1": {
+                "Type":"CentralOfficeSubtype",
                 "AreaArchitecture": "WorkAreaArchitecture",
                 "AreaCableType": "WorkAreaCableType"
             }
@@ -155,6 +176,14 @@
                 "0": "Default",
                 "1": "Optic Area"
             }
+        },
+        "domains": {
+            "0": {
+                "Type":"MarkupPolygonSubtype"
+            },
+            "1": {
+                "Type":"MarkupPolygonSubtype"
+            }
         }
     },
     "MarkupLine": {
@@ -163,12 +192,25 @@
                 "0": "Default",
                 "1": "Splitter Extent"
             }
+        },
+        "domains": {
+            "0": {
+                "Type":"MarkupLineSubtype"
+            },
+            "1": {
+                "Type":"MarkupLineSubtype"
+            }
         }
     },
     "MarkupPoint": {
         "field": {
             "Type": {
                 "0": "Default"
+            }
+        },
+        "domains": {
+            "0": {
+                "Type":"MarkupPointSubtype"
             }
         }
     },
@@ -184,18 +226,23 @@
         },
         "domains": {
             "0": {
+                "Type":"StructureSubtype",
                 "StructureType": "PedestalType"
             },
             "1": {
+                "Type":"StructureSubtype",
                 "StructureType": "HandholeType"
             },
             "2": {
+                "Type":"StructureSubtype",
                 "StructureType": "SpliceEnclosureType"
             },
             "3": {
+                "Type":"StructureSubtype",
                 "StructureType": "PassiveCabinetType"
             },
             "4": {
+                "Type":"StructureSubtype",
                 "StructureType": "ChamberType"
             }
         }

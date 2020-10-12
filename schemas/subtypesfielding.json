@@ -8,9 +8,11 @@
         },
         "domains": {
             "0": {
+                "Type":"AssemblySubtype",
                 "FieldingRUSCode": "RUSCodeAerial"
             },
             "1": {
+                "Type":"AssemblySubtype",
                 "FieldingRUSCode": "RUSCodeAnchor"
             }
         }

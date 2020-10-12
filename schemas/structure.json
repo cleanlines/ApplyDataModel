@@ -67,6 +67,17 @@
             "domain": "TrueFalse"
         },
         {
+            "name": "WorkId",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "50",
+            "alias": "Work Id",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
+        },
+        {
             "name": "FromRouteId",
             "type": "GUID",
             "precision": "",
