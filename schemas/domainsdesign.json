@@ -563,5 +563,16 @@
             "3": "Passive Cabinet",
             "4": "Chamber"
         }
+    },
+    "WorkAreaSubtype": {
+        "description": "Work Area Feature Subtypes",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0": "Distribution Area",
+            "1": "Work Packet"
+        }
     }
 }
