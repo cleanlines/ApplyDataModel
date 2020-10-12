@@ -507,7 +507,7 @@
         }
     },
     "CentralOfficeSubtype": {
-        "description": "Serving Area Feature Subtypes",
+        "description": "Central Office Feature Subtypes",
         "type": "SHORT",
         "domaintype": "CODED",
         "split": "DEFAULT",
