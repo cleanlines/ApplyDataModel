@@ -367,19 +367,21 @@
             "SL": "Strand and Lash"
         }
     },
-    "WorkAreaStatus": {
-        "description": "Work Area Status",
+    "ConstructionStatus": {
+        "description": "Construction Status",
         "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "COMPLETED": "Completed",
-            "ELEVATED_IMPACT": "Elevated Impact",
-            "HIGH_RISK": "High Risk",
-            "NO_IMPACT": "No Impact",
-            "NOT_STARTED": "Not Started",
-            "ISSUED_FOR_CONSTRUCTION":"Issued for Construction"
+            "COMPLETE":"Complete",
+            "DELAYED":"Delayed",
+            "IN_DESIGN":"In Design",
+            "ISSUED":"Issued",
+            "LATE":"Late",
+            "NOT_APPLICABLE":"Not Applicable",
+            "PENDING":"Pending",
+            "WORKING":"Working"
         }
     },
     "CableProductType": {

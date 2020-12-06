@@ -78,15 +78,15 @@
             "domain": "TrueFalse"
         },
         {
-            "name": "Status",
+            "name": "ConstructionStatus",
             "type": "TEXT",
             "precision": "",
             "scale": "",
-            "length": "25",
-            "alias": "Status",
+            "length": "20",
+            "alias": "Construction Status",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
-            "domain": "WorkAreaStatus"
+            "domain": ""
         }
     ]
 }

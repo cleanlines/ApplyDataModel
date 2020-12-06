@@ -14,31 +14,36 @@
                 "Type": "CableSubtype",
                 "Size": "BackboneCableSize",
                 "ProductType": "CableProductType",
-                "PlacementType": "PlacementType"
+                "PlacementType": "PlacementType",
+                "ConstructionStatus":"NotApplicable"
             },
             "202": {
                 "Type": "CableSubtype",
                 "Size": "FeederCableSize",
                 "ProductType": "CableProductType",
-                "PlacementType": "PlacementType"
+                "PlacementType": "PlacementType",
+                "ConstructionStatus":"ConstructionStatus"
             },
             "203": {
                 "Type": "CableSubtype",
                 "Size": "DistributionCableSize",
                 "ProductType": "CableProductType",
-                "PlacementType": "PlacementType"
+                "PlacementType": "PlacementType",
+                "ConstructionStatus":"NotApplicable"
             },
             "204": {
                 "Type": "CableSubtype",
                 "Size": "TerminalCableSize",
                 "ProductType": "NotApplicable",
-                "PlacementType": "PlacementType"
+                "PlacementType": "PlacementType",
+                "ConstructionStatus":"NotApplicable"
             },
             "205": {
                 "Type": "CableSubtype",
                 "Size": "DropCableSize",
                 "ProductType": "NotApplicable",
-                "PlacementType": "PlacementType"
+                "PlacementType": "PlacementType",
+                "ConstructionStatus":"NotApplicable"
             }
         }
     },
@@ -91,16 +96,19 @@
         "domains": {
             "0": {
                 "Type": "EquipmentSubtype",
-                "EquipmentType": "SplitterType"
+                "EquipmentType": "SplitterType",
+                "ConstructionStatus":"NotApplicable"
             },
             "1": {
                 "Type": "EquipmentSubtype",
                 "EquipmentType": "FiberTerminalType",
-                "Length": "FiberTerminalTail"
+                "Length": "FiberTerminalTail",
+                "ConstructionStatus":"NotApplicable"
             },
             "2": {
                 "Type": "EquipmentSubtype",
-                "EquipmentType": "WirelessTerminalType"
+                "EquipmentType": "WirelessTerminalType",
+                "ConstructionStatus":"ConstructionStatus"
             }
         }
     },
@@ -133,15 +141,18 @@
         "domains": {
             "0": {
                 "Type": "ServingAreaSubtype",
-                "AreaType": "SplitterAreaType"
+                "AreaType": "SplitterAreaType",
+                "ConstructionStatus":"ConstructionStatus"
             },
             "1": {
                 "Type": "ServingAreaSubtype",
-                "AreaType": "NotApplicable"
+                "AreaType": "NotApplicable",
+                "ConstructionStatus":"NotApplicable"
             },
             "2": {
                 "Type": "ServingAreaSubtype",
-                "AreaType": "NotApplicable"
+                "AreaType": "NotApplicable",
+                "ConstructionStatus":"NotApplicable"
             }
         }
     },
@@ -155,13 +166,16 @@
         },
         "domains": {
             "0": {
-                "Type": "CentralOfficeSubtype"
+                "Type": "CentralOfficeSubtype",
+                "ConstructionStatus":"ConstructionStatus"
             },
             "1": {
-                "Type": "CentralOfficeSubtype"
+                "Type": "CentralOfficeSubtype",
+                "ConstructionStatus":"NotApplicable"
             },
             "2": {
-                "Type": "CentralOfficeSubtype"
+                "Type": "CentralOfficeSubtype",
+                "ConstructionStatus":"NotApplicable"
             }
         }
     },
@@ -176,12 +190,14 @@
             "0": {
                 "Type": "WorkAreaSubtype",
                 "AreaArchitecture": "WorkAreaArchitecture",
-                "AreaCableType": "WorkAreaCableType"
+                "AreaCableType": "WorkAreaCableType",
+                "ConstructionStatus":"ConstructionStatus"
             },
             "1": {
                 "Type": "WorkAreaSubtype",
                 "AreaArchitecture": "WorkAreaArchitecture",
-                "AreaCableType": "WorkAreaCableType"
+                "AreaCableType": "WorkAreaCableType",
+                "ConstructionStatus":"ConstructionStatus"
             }
         }
     },

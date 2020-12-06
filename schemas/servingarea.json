@@ -76,6 +76,17 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
+        },
+        {
+            "name": "ConstructionStatus",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "20",
+            "alias": "Construction Status",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
         }
     ]
 }
