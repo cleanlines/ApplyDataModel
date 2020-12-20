@@ -120,7 +120,13 @@
             "1:16_se": "1:16 Splice Enclosure",
             "1:32_se": "1:32 Splice Enclosure",
             "1:16_cab": "1:16 Cabinet",
-            "1:32_cab": "1:32 Cabinet"
+            "1:32_cab": "1:32 Cabinet",
+            "1:2_se_sec": "1:2 Splice Enclosure Secondary",
+            "1:4_se_sec":  "1:4 Splice Enclosure Secondary",
+            "1:8_se_sec": "1:8 Splice Enclosure Secondary",
+            "1:16_se_sec": "1:16 Splice Enclosure Secondary",
+            "1:16_pow":	"1:16 Cabinet Power Splitter",
+            "1:32_pow": "1:32 Cabinet Power Splitter"
         }
     },
     "FiberTerminalType": {
@@ -576,5 +582,59 @@
             "0": "Distribution Area",
             "1": "Work Packet"
         }
+    },
+    "WorkAreaColour":{
+        "description": "Work Area Colours",
+        "type": "SHORT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "0":	"Red",
+            "1":	"Pink",
+            "2":	"Purple",
+            "3":	"Violet",
+            "4":	"Blue",
+            "5":	"Aqua",
+            "6":	"Green",
+            "7":	"Lime",
+            "8":	"Yellow",
+            "9":	"Amber",
+            "10":	"Orange",
+            "11":	"Tangerine",
+            "12":	"Light Red",
+            "13":	"Light Pink",
+            "14":	"Light Purple",
+            "15":	"Light Violet",
+            "16":	"Light Blue",
+            "17":	"Light Aqua",
+            "18":	"Light Green",
+            "19":	"Light Lime",
+            "20":	"Light Yellow",
+            "21":	"Light Amber",
+            "22":	"Light Orange",
+            "23":	"Light Tangerine"
+        }
+    },
+    "ActiveCabinetType": {
+        "description": "Active Cabinet Type",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "pad_rolt_100": "Pad ODC-100 ROLT Cabinet",
+            "pad_rolt_200": "Pad ODC2100 ROLT Cabinet",
+            "pad_rolt_1000": "Pad ODC-1000 ROLT Cabinet",
+            "pad_rolt_2000": "Pad ODC-2000 ROLT Cabinet",
+            "pole_rolt_100": "Pole ODC-100 ROLT Cabinet",
+            "pole_rolt_200": "Pole ODC-200 ROLT Cabinet",
+            "pole_rolt_1000": "Pole ODC-1000 ROLT Cabinet",
+            "pole_rolt_2000": "Pole ODC-2000 ROLT Cabinet",
+            "hh_rolt_100": "Handhole ODC-100 ROLT Cabinet",
+            "hh_rolt_200": "Handhole ODC-200 ROLT Cabinet",
+            "hh_rolt_1000": "Handhole ODC-1000 ROLT Cabinet",
+            "hh_rolt_2000": "Handhole ODC-2000 ROLT Cabinet"
+        }
     }
-}
+} 

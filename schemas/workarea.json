@@ -64,7 +64,7 @@
             "alias": "Colour",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
-            "domain": "Colour"
+            "domain": ""
         },
         {
             "name": "IsActive",

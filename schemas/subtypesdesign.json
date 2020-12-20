@@ -167,15 +167,18 @@
         "domains": {
             "0": {
                 "Type": "CentralOfficeSubtype",
-                "ConstructionStatus":"ConstructionStatus"
+                "ConstructionStatus":"ConstructionStatus",
+                "PhysicalType":"NotApplicable"
             },
             "1": {
                 "Type": "CentralOfficeSubtype",
-                "ConstructionStatus":"NotApplicable"
+                "ConstructionStatus":"NotApplicable",
+                "PhysicalType":"NotApplicable"
             },
             "2": {
                 "Type": "CentralOfficeSubtype",
-                "ConstructionStatus":"NotApplicable"
+                "ConstructionStatus":"NotApplicable",
+                "PhysicalType":"ActiveCabinetType"
             }
         }
     },
@@ -191,13 +194,15 @@
                 "Type": "WorkAreaSubtype",
                 "AreaArchitecture": "WorkAreaArchitecture",
                 "AreaCableType": "WorkAreaCableType",
-                "ConstructionStatus":"ConstructionStatus"
+                "ConstructionStatus":"ConstructionStatus",
+                "Colour":"WorkAreaColour"
             },
             "1": {
                 "Type": "WorkAreaSubtype",
                 "AreaArchitecture": "WorkAreaArchitecture",
                 "AreaCableType": "WorkAreaCableType",
-                "ConstructionStatus":"ConstructionStatus"
+                "ConstructionStatus":"ConstructionStatus",
+                "Colour":"WorkAreaColour"
             }
         }
     },
