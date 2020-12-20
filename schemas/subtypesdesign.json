@@ -168,17 +168,17 @@
             "0": {
                 "Type": "CentralOfficeSubtype",
                 "ConstructionStatus":"ConstructionStatus",
-                "PhysicalType":"NotApplicable"
+                "StructureType":"NotApplicable"
             },
             "1": {
                 "Type": "CentralOfficeSubtype",
                 "ConstructionStatus":"NotApplicable",
-                "PhysicalType":"NotApplicable"
+                "StructureType":"NotApplicable"
             },
             "2": {
                 "Type": "CentralOfficeSubtype",
                 "ConstructionStatus":"NotApplicable",
-                "PhysicalType":"ActiveCabinetType"
+                "StructureType":"ActiveCabinetType"
             }
         }
     },

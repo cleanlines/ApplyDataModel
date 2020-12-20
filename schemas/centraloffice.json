@@ -56,12 +56,12 @@
             "domain": ""
         },
         {
-            "name": "PhysicalType",
+            "name": "StructureType",
             "type": "TEXT",
             "precision": "",
             "scale": "",
             "length": "50",
-            "alias": "Physical Type",
+            "alias": "Structure Type",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
