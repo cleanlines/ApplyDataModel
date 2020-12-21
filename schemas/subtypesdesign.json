@@ -15,7 +15,7 @@
                 "Size": "BackboneCableSize",
                 "ProductType": "CableProductType",
                 "PlacementType": "PlacementType",
-                "ConstructionStatus":"NotApplicable"
+                "ConstructionStatus":"ConstructionStatus"
             },
             "202": {
                 "Type": "CableSubtype",
