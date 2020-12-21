@@ -46,14 +46,14 @@
         },
         {
             "name": "CollectionComplete",
-            "type": "SHORT",
-            "precision": "5",
-            "scale": "0",
-            "length": "",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "50",
             "alias": "Collection Complete",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
-            "domain": "CollectionComplete"
+            "domain": "PoleCollectionComplete"
         },
         {
             "name": "FromRouteId",

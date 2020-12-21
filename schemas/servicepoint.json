@@ -76,6 +76,17 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
+        },
+        {
+            "name": "CollectionComplete",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "50",
+            "alias": "Collection Complete",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": "ServicePointCollectionComplete"
         }
     ]
 }

@@ -209,17 +209,31 @@
             "11": "Replace Pole"
         }
     },
-    "CollectionComplete": {
-        "description": "Collection Complete",
-        "type": "SHORT",
+    "PoleCollectionComplete": {
+        "description": "Pole Collection Complete",
+        "type": "TEXT",
         "domaintype": "CODED",
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "0": "Not Complete",
-            "1": "Complete With MR",
-            "2": "Complete",
-            "3": "Coop Review Required"
+            "COMPLETE":"COMPLETE",
+            "COMPLEX_MR":"COMPLEX MR",
+            "MR_COMPLETE":"MR COMPLETE",
+            "MR_REJECTED":"MR REJECTED",
+            "NOT_COMPLETE":"NOT COMPLETE",
+            "SIMPLE_MR": "SIMPLE MR"
+        }
+    },
+    "ServicePointCollectionComplete": {
+        "description": "Service Point Collection Complete",
+        "type": "TEXT",
+        "domaintype": "CODED",
+        "split": "DEFAULT",
+        "merge": "DEFAULT",
+        "codes": {
+            "FIELDED": "Meter Fielded",
+            "MOVED": "Meter Moved",
+            "FURTHER_INSPECTION": "Further Inspection Required"
         }
     },
     "ProposedAttachmentHeight": {

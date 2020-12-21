@@ -624,7 +624,7 @@
         "merge": "DEFAULT",
         "codes": {
             "pad_rolt_100": "Pad ODC-100 ROLT Cabinet",
-            "pad_rolt_200": "Pad ODC2100 ROLT Cabinet",
+            "pad_rolt_200": "Pad ODC-2100 ROLT Cabinet",
             "pad_rolt_1000": "Pad ODC-1000 ROLT Cabinet",
             "pad_rolt_2000": "Pad ODC-2000 ROLT Cabinet",
             "pole_rolt_100": "Pole ODC-100 ROLT Cabinet",
