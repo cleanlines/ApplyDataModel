@@ -451,7 +451,7 @@
         "merge": "DEFAULT",
         "codes": {
             "201": "Backbone",
-            "202": "Feeder",
+            "202": "RESERVED",
             "203": "Distribution",
             "204": "Terminal Tail",
             "205": "Drop"

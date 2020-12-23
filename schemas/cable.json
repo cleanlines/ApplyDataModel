@@ -120,6 +120,17 @@
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
             "domain": ""
+        },
+        {
+            "name": "SegmentId",
+            "type": "TEXT",
+            "precision": "",
+            "scale": "",
+            "length": "50",
+            "alias": "Segment Id",
+            "nullable": "NULLABLE",
+            "required": "NON_REQUIRED",
+            "domain": ""
         }
     ]
 }

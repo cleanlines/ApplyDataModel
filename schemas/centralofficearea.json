@@ -42,7 +42,7 @@
             "alias": "Colour",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",
-            "domain": "Colour"
+            "domain": "WorkAreaColour"
         }
     ]
 }
