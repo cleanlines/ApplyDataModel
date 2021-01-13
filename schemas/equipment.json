@@ -104,7 +104,7 @@
             "type": "TEXT",
             "precision": "",
             "scale": "",
-            "length": "20",
+            "length": "25",
             "alias": "Construction Status",
             "nullable": "NULLABLE",
             "required": "NON_REQUIRED",

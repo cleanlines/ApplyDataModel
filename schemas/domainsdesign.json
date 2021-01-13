@@ -380,14 +380,11 @@
         "split": "DEFAULT",
         "merge": "DEFAULT",
         "codes": {
-            "COMPLETE":"Complete",
-            "DELAYED":"Delayed",
-            "IN_DESIGN":"In Design",
-            "ISSUED":"Issued",
-            "LATE":"Late",
-            "NOT_APPLICABLE":"Not Applicable",
-            "PENDING":"Pending",
-            "WORKING":"Working"
+            "COMPLETED":"Completed",
+            "IN_CONSTRUCTION":"In Construction",
+            "ISSUED_FOR_CONSTRUCTION":"Issued for Construction",
+            "LATE_CONSTRUCTION":"Late Construction",
+            "NOT_APPLICABLE":"Not Applicable"
         }
     },
     "CableProductType": {
