@@ -8,7 +8,7 @@
             "length": "",
             "alias": "Type",
             "nullable": "NULLABLE",
-            "required": "NON_REQUIRED",
+            "required": "REQUIRED",
             "domain": ""
         },
         {
